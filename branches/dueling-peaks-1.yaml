@@ -80,6 +80,7 @@
 - .loc(Activate Ta'loh Naeg):
     notes: Don't beat the shrine yet
     coord: [1836.5, 892]
+- _Korok::Z50
 - _Shrine::DakaTuss
 - _Discover<Goponga Village Ruins>:
     comment: Run over
