@@ -60,5 +60,5 @@
 - Paraglider:
     comment: from Old Man
     icon: king
-    counter: custom-item
+    counter: .custom-item(SPLIT)
     coord: [-813, 1966.75]
