@@ -4,6 +4,20 @@
     icon: npc
     notes: From the Ground Up
     coord: [3988, -1602.5]
+- _Warp::Shrine::WahgoKatta
+- _Tod::Noon:
+    coord: [340, 1106.5]
+- _Cook<Cook Fruit Cake>:
+    comment: Wildberry, apple, sugar, wheat
+    coord: [312.5, 1110]
+- _Npc<Fruitcake Guy>:
+    coord: [325.82, 115.40, 1092.50]
+    comment: Gotter
+    notes: Talk twice. In stable if raining.
+- _Npc<Lady in Stable>:
+    coord: [345.00, 121.73, 1091.50]
+    comment: Parcy
+    notes: Talk twice for Royal Guard's Gear quest
 - _Warp::Beast::Medoh
 - _Korok::T14
 - .boss(Shoot platform):
