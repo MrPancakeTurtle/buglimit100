@@ -43,7 +43,7 @@
 - _Material<Wildberry,10>:
     coord: [-3223, -1763.5]
 - _Material<Spicy Pepper,6>
-- Talk to .npc(Beedle):
+- _Npc<Beedle>:
     icon: shop
     notes: Buy arrows, 3 warm darner
     coord: [-3250.5, -1750.25]
@@ -63,7 +63,7 @@
 - Watch Medoh CS:
     icon: tots
     coord: [-3456.25, -1866]
-- Talk to .npc(statue):
+- _Npc<Goddess Statue>:
     comment: 4 stamina
     icon: link
     coord: [-3587.5, -1812]
@@ -71,14 +71,12 @@
     comment: Buy everything
     coord: [-3643.5, -1816.5]
 - _Shrine::AkhVaquot
-- Talk to .npc(Kaneli):
-    icon: npc-rito
-    notes: Divine Beast Vah Medoh
-    coord: [-3630, -1831]
-- Talk to .npc(Saki):
-    comment: Revali memory
-    icon: npc-rito
-    coord: [-3609.5, -1820.5]
+- _Npc::Rito<Kaneli>:
+    comment: Owl Elder
+    coord: [-3627.20, 323.57, -1830.81]
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali Memory
 - Tree Launch up to T04:
     coord: [-3628.5,-1860]
 - _Korok::T04
@@ -90,9 +88,8 @@
 - _Cook<Cook cold food>:
     comment: 3 peppers, 2 sunshroom
     notes: Optional
-- Talk to .npc(Teba):
+- _Npc::Rito<Teba>:
     comment: Do target minigame
-    icon: npc-rito
     coord: [-3800.75, -2312.625]
 - _Chest<Falcon Bow>:
     coord: [-3801.75, -2315.25]
@@ -119,22 +116,20 @@
 - _Material<Cold Darner,1>:
     comment: exit revali's gale text box, spam A button and walk to the right
     coord: [-3566.5, -1816]
-- Talk to .npc(Bedoli):
-    icon: npc-rito
-    notes: The Ancient Rito Song
-    coord: [-3563.625, -1807.625]
-- Talk to .npc(Kaneli):
-    icon: npc-rito
-    notes: Divine Beast Vah Medoh
-    coord: [-3627, -1829.125]
+- _Npc::Rito<Rito lady on flight pad>:
+    coord: [-3632.60, 320.12, -1793.79]
+    comment: Bedoli
+    notes: Ancient Rito Song
+- _Npc::Rito<Kaneli>:
+    comment: Owl Elder
+    coord: [-3627.20, 323.57, -1830.81]
 - _Chest<Great Eagle Bow>:
     comment: Drop RGB
     icon: bow
     coord: [-3627.75, -1828.25]
 - Tree Launch to Kheel:
     coord: [-3665.5,-1783]
-- Talk to .npc(Kheel):
-    icon: npc-rito
+- _Npc::Rito<Kheel>:
     notes: Recital at Warbler's Nest
     coord: [-3975.75, -1738.25]
 - _Material<Hearty Truffle,1>:

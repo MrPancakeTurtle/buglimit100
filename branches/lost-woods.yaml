@@ -4,22 +4,23 @@
     movements:
     - to: [932, -1867]
     - to: [548.5, -1941.75]
-- Talk to .npc(Tasho):
-    comment: Begin Oaki quest
-    icon: npc
-    coord: [258.375, -2255.375]
-- Talk to .npc(Walton):
+- _Npc<Tasho>:
+    coord: [256.19, 281.61, -2229.61]
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't follow Oaki; he'll move along his path while we do the next steps. Note the in-game time that he starts moving; he will arrive at the shrine 5:20 later.
+- _Npc<Walton>:
     icon: npc
     notes: Apple, Sunshroom, Trout, Lynel Hoof, Pumpkin
     comment: Drop all items in a single throw
     coord: [420, -2180]
-- .rune(Activate Keo Ruug):
-    coord: [475.5, -2159.75]
-- Talk to .npc(Hestu):
+- Activate .loc(Keo Ruug):
+    icon: shrine
+    coord: [474.69, 248.84, -2167.82]
+    notes: Don't enter shrine or Oaki will reset
+- _Npc<Hestu>:
     comment: 7 weapon, 6 bow, 15 shield
     icon: hestu
     coord: [463, -2110]
-- Talk to .npc(statue):
+- _Npc<Goddess Statue>:
     icon: link
     notes: 7 heart containers
     coord: [417.75, -2178.75]
@@ -29,15 +30,12 @@
 - _Material<Silent Princess,1>:
     icon: malice
     coord: [430.375, -2115]
-- Talk to .npc(Kula):
-    icon: npc
-    notes: A Freezing Rod
-    coord: [420.75, -2135.125]
-    comment: Throw rod now
-- Talk to .npc(Peeks):
-    icon: npc
-    notes: Legendary Rabbit Trial
-    coord: [421.75, -2177.875]
+- _Npc<Kula>:
+    comment: Freezing Rod (can get rid of rod now)
+    coord: [419.28, 248.65, -2134.93]
+- _Npc<Peeks>:
+    coord: [441.00, 248.56, -2133.05]
+    comment: Legendary Rabbit Trial
 - _Shop<Buy Rushrooms>:
     coord: [432.875, -2179.125]
 - _Material<Rushroom,4>:
@@ -59,21 +57,21 @@
 - _Warp::Shrine::KeoRuug
 - _Shrine::KeoRuug:
     notes: 1-5 and 2-3 on left, 2-1 and 2-2 on right
-- Talk to .npc(Damia):
+- _Npc<Damia>:
     icon: npc
     notes: The Test of Wood
     coord: [561, -2161]
 - _Shrine::MaagHalan:
     comment: Grab giant ancient core in shrine
 - _Warp::Shrine::KeoRuug
-- Talk to .npc(Zooki):
+- _Npc<Zooki>:
     icon: npc
     notes: Trial of Second Sight
     coord: [257, -1983.5]
 - _Shrine::KuhnSidajj:
     comment: Grab giant ancient core in shrine
 - _Warp::Shrine::DahHesho
-- Talk to .npc(Hudson):
+- _Npc<Hudson>:
     comment: Give 20 wood
     icon: npc
     notes: From the Ground Up

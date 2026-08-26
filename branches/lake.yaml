@@ -6,6 +6,7 @@
 - Use gale:
     coord: [1476.5,3482.5]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::F40
 - _Korok::F39
 - _Korok::F24
@@ -19,6 +20,7 @@
 - Use gale:
     coord: [878,3449.25]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::L72
 - _Boss::Hinox::Blue:
     comment: Use Royal Claymore
@@ -44,11 +46,11 @@
 - .enemy(Kill the 5 bokos):
     icon: tots
     coord: [505, 3321]
-- Talk to .npc(Perosa):
+- _Npc<Lady near stable horses>:
     icon: npc
     notes: The Horseback Hoodlums
     coord: [521.25, 3468.75]
-- Talk to .npc(Blynne):
+- _Npc<Start Horse Minigame>:
     comment: Do minigame twice
     icon: npc
     coord: [517, 3444.5]
@@ -69,7 +71,7 @@
 - _Korok::L89
 - _Korok::L88
 - _Korok::L87
-- Talk to .npc(Loone):
+- _Npc<Loone>:
     icon: npc
     notes: Guardian Slideshow
     coord: [105.5, 3810.5]
@@ -96,6 +98,7 @@
 - Use gale:
     coord: [-1002,3309]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Boss::Talus::Luminous:
     comment: Use Stone smasher
     coord: [-959, 3234]
@@ -116,9 +119,9 @@
 - Use gale:
     coord: [-849,3554]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::L69
-- Talk to .npc(Straia):
-    icon: npc
+- _Npc<Straia>:
     notes: Hunt for the Giant Horse
     coord: [-206, 3504]
 - _Tod::Night
@@ -127,6 +130,7 @@
 - Use gale:
     coord: [119.5,3377.5]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - .item(Get horse):
     coord: [156, 3433]
 - _Shop<Talk to Jini>:
@@ -147,23 +151,25 @@
 - _Korok::L24
 - _Korok::L25
 - _Shrine::YaNaga
-- Talk to .npc(Mei):
-    icon: npc-zora-female
+- _Npc::ZoraFemale<Zora Lady>:
     notes: A Wife Washed Away
     coord: [-221, 2564]
 - Use gale:
     coord: [-64.875,2493.25]
     icon: medoh-done
+    comment: Cryo across the lake .gale(GALE 1)
 - _Korok::L26
 - _Korok::L15
 - _Korok::L14
 - Use gale:
     coord: [-59,2408.5]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::L09
 - Use gale:
     coord: [-108,2319.5]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Tod::Night:
     notes: For Savager's Headwear
     coord: [-128,2308.25]
@@ -193,6 +199,7 @@
 - Use gale:
     coord: [-12.75,2976.25]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Tower::Lake
 - _Korok::L48
 - _Korok::L49
@@ -204,7 +211,7 @@
 - _Korok::L53
 - _Korok::L55
 - _Korok::L57
-- Talk to .npc(Kass):
+- _Npc::Rito<Kass>:
     icon: npc-rito
     notes: The Serpent's Jaws
     coord: [791, 3079]
@@ -215,6 +222,7 @@
 - Use gale:
     coord: [687.5,2954.5]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::L45
 - _Korok::L35
 - _Korok::L33
@@ -240,6 +248,7 @@
 - Use gale:
     coord: [848.979511319345,2366.3844853902974]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::L13
 - Boulder of L07:
     coord: [1045.5,2185.5]

@@ -10,10 +10,12 @@
 - Use gale:
     coord: [-3987.3307007994886,1935.7841656685387]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::G31
 - Use gale:
     coord: [-3830.3307007994886,1857.7841656685387]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Tower::Gerudo
 - _Npc::Rito<Kass>:
     coord: [-3655.84, 471.90, 1837.15]
@@ -28,17 +30,15 @@
     movements:
     - to: [-3752, 2276]
     - to: [-3761, 2696]
-- Talk to .npc(Rhondson):
-    icon: npc-gerudo
+- _Npc::Gerudo<Rhondson>:
     notes: From the Ground Up
     coord: [-3267.125, 2581.25]
 - _Equipment::Weapon<Double Axe>:
     coord: [-3289.5, 2591]
 - _Warp::Shrine::DaqoChisay
-- Talk to .npc(Frelly):
-    icon: npc-gerudo
+- _Npc::Gerudo<Frelly>:
     coord: [-3769.5,2926.125]
-    notes: Talk sand seal, It is faster to do this than run in the sand to all the koroks
+    notes: Talk for a sand seal. It is faster to do this than run in the sand to all the koroks
 - _Korok::W43
 - _Korok::W37
 - _Korok::W44
@@ -49,11 +49,11 @@
     coord: [-2626.25, 3306.25]
 - _Korok::W63
 - _Korok::W68
-- Talk to .npc(Pokki):
-    icon: npc-gerudo
+- _Npc::Gerudo<Pokki>:
     notes: The Perfect Drink
     coord: [-2974.5, 3766.5]
-- .boss(Activate Misae Suma)
+- Activate .loc(Misae Suma):
+    icon: shrine
 - _Material<Rushroom,2>:
     icon: purple
     coord: [-3009.5, 3767.5]
@@ -74,14 +74,14 @@
 - _Korok::W55
 - _Chest<Sapphire>:
     coord: [-4611, 3558]
-- .boss(Activate Hawa Koth):
+- Activate .loc(Hawa Koth):
+    icon: shrine
     coord: [-4852.25, 3776.5]
 - .boss(Open fairy fountain):
     icon: tots
     coord: [-4870.25, 3824]
 - _Korok::W65
-- Talk to .npc(Barta):
-    icon: npc-gerudo
+- _Npc::Gerudo<Barta>:
     notes: The Search for Barta
     coord: [-4818.75, 3727.5]
 - _Snap<Desert Leviathan>:
@@ -118,21 +118,17 @@
 - _Tod::Noon:
     coord: [-3806.226960859607,2832.3694185482227]
     comment: For npc appear
-- Talk to .npc(Dalia):
-    icon: npc-gerudo
+- _Npc::Gerudo<Dalia>:
     notes: The Mystery Polluter
     coord: [-3833.625, 2853.25]
-- Talk to .npc(Liana):
-    icon: npc-gerudo
+- _Npc::Gerudo<Liana>:
     notes: The Search for Barta
     coord: [-3913.375, 2931.5]
-- Talk to .npc(Malena):
-    icon: npc-gerudo
+- _Npc::Gerudo<Malena>:
     notes: Medicinal Molduga
     coord: [-3907.875, 2912.75]
-- Talk to .npc(Riju):
+- _Npc::Gerudo<Riju>:
     comment: Get .boss(Thunder Helm)
-    icon: npc-gerudo
     notes: The Thunder Helm
     coord: [-3882, 2961.75]
 - _Warp::Tower::Wasteland
@@ -146,6 +142,7 @@
 - Use gale:
     coord: [-2690.25,2861.75]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::W40
 - _Warp::TechLab::Hateno:
     color: rgb(9, 227, 56)

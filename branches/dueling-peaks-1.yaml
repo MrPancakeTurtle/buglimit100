@@ -34,12 +34,12 @@
     coord: [1650, 1906.5]
     icon: malice
 - _Shrine::HaDahamar
-- Talk to .npc(Beedle):
+- _Npc<Beedle>:
     comment: Sell all ores
     icon: shop
     notes: Buy all arrows, crickets and frogs (for quest). Don't sell flint/rock salt
     coord: [1764.5, 1926.25]
-- Talk to .npc(Rensa), take .item(horse):
+- _Npc::SheikaMale<Rensa>, take .item(horse):
     icon: npc-sheika-male
     coord: [1755, 1927.625]
 - _Korok::D20
@@ -51,7 +51,7 @@
     coord: [2172.24, 218.76, 1369.2]
 - _Korok::D21:
     notes: drownwarp in water
-- Talk to .npc(Hestu):
+- _Npc<Hestu>:
     comment: 1 weapon, 1 bow upgrade
     icon: hestu
     coord: [2063.5, 1424]
@@ -60,11 +60,11 @@
     coord: [1952.25,1061.4375]
     icon: malice
     notes: Don't give them to Beedle. You need 15 at end of the run, you are close.
-- Talk to .npc(statue):
+- _Npc(Goddess Statue):
     comment: Get 2 stamina
     icon: link
     coord: [1841.5, 998.625]
-- Talk to .npc(Impa):
+- _Npc::SheikaFemale<Impa>:
     comment: Talk Twice
     icon: npc-sheika-female
     notes: For quests
@@ -83,9 +83,9 @@
 - _Shop<Arrow Shop>:
     comment: Buy everything
     coord: [1823.875, 1039.375]
-- Talk to .npc(Rola):
+- _Npc::SheikaFemale<Arrow Shopkeeper>:
     icon: npc-sheika-female
-    notes: Arrows of a Flaming Heat
+    comment: Arrows of Burning Heat
     coord: [1830.5, 1043]
 - _Korok::D04
 - _Material<Blue Nightshade>:
@@ -94,7 +94,8 @@
     notes: A Gift of Nightshade
 - _Chest<Phrenic Bow>:
     coord: [1720.91, 323.75, 996.82]
-- .boss(Activate Ta'loh Naeg):
+- Activate .loc(Ta'loh Naeg):
+    icon: shrine
     notes: Don't beat the shrine yet
     coord: [1836.5, 892]
 - _Korok::Z50

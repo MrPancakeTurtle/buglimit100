@@ -72,7 +72,7 @@
     coord: [2369.5, 2864.5]
 - _Korok::F21
 - _Korok::F29
-- Talk to .npc(Kass):
+- _Npc::Rito<Kass>:
     icon: npc-rito
     notes: A song of Storms
     coord: [2093, 3236]
@@ -80,9 +80,11 @@
 - Use gale:
     coord: [2133,3285.5]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - Use gale:
     coord: [2111,3298]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - Break open the shrine:
     icon: tots
     coord: [2030, 3289]
@@ -120,13 +122,9 @@
 - _Material<Blue Nightshade>:
     coord: [2448,3576]
     comment: Only if you don't have already one
-- Talk to .npc(Wabbin):
-    icon: npc
+- _Npc<Guy at heart pond>:
     notes: A Gift of Nightshade
     coord: [2590.5, 3545.5]
-- Talk to .npc(Perda):
-    icon: npc-gerudo
-    coord: [2593.5, 3510.5]
 - _Korok::F47
 - _Korok::F57
 - .boss(Kill all enemies):
@@ -143,20 +141,20 @@
 - _Korok::F53
 - _Warp::Shrine::YahRin:
     color: purple
-- Talk to .npc(Sebasto):
-    icon: npc
-    notes: Take Back the Sea
+- _Npc::SheikaMale<Harpoon Guy>:
     coord: [2895.75, 3431.75]
+    comment: Sebasto
+    notes: Take Back the Sea quest. In house if raining.
 - _Tod::Noon:
     coord: [2898.25, 3411.75]
-- Talk to .npc(Kiana):
-    icon: npc
-    notes: What's For Dinner?
-    coord: [2891.5, 3411.75]
-- Talk to .npc(Rozel):
-    icon: npc
-    notes: Sunken Treasure
-    coord: [2885.75, 3495.5]
+- _Npc::SheikaFemale<Mom with Kid>:
+    coord: [2884.25, 112.44, 3413.51]
+    notes: What's for Dinner? quest
+    comment: Before 6pm
+- _Npc<Old Man on dock>:
+    comment: Rozel
+    notes: Select "About the ocean...". Talk twice. In house when raining.
+    coord: [2887.5,3495.5]
 - Tree Launch to F22:
     coord: [2920,3401.5]
 - _Korok::F22
@@ -182,15 +180,15 @@
 - _Snap<Monument shard>:
     comment: A Fragmented Monument
     coord: [3804.25, 3615.5]
-- _Korok::F52
+- _Korok::F52:
+    comment: .gale(GALE 3)
 - _Snap<Monument Shard>:
     comment: A Fragmented Monument
     coord: [3532, 3374]
 - _Snap<Monument Shard>:
     comment: A Fragmented Monument
     coord: [3388, 3481]
-- Talk to .npc(Garini):
-    icon: npc
+- _Npc<Garini>:
     notes: A Fragmented Monument
     coord: [3449.5, 3343]
 - .boss(Crouch on pedestal):

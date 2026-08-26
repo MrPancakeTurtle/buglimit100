@@ -6,6 +6,7 @@
 - Use gale:
     coord: [-1716.75,1724.75]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Boss::Hinox::Blue:
     comment: .fury(FURY 1-3)
     coord: [-1698, 1776.5]
@@ -16,8 +17,7 @@
 - .enemy(Take horse from boko):
     icon: tots
     coord: [-1623.25,2114]
-- Talk to .npc(Zyle):
-    icon: npc
+- _Npc<Zyle>:
     notes: A Good-Sized Horse
     movements:
     - to: [-1638, 2260]
@@ -28,34 +28,31 @@
 - Use gale:
     coord: [-2054,1978]
     icon: medoh-done
-- .enemy(Kill bokos):
-    comment: Talk to Palme
-    icon: tots
-    coord: [-2061.25, 1984.25]
+    comment: .gale(GALE 2)
+- _Npc<Palme>:
+    comment: Missing in Action
+    coord: [-2063.50, 208.00, 1994.50]
 - _Korok::W07
-- .enemy(Kill bokos):
-    comment: Talk to Oliff
-    icon: tots
-    coord: [-2056.25, 1741.75]
-- Talk to .npc(Bayge):
-    icon: npc-goron
+- _Npc<Oliff>:
+    comment: Missing in Action
+    coord: [-2055.00, 209.05, 1742.00]
+- _Npc::Goron<Bayge>:
     notes: Test of Will
     coord: [-2004, 1740.75]
 - _Shrine::JolooNah
 - Use gale:
     coord: [-2039,1715]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Material<Lizalfos Tail,3>:
     icon: malice
     coord: [-2191, 1825.5]
-- .enemy(Kill bokos):
-    comment: Talk to Fiaxel
-    icon: tots
-    coord: [-2163.25, 1707.5]
-- .enemy(Kill bokos):
-    comment: Talk to Canolo
-    icon: tots
-    coord: [-2182.25, 1695.25]
+- _Npc<Flaxel>:
+    comment: Missing in Action
+    coord: [-2163.76, 249.00, 1707.54]
+- _Npc<Canolo>:
+    comment: Missing in Action
+    coord: [-2187.78, 207.99, 1691.46]
 - _Korok::G32
 - _Korok::W08
 - _Korok::W10
@@ -63,11 +60,11 @@
     icon: purple
     notes: SHOULD have 55 by now
     coord: [-2794, 2245.5]
-- Talk to .npc(Sesami):
+- _Npc<Sesami>:
     icon: npc
-    notes: Missing in Action
+    comment: Missing in Action
     coord: [-2817.5, 2238]
-- Talk to .npc(Pirob):
+- _Npc<Pirob>:
     comment: Give 55 rushrooms
     icon: npc
     notes: Rushroom Rush!

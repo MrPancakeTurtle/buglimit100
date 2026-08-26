@@ -35,7 +35,7 @@
 - _Shrine::KorguChideh:
     comment: Grab rupee in shrine
 - _Warp::Shrine::ShaiUtoh
-- Talk to .npc(Beedle):
+- _Npc<Beedle>:
     comment: Buy arrows
     icon: shop
     notes: Optional if low on arrows

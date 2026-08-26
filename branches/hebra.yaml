@@ -15,12 +15,13 @@
 - Use gale:
     coord: [-1173.5,-2649]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::H38
 - _Korok::H59
 - _Shrine::RinOyaa
 - _Tod::Morning:
     coord: [-1666, -2552.5]
-- Talk to .npc(Juannelle):
+- _Npc<Stalhorse lady in stable>:
     icon: npc
     notes: Stalhorse - Pictured!
     coord: [-1652, -2587]
@@ -36,6 +37,7 @@
 - Use gale:
     coord: [-2133,-2050]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Tower::Hebra
 - _Korok::H61
 - _Korok::H57
@@ -59,6 +61,7 @@
 - Use gale:
     coord: [-2598,-1438]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::H73
 - _Shrine::DunbaTaag:
     comment: Grab bow and thunderblade in shrine
@@ -75,7 +78,6 @@
     comment: Grab meteor rod inside
     coord: [-3573.5, -2253.5]
 - _Boss::Talus::Frost:
-    comment: Use 3 gales
     coord: [-3706, -2346.5]
 - _Korok::H54
 - _Korok::H55
@@ -87,6 +89,7 @@
 - Use gale:
     coord: [-3248,-2442]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::H43
 - Tree Launch to Tree:
     coord: [-3283.5,-2632.5]
@@ -111,6 +114,7 @@
 - Use gale:
     coord: [-2253.5,-2974]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::H31
 - _Boss::Talus::Frost:
     comment: .fury(FURY 1-3)
@@ -148,6 +152,7 @@
 - Use gale:
     coord: [-4302.5,-3524.5]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::H07
 - _Korok::H08
 - _Korok::H02
@@ -177,9 +182,11 @@
 - Use gale:
     coord: [-4275,-3144]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - Use gale:
     coord: [-4302,-3162]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::H23
 - _Korok::H32
 - _Korok::H40
@@ -196,6 +203,7 @@
 - Use gale:
     coord: [-4483.222545813406,-2142.0974072771332]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::T08
 - _Korok::T07
 - _Korok::T01
@@ -217,16 +225,19 @@
 - Use gale:
     coord: [-3116.75,-2831.75]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::H34
 - _Korok::H44
 - _Korok::H46
 - Use gale:
     coord: [-3020,-2507]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::H48
 - Use gale:
     coord: [-2948.5,-2441.5]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::H49
 - _Korok::H50
 - _Korok::H47

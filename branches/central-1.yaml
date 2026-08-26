@@ -15,8 +15,7 @@
 - _Shrine::WahgoKatta
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [351, 1088]
-- Talk to .npc(Beedle):
-    icon: shop
+- _Npc<Beedle>:
     notes: Sell ores, buy arrows and 1 Electric Darner
     coord: [361.5, 1038.5]
 - Register horse:

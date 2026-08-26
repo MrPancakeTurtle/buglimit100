@@ -35,10 +35,12 @@
 - Use gale:
     coord: [-862.25,-3534.75]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::H16
 - Use gale:
     coord: [-795.5,-3309.75]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::K05
 - .boss(Shoot Dinraal):
     comment: Get scale
@@ -55,6 +57,7 @@
 - Use gale to go out:
     coord: [325,-3117]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Tod::Morning:
     coord: [586,-3144]
 - _Korok::K04
@@ -77,8 +80,6 @@
 - _Snap<Lynel>:
     coord: [255.5,-3597]
 - .boss(Kill Lynel):
-    comment: .gale()
-    gale: 1
     icon: boss-dlc
     notes: .link([How to kill lynel]https://youtu.be/fcDLoHGBqCU?si=xW3qsSKDl0jRgSY9&t=7109)
     coord: [218, -3652]
@@ -160,6 +161,7 @@
 - Use gale:
     coord: [3301,-3583]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Shrine::ZunaKai
 - .important(Spawn Salvager Chest):
     comment: Watch north land
@@ -167,6 +169,7 @@
 - Use gale:
     coord: [3322.5,-3434]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::A03 
 - _Chest::Special<Salvager Vest>:
     coord: [3629, -3520]
@@ -174,15 +177,16 @@
 - _Boss::Hinox::Black:
     comment: Use Savage Lynel Crusher, Grab Claymore
     coord: [3491.5, -3345]
-- _Snap<Kilton>:
-    notes: A Shady Customer
-    coord: [3248, -3441.5]
-    comment: .important(Snap kilton beford talk to him)
-- Talk to .npc(Kilton):
-    icon: npc
+- _Snap::Quest<Kilton>:
+    coord: [3244.60, 82.63, -3448.81]
+    notes: It's common for the camera to not register Kilton. Take 2-3 snaps from different angles to be safe.
+    comment: SNAP for quest
+- _Npc<Kilton>:
+    comment: Talk
 - Use gale (during A05):
     coord: [3178.5,-3330]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::A05
 - _Korok::A10
 - _Korok::A11:
@@ -203,7 +207,7 @@
 - .item(Offer scale):
     icon: tots
     coord: [3750.75, -2663]
-- Talk to .npc(statue):
+- _Npc<Goddess Statue>:
     comment: 4 stamina
     icon: link
     coord: [3758.375, -2676.25]
@@ -228,17 +232,17 @@
 - _Korok::A24
 - _Korok::A23
 - _Shrine::KatosaAug
-- Talk to .npc(Hoz):
+- _Npc<Hoz>:
     comment: Talk twice
-    icon: npc
     notes: A Shady Customer
     coord: [4244.75, -2746.25]
-- Talk to .npc(Nobo):
+- _Npc<Nobo>:
     icon: npc
     notes: The Spring of Power
     coord: [4234.5, -2751.25]
+    comment: Select "This area?"
 - _Korok::A14:
-    comment: Use gale
+    comment: .gale(GALE 1)
 - _Snap<Guardian Stalker>:
     notes: Guardian Slideshow
     comment: Kill him + grab parts
@@ -246,6 +250,7 @@
 - Use gale:
     coord: [4631.750120015677,-3668.426391640086]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Shrine::TuKaloh:
     comment: .important(GET BARBARIAN HELM)
 - _Warp::Shrine::KatahChuki:

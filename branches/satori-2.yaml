@@ -19,20 +19,18 @@
 - _Korok::C66
 - _Korok::C72
 - _Korok::C78
-- Talk to .npc(Aliza):
-    icon: npc
-    notes: My Hero
-    coord: [-1382.5, 1279]
+- _Npc<Master Sword Lady>:
+    coord: [-1400.00, 137.72, 1280.00]
+    comment: Aliza
+    notes: Star Fragment 1/3
 - _Equipment::Weapon<Axe>:
     coord: [-1412.5,1248.5]
 - .boss(Register Zelda's horse):
     coord: [-1432, 1264]
-- Talk to .npc(Toffa):
-    icon: npc
-    notes: The Royal White Stallion
-    coord: [-1433, 1278.5]
-- Talk to .npc(Trott):
-    icon: npc
-    notes: A Rare Find
-    coord: [-1434, 1268.5]
+- _Npc<White Horse Guy>:
+    coord: [-1439.25, 137.72, 1278.45]
+    comment: Toffa
+- _Npc<Gourmet Meat Guy>:
+    coord: [-1432.50, 137.72, 1264.50]
+    comment: Trott
 - _Shrine::RotaOoh

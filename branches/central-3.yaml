@@ -46,6 +46,7 @@
 - Use gale:
     coord: [-864.0625,222.5625]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::C39
 - _Korok::C38
 - Tree Launch to R58:
@@ -66,6 +67,7 @@
 - Use gale:
     coord: [-1518.5,149.5]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::R48
 - _Korok::R42
 - _Korok::R43
@@ -90,6 +92,7 @@
 - Use gale:
     coord: [80,1610.5]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::D26
 - _Discover<East Post Ruins>:
     coord: [68,1519]

@@ -1,9 +1,12 @@
 - _Korok::Z22
 - _Korok::Z31
-- Talk to .npc(Finly):
+- _Npc::ZoraFemale<Finley>:
     comment: Start Letter quest, shoot letter
     icon: npc-zora-female
     coord: [2757, -86.5]
+- Use gale:
+    icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::Z23
 - .item(Grab Letter):
     icon: bow
@@ -17,7 +20,7 @@
     icon: tots
     coord: [1761, -52]
 - _Warp::Shrine::DahHesho
-- Talk to .npc(Hudson):
+- _Npc<Hudson>:
     comment: Give 50 wood
     icon: npc
     notes: From the Ground Up

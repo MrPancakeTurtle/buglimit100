@@ -18,8 +18,8 @@
     coord: [-1573, -161]
 - _Korok::R39
 - _Korok::R41
-- Talk to .npc(Kass):
-    icon: npc-rito
+- _Npc::Rito<Kass>:
+    comment: Text option 2-1-1
     notes: The Two Rings
     coord: [-1680.5, 52.5]
 - _Discover<Jeddo Bridge>:
@@ -42,7 +42,8 @@
 - Tree Launch to R55:
     coord: [-2029.8333435058594,633.3333282470703]
 - _Korok::R55
-- _Korok::R54
+- _Korok::R54:
+    comment: Use gale 3 here even if not raining .gale(GALE 3)
 - _Material<Rushroom,1>:
     icon: purple
     coord: [-1975.5, 333.25]
@@ -55,13 +56,13 @@
     coord: [-2357, -414]
 - _Korok::R22
 - _Korok::R21
-- Talk to .npc(Toren):
-    icon: npc
-    notes: A Gift for the Great Fairy
-    coord: [-2912, -544]
+- _Npc<Guy at cookpot>:
+    coord: [-2916.00, 274.73, -561.00]
+    comment: Toren
+    notes: In stable if raining or night.
 - Take horse:
     coord: [-2919, -542]
-- Talk to .npc(Kass):
+- _Npc::Rito<Kass>:
     comment: .gale()
     gale: 1
     icon: npc-rito

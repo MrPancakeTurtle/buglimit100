@@ -34,10 +34,10 @@
     coord: [2380.5, 1860.5]
 - _Tod::Night:
     coord: [2393.25,1838.5]
-- Talk to .npc(Calip):
-    icon: npc
-    notes: The Cursed Statue
-    coord: [2395.5, 1837]
+- _Npc::SheikaMale<Man in cabin>:
+    coord: [2398.96, 118.64, 1834.33]
+    comment: Calip
+    notes: If it's not raining, Calip leaves at 6:00am. Sleep morning in bed if he's not here. Text option 2.
 - Take horse:
     icon: horse
     coord: [2362,1802]
@@ -81,8 +81,7 @@
 - _Tower::Hateno
 - _Korok::N58
 - _Korok::N59
-- Talk to .npc(Bolson):
-    icon: npc
+- _Npc<Bolson>:
     notes: Hylian Homeowner
     coord: [3312, 2301.5]
 - _Equipment::Weapon<Iron Sledgehammer>:
@@ -90,9 +89,8 @@
     coord: [3328, 2286.5]
 - _Korok::N53:
     comment: At end of river
-- Talk to .npc(Cursed Statue):
+- _Npc<Cursed Statue>:
     comment: Ask for stamina
-    icon: npc
     notes: The Statue's Bargain
     coord: [3281, 2198]
 - _Shrine::MyahmAgana:
@@ -108,20 +106,19 @@
     - at: [3481.875,2116.375]
     - at: [3570.75,2203.75]
     - at: [3639.5,2081.25]
-- Talk to .npc(Nebb):
+- _Npc<Nebb>:
     comment: Show sword, rod and club, throw sword and club, keep rod
     icon: npc
     notes: The Weapon Connoisseur
     movements: 
     - [3373.0625,2170.8125]
     - [3365, 2149]
-- Talk to .npc(Pruce):
+- _Npc::SheikaMale<Shopkeeper>:
     comment: Sell all ores
     icon: npc
     notes: Buy bomb arrows (NOT singular ones), arrows and endura shrooms
     coord: [3360,2173]
-- Talk to .npc(Medda):
-    icon: npc
+- _Npc::SheikaMale<Farmer>:
     notes: The Spring of Wisdom
     movements: 
     - [3380.9375,2115.6875]
@@ -131,9 +128,9 @@
     coord: [3390, 2082.5]
 - _Equipment::Weapon<Wooden Mop>:
     coord: [3370.5, 2078.5]
-- Talk to .npc(Koyin):
+- _Npc<Sheep Rustler lady>:
     icon: npc
-    notes: The Sheep Rustlers
+    notes: Choose option 2
     movements: 
     - [3440.375,2079.25]
     - [3481.875,2116.375]
@@ -143,10 +140,10 @@
 - _Tod::Noon:
     comment: If raining
 - _Korok::N42
-- .rune(Flame quest with mop):
-    icon: equipment
+- Activate .loc(Hateno Tech Lab):
+    icon: location
     coord: [3442, 1976.5]
-- Talk to .npc(Purah), get camera:
+- _Npc<Purah>:
     icon: camera-elite
     coord: [3774, 2116.5]
 - _Material<Hightail Lizard>:

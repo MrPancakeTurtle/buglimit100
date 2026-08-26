@@ -9,6 +9,7 @@
 - Use gale:
     icon: medoh-done
     coord: [-2006.5,2219.5]
+    comment: .gale(GALE 1)
 - _Korok::W14
 - _Boss::Talus::Luminous:
     comment: Use GEB + bomb arrow
@@ -29,6 +30,7 @@
 - Use gale:
     icon: medoh-done
     coord: [-2261,2588.5]
+    comment: .gale(GALE 2)
 - _Korok::W32
 - _Korok::W31
 - _Tower::Wasteland:
@@ -41,6 +43,7 @@
 - Use gale:
     icon: medoh-done
     coord: [-2852,2174.5]
+    comment: .gale(GALE 3)
 - _Boss::Talus::Luminous:
     comment: Use GEB + bomb arrow
     coord: [-2892, 2208.5]

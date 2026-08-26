@@ -49,6 +49,7 @@
 - Use gale:
     coord: [97.125,-450.875]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::C29
 - _Korok::C28
 - _Korok::C33
@@ -62,6 +63,7 @@
 - Use gale:
     coord: [-39,-944]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::X12
 - .boss(Enter Cave):
     coord: [-101.5,-1141.5]
@@ -97,6 +99,7 @@
 - Use gale:
     coord: [-293.5,-1154.5]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Chest<Bomb Arrow x5>:
     coord: [-293.25, -1132.25]
 - Climb up
@@ -129,10 +132,10 @@
     coord: [700, -1241]
 - _Tod::Noon:
     coord: [1075.75, -1125.5]
-- Talk to .npc(Shamae):
-    icon: npc
-    notes: Ballon Flight
-    coord: [1077.25, -1127.625]
+- _Npc<Balloon Girl>:
+    coord: [1080.50, 127.38, -1125.00]
+    notes: 7am-8pm. Make noon if needed.
+    comment: Shamae
 - Make a barrel fly with octo ballon:
     notes: Ballon Flight
     icon: tots
@@ -143,6 +146,7 @@
 - Use gale:
     coord: [1239.5625,-1193]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Material<Lizalfos Tail,2>:
     icon: malice
     comment: 2 if lucky
@@ -158,7 +162,9 @@
 - Use gale:
     coord: [982.75,-1577.75]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - Use gale:
     coord: [941,-1624.5]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Tower::Woodland

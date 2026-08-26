@@ -61,13 +61,13 @@
     coord: [1550.75, 3542.25]
 - _Korok::F41:
     comment: Bellow horse's head, use bomb arrow
-- Talk to .npc(Cima):
+- _Npc::SheikaFemale<Lady by horses>:
     icon: npc
-    comment: Next to horses
+    comment: Awake from 7am - 9pm
     coord: [1546.25, 3533.75]
 - _Cook<Cook food>:
     notes: 3 endura food, 1*5 bananas, 3 hearty food, 3 Speed food (3 lotus, 1 swift carrot and 1 farosh horn)
-- Talk to .npc(Beedle):
+- _Npc<Beedle>:
     icon: npc
     notes: Sell Ores, Buy Arrows and hightail lizard
 - Break ores:

@@ -3,6 +3,7 @@
 - Use gale:
     icon: medoh-done
     coord: [2086,-1557]
+    comment: .gale(GALE 3)
 - _Tower::Eldin:
     notes: Remember you can 2-hand damage cancel spin. There are lots of deposits
       in Eldin, get as many as you can
@@ -21,14 +22,14 @@
 - _Material<10 Fireproof Lizard,10>:
     coord: [1653, -1944.5]
     comment: There a lot under rocks near Mine
-- Talk to .npc(Kima):
+- _Npc<Kime>:
     comment: Get Flamebreaker Armour
     icon: npc
     notes: Fireproof Lizard Catching
     coord: [1654, -1949.5]
 - _Tod::Night:
     coord: [1656, -1955]
-- Talk to .npc(Greyson):
+- _Npc::Goron<Greyson>:
     icon: npc-goron
     notes: From the Ground Up
 - _Korok::E19
@@ -44,8 +45,7 @@
 - _Shop<Armor shop>:
     comment: Buy Flamebreaker boots
     coord: [1648.25, -2411.25]
-- Talk to .npc(Bludo):
-    icon: npc-goron
+- _Npc::Goron<Bludo>:
     notes: Divine Beast Vah Rudania
     coord: [1705, -2449.5]
 - _Shrine::ShaeMosah:
@@ -55,20 +55,22 @@
 - .boss(Use the cannon):
     icon: tots
     coord: [1548.5, -2902.5]
-- Talk to .npc(Yunobo):
-    icon: npc-goron
+    comment: .gale(GALE 1)
+- _Npc::Goron<Yunobo>:
     notes: Divine Beast Vah Rudania
     coord: [1627.5, -2928.5]
 - _Chest<Ice Arrow x10>:
     comment: Right chest
     coord: [1640.5, -2944.5]
-- _Korok::E08
+- _Korok::E08:
+    comment: .gale(GALE 2)
 - _Boss::Talus::Igneo:
     comment: .fury(FURY 1-3)
     coord: [1343, -3065.5]
 - Use gale:
     coord: [1386,-3080]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::E07
 - _Shrine::ShoraHah:
     notes: Get Royal Bow and ice arrows in shrine
@@ -82,19 +84,20 @@
 - _Korok::E06
 - _Warp::Shrine::ShaeMosah:
     color: rgb(240, 221, 580)
-- Talk to .npc(Bludo):
+- _Npc::Goron<Bludo>:
     comment: Daruk memory
     notes: Divine Beast Vah Rudania
-    icon: npc-goron
     coord: [1705, -2448]
 - _Korok::E16
 - Use gale:
     coord: [1882,-2463]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::E17
 - Use gale:
     icon: medoh-done
     coord: [1881.436431394428,-2391.47969601835]
+    comment: .gale(GALE 2)
 - _Shrine::DaqaKoh
 - Kill .enemy(2 moblins):
     comment: Use Ancient Short Sword or .fury(FURY 1-3) if refilled
@@ -116,7 +119,7 @@
     - to: [2783, -2601.5]
     - to: [2797, -2657]
 - .boss(Complete Divine Beast):
-    comment: Use 1 gale
+    comment: .gale(GALE 3)
     icon: tots
 - _Snap<Fireblight>
 - .boss(Fireblight):
@@ -129,23 +132,20 @@
     movements:
     - to: [1587.5, -2423]
       warp: True
-- Talk to .npc(Bladon):
-    icon: npc-goron
-    notes: A Brother's Roast
+- _Npc::Goron<Bladon>:
+    comment: Bladon
+    notes: Text option 2-1
     coord: [1650.25, -2465]
 - _Tod::Noon:
     coord: [1648.5, -2459]
-- Talk to .npc(Fugo):
+- _Npc::Goron<Fugo>:
     comment: Talk twice
-    icon: npc-goron
     notes: The Road to Respect
     coord: [1672.25, -2484.5]
-- Talk to .npc(Rameila):
-    icon: npc-gerudo
+- _Npc::Gerudo<Rameila>:
     notes: The Amber Trade
     coord: [1678.5, -2447.75]
-- Talk to .npc(Bludo):
-    icon: npc-goron
+- _Npc::Goron<Bludo>:
     notes: Divine Beast Vah Rudania
     coord: [1705, -2450.75]
 - _Chest::Special<Boulder Breaker>:
@@ -153,13 +153,11 @@
 - _Warp::Shrine::DaqaKoh
 - _Equipment::Weapon<Drillshaft>:
     coord: [1970, -2211]
-- Talk to .npc(Dugby):
+- _Npc::Goron<Dugby>:
     comment: Throw Drillshaft after
-    icon: npc-goron
     notes: Death Mountain's Secret
     coord: [1793.5, -2249]
-- Talk to .npc(Gonguron):
-    icon: npc-goron
+- _Npc::Goron<Gonguron>:
     coord: [2051.5, -2040]
 - .item(Take meat up hill):
     icon: tots
@@ -176,6 +174,7 @@
 - Use gale:
     coord: [2154,-2109.5]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::E22
 - _Boss::Talus::Igneo:
     comment: Use stone smasher
@@ -185,6 +184,7 @@
 - Use gale:
     coord: [2277,-1837]
     icon: medoh-done
+    comment: .gale(GALE 2-3)
 - _Korok::E23
 - _Discover<Shadow Hamlet Ruins>:
     coord: [3044, -2289.5]

@@ -1,16 +1,14 @@
-- Talk to .npc(Pruce):
+- _Npc::SheikaMale<Shopkeeper>:
     comment: Sell all Ores but Opal and amber
-    icon: npc
     coord: [3360,2173]
 - _Equipment::Weapon<Iron Sledgehammer>:
     coord: [3326.5, 2287.5]
 - _Tod::Noon:
     coord: [3332, 2282]
-- Talk to .npc(Bolson):
+- _Npc<Bolson>:
     comment: Give 30 wood
-    icon: npc
     coord: [3330, 2289.75]
-- Talk to .npc(Hudson):
+- _Npc<Hudson>:
     icon: npc
     notes: From the Ground Up
     coord: [3330.625, 2291]
@@ -23,7 +21,7 @@
     icon: camera-elite
     notes: Do this later if you don't have enough parts
     coord: [3779.375, 2123.25]
-- Talk to .npc(Symin):
+- _Npc::SheikaMale<Lab Assistant>:
     comment: 3 truffles for food
     icon: npc
     coord: [3778.25, 2134.875]

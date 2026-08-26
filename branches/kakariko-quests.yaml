@@ -29,13 +29,11 @@
     movements:
     - [1848,929.75]
     - [1849.5,974]
-- Talk to .npc(Cado):
-    icon: npc-sheika-male
+- _Npc::SheikaMale<Cado>:
     notes: Flown The Coop
     coord: [1835, 962.25]
-- Talk to .npc(Pikango):
+- _Npc::SheikaMale<Pikango>:
     comment: Twice
-    icon: npc-sheika-male
     notes: Find the Fairy Fountain
     coord: [1826.75, 989.25]
 - Pick up cucco:
@@ -52,7 +50,7 @@
     movements:
     - [1911,1002.5]
     - [1900.25,981.75]
-- Talk to .npc(Cottla):
+- _Npc<Cottla>:
     comment: Play tag
     icon: npc
     notes: Playtime With Cottla
@@ -68,29 +66,27 @@
 - _Material<Energetic Rhino Beetle,1>:
     icon: malice
     coord: [1811.1626162938874,1049.9426078641163]
-- Talk to .npc(Rola):
-    comment: also buy all arrows
-    icon: npc-sheika-female
+- _Npc::SheikaFemale<Arrow Shopkeeper>:
+    comment: Talk and buy all arrows
     coord: [1828, 1040.25]
 - Get 2 Last Cucco:
     icon-doc: tots
     movements:
     - [1880.25,1044]
     - [1869.75,1003.75]
-- Talk to .npc(Cado):
+- _Npc::SheikaMale<Cado>:
     icon: npc-sheika-male
     notes: Flown The Coop
     coord: [1836.25, 962.25]
 - _Material<Sunset Firefly>:
     coord: [1900.375,994.75]
     notes: By Firefly's Light
-- Talk to .npc(Lasli):
-    comment: Talk twice, Drop fireflies
-    icon: npc-sheika-female
+- _Npc<Firefly lady in house>:
+    comment: Lasli (talk twice)
     notes: By Firefly's Light
     coord: [1900.25, 1035]
-- Talk to .npc(Impa) then .npc(Purah):
-    icon: npc-sheika-female
+- _Npc::SheikaFemale<Impa>
+- _Npc::SheikaFemale<Paya>:
     notes: The Stolen Heirloom
     coord: [1777.25, 984.25]
 - _Tod::Night:

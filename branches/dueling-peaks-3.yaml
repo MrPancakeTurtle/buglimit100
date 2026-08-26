@@ -2,7 +2,7 @@
 - Use gale:
     coord: [1140.5,1323.5]
     icon: medoh-done
-    comment: Use cryonis to go acros the river
+    comment: Use cryonis to go acros the pond .gale(GALE 1)
 - _Korok::D17
 - _Boss::Talus::Stone:
     comment: .fury(FURY 1-3)
@@ -12,7 +12,7 @@
 - Use gale:
     coord: [1650,1296.5]
     icon: medoh-done
-    comment: Use cryonis to go acros the river
+    comment: Use cryonis to go acros the oond .gale(GALE 2)
 - _Korok::D09
 - _Tod::Morning:
     coord: [1662.25,1162.5]
@@ -39,6 +39,7 @@
 - Use gale:
     coord: [2142,1085]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::D07
 - _Korok::N11
 - _Korok::N13
@@ -55,7 +56,7 @@
 - .boss(Ride deer to pedestal):
     icon: tots
     coord: [2535.9791661231975,359.7783881093628]
-- Talk to .npc(Kass):
+- _Npc::Rito<Kass>:
     icon: npc-rito
     notes: THe Crowned Beast
     coord: [2581.9791661231975,467.7783881093628]
@@ -83,6 +84,7 @@
 - Use gale:
     coord: [3440.465668136854,389.8982561839239]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Boss::Hinox::Blue:
     comment: Use Royal Claymore
     coord: [3534.5, 369]
@@ -115,7 +117,7 @@
     coord: [4135.5, 79]
 - _Korok::Z36
 - _Korok::Z46
-- Talk to .npc(Kass):
+- _Npc::Rito<Kass>:
     icon: npc-rito
     notes: Master of the Wind
     coord: [4098.5, 402]

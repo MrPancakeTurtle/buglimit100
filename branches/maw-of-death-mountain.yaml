@@ -7,13 +7,11 @@
 - _Shrine::MoaKeet
 - _Equipment::Weapon<Double Axe>:
     coord: [2597.25, -1153]
-- Talk to .npc(Mayro):
-    icon: npc
-    notes: A Landscape of a Stable
-    coord: [2620.5, -1145.5]
-- Talk to .npc(Gaile):
+- _Npc<Painting guy in stable>:
+    coord: [2620.40, 253.87, -1144.95]
+    comment: Mayro
+- _Npc<Gaile>:
     coord: [2612,-1119]
-    icon: npc
     comment: Buy 3 fireproof elixir
 - Tree Launch to Rubbles:
     coord: [2599,-1163]
@@ -36,6 +34,7 @@
 - Use gale:
     coord: [2688,-1588]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - Get E34 rock:
     coord: [2655.5,-1625.5]
     icon: tots
@@ -48,6 +47,7 @@
 - Use gale:
     icon: medoh-done
     coord: [2339.5,-1620]
+    comment: .gale(GALE 2)
 - Smash deposits:
     icon: chest
     coord: [2285,-1621]

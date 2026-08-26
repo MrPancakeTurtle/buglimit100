@@ -3,8 +3,7 @@
     icon: purple
     notes: On pillar and cliff as you climb to G34
     coord: [-2818.375, 2251.5]
-- Talk to .npc(Sesami):
-    icon: npc
+- _Npc<Sesami>:
     notes: Missing in Action
     coord: [-2810.875, 2238.375]
 - _Korok::G34
@@ -38,49 +37,44 @@
 - _Warp::Shrine::DaqoChisay
 - _Npc<Bozai>:
     coord: [-3750,2874]
-    comment: 8th Heroine, Forgotten Sword
-    notes: Talk 3 times
+    notes: Talk for snow boots
 - _Shop<Food shop>:
     icon: shop
     comment: Buy durians
     coord: [-3819.75, 2878.75]
-- Talk to .npc(Isha):
-    icon: npc-gerudo
+- _Npc::Gerudo<Isha>:
     notes: Tools of the Trade
     coord: [-3831.5, 2895.25]
-    comment: Accept Ruby
+    comment: Accept Ruby 
 - _Shop<Arrows shop>:
     coord: [-3860, 2911.25]
     comment: Sell ores but luminous stone and opal
 - _Tod::Noon:
     coord: [-3833.5,2947.375]
     notes: For quests
-- Talk to .npc(Riju):
-    icon: npc-gerudo
-    notes: Divine Beast Vah Naboris
-    coord: [-3882, 2961.75]
-- Talk to .npc(Teake):
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+- _Npc::Gerudo<Teake>:
     comment: So we can enter the hideout
-    icon: npc-gerudo
     coord: [-3922.5, 2939.5]
-- Talk to .npc(Malena):
-    icon: npc-gerudo
+- _Npc::Gerudo<Malena>:
     notes: Medicinal Molduga
     coord: [-3908.5, 2916.5]
-- Talk to .npc(Laine):
-    icon: npc-gerudo
+- _Npc::Gerudo<Laine>:
     notes: The Silent Swordswomen
     coord: [-3910, 2872.25]
-- Talk to .npc(Kohm):
+- _Npc::Gerudo<Kohm>:
     comment: Take sand seal
-    icon: npc-gerudo
     coord: [-3906.25, 2880]
 - _Korok::W36
 - _Korok::W28
 - _Korok::W18
 - _Korok::W13
 - _Korok::W09
-- .rune(Activate Kema Zoos):
+- Activate .loc(Kema Zoos):
+    icon: shrine
+    notes: Don't enter the shrine or sandseal dissapears
     coord: [-4670, 1987]
 - Sand Seal up Karusa Valley:
     comment: Equip climbing gear
@@ -109,6 +103,7 @@
 - Use gale:
     coord: [-3452.5,1339]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::W01
 - _Shrine::ShoDantu:
     comment: Grab stones outside shrine
@@ -125,6 +120,7 @@
 - Use gale:
     coord: [-3752.5,1643]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - _Korok::G26
 - _Material<10 Wildberry>:
     coord: [-3659.333251953125,1528.6666870117188]
@@ -143,6 +139,7 @@
 - Use gale:
     icon: medoh-done
     coord: [-3051.5, 1313]
+    comment: .gale(GALE 3)
 - _Korok::G17
 - _Material<Lizalfos Tail,4>:
     icon: malice
@@ -226,13 +223,16 @@
 - Use gale:
     coord: [-2964,992]
     icon: medoh-done
+    comment: .gale(GALE 1)
 - _Korok::G13
 - Use gale:
     coord: [-2840,1125]
     icon: medoh-done
+    comment: .gale(GALE 2)
 - Use gale:
     coord: [-2819,1183]
     icon: medoh-done
+    comment: .gale(GALE 3)
 - _Korok::G18
 - _Boss::Talus::Frost:
     comment: Use GEB + Bomb Arrow
