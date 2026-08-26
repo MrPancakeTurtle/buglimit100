@@ -70,8 +70,6 @@
 - _Chest<Ancient Arrow x3>:
     coord: [-255.25, -742.125]
 - _Korok::X22
-- _Korok::X21:
-    comment: You can shoot the emblem from balcony
 - _Discover<Observatory room>:
     coord: [-253.10416793823242,-756.2708339691162]
     comment: Jump in red stuff

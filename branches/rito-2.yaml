@@ -63,6 +63,11 @@
     icon: npc-rito
     notes: Find Kheel
     coord: [-3665.25, -1772.5]
+- Talk to .npc(Harth):
+    icon: npc-rito
+    notes: Make a new GEB
+    coord: [-3665.25, -1772.5]
+- _Korok::T15
 - Talk to .npc(Kotts):
     icon: npc-rito
     notes: Recital at Warbler's Nest

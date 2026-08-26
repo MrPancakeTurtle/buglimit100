@@ -57,6 +57,7 @@
 - _Korok::C16
 - _Korok::X25
 - _Korok::X24
+- _Korok::X21
 - _Korok::X20
 - Use gale:
     coord: [-39,-944]
