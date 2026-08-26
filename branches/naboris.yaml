@@ -1,8 +1,8 @@
 - _Shop<Buy Everything>:
     coord: [-3856.5, 2915.5]
 - _Npc::Gerudo<Riju>:
-  coord: [-3868.85, 166.67, 2948.96]
-  comment: Text options 1-2
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: Text options 1-2
 - Enter Secret Club:
     comment: 3 3 3 4
     icon: npc-gerudo
