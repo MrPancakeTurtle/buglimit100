@@ -22,7 +22,6 @@
 - Vah Naboris:
     icon-map: null
     icon: naboris-enter
-    coord: [-2754.62, 112.53, 3749.44]
     counter: .dungeon-entry(SPLIT)
     comment: Use .gale(GALE 1-3)
 - _Snap<Thunderblight>:
