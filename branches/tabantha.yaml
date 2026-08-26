@@ -97,7 +97,6 @@
     icon: medoh-enter
     notes: 2 bomb arrows per cannon
     counter: .dungeon-entry(SPLIT)
-    coord: [-3541, -1937]
     icon-map: null
 - _Chest<Ancient Core>:
     comment: In divine beast
