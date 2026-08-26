@@ -62,7 +62,7 @@
   - use: ./branches/faron-2.yaml
 - Central 3:
   - use: ./branches/central-3.yaml
-- Satori 2:
+- Zelda's Horse:
   - use: ./branches/satori-2.yaml
 - Gerudo Canyon 2:
   - use: ./branches/gerudo-canyon-2.yaml
