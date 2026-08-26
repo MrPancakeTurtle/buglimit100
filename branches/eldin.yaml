@@ -106,7 +106,7 @@
 #TODO: FIX IF BROKEN
 - .boss(Enter Rudania):
     icon: rudania-enter
-    notes: Use crates and smash ores where possible
+    notes: Use crates and smash ores where possible. .gale(GALE 3) inside Rudania
     counter: .dungeon-entry(SPLIT)
     comment: You can use 2-3 ancient arrow to kill guardians
     movements:
@@ -118,14 +118,13 @@
     - to: [2782, -2539]
     - to: [2783, -2601.5]
     - to: [2797, -2657]
-- .boss(Complete Divine Beast):
-    comment: .gale(GALE 3)
-    icon: tots
-- _Snap<Fireblight>
+- _Snap<Fireblight>:
+    icon-map: null
 - .boss(Fireblight):
     comment: 1-cycle -> 10x Ice arrows
     icon: calamity
     notes: If your GEB breaks, use the lynel bow
+    icon-map: null
 - .important(Daruk's Protection):
     icon: rudania-done
     counter: .dungeon-complete(SPLIT)
