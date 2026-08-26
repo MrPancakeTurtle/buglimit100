@@ -51,7 +51,7 @@
 - _Boss::Hinox::Red:
     comment: .fury(FURY 1-3)
     coord: [1972, 95]
-- _Material<Fleep Lotus Seeds>:
+- _Material<Fleet Lotus Seeds>:
     coord: [1798.661091985532,132.00863961344112]
     comment: Grab Lotus in Forest, so 16 too
 - _Discover<Moor Garrison Ruins>:
@@ -114,20 +114,16 @@
     coord: [3519.5,-473]
 - _Korok::Z18
 - _Korok::Z26
-- Begin .boss(Vah Ruta Attack):
-    comment: 1-cycle
-    icon: tots
-    coord: [3596, -338.5]
 - Enter Ruta:
     icon: ruta-enter
     counter: .dungeon-entry(SPLIT)
-- .boss(Complete Divine Beast):
     comment: .gale(GALE 1-3)
-    icon: tots
-- _Snap<Waterblight>
+- _Snap<Waterblight>:
+    icon-map: null
 - .important(Waterblight):
     comment: 1-cycle -> 9 headshots
     icon: calamity
+    icon-map: null
 - .important(Mipha's Grace):
     icon: ruta-done
     counter: .dungeon-complete(SPLIT)
