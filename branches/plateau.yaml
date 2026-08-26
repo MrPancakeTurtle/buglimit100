@@ -30,6 +30,9 @@
     notes: Fall damage cancel off into old man CS
 - _Shrine::OmanAu:
     comment: Sprint over
+- _Npc::SheikaMale<Old Man>:
+      coord: [-665, 178, 1515]
+      comment: Text option 2-1-1-2
 - _Material<Hyrule Herb,5>:
     coord: [-706.125, 1482.875]
 - _Korok::P01

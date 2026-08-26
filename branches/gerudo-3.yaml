@@ -15,10 +15,9 @@
     coord: [-3830.3307007994886,1857.7841656685387]
     icon: medoh-done
 - _Tower::Gerudo
-- Talk to .npc(Kass):
-    icon: npc-rito
-    notes: Sign of the Shadow
-    coord: [-3660.75, 1834]
+- _Npc::Rito<Kass>:
+    coord: [-3655.84, 471.90, 1837.15]
+    comment: Text option 2-1-1
 - .boss(Shoot Arrow):
     icon: tots
     coord: [-3582.5, 1986.25]

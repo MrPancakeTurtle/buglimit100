@@ -42,10 +42,10 @@
     icon-doc: tots
     comment: Markers
     coord: [1824,995.5]
-- Talk to .npc(Olkin):
+- _Npc::SheikaMale<Olkin>:
+    coord: [1870.87, 227.97, 965.85]
     comment: Fortified Pumpkin
-    icon: npc-sheika-male
-    coord: [1871.375, 977]
+    notes: At pumpkin patch before 5pm; goes to shelter near northern campfire at 5pm; starts running around the village at 8pm
 - Pick up 2 cuccos:
     comment: Markers
     icon-doc: tots
