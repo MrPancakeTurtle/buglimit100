@@ -98,7 +98,7 @@
     notes: 2 bomb arrows per cannon
     counter: .dungeon-entry(SPLIT)
     coord: [-3541, -1937]
-    hide-icon-on-map: true
+    icon-map: null
 - _Chest<Ancient Core>:
     comment: In divine beast
 - _Chest<Ice Arrow x10>:
@@ -108,7 +108,7 @@
     comment: 2-cycle it
     icon: ganon
     notes: 2-cycle with RGB and bomb arrows
-    hide-icon-on-map: true
+    icon-map: null
 - .important(Revali's Gale):
     icon: medoh-done
     counter: .dungeon-complete(SPLIT)
