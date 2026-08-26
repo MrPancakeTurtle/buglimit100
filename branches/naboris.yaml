@@ -22,7 +22,7 @@
 - Vah Naboris:
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
-    counter: .dungeon-entry
+    counter: .dungeon-entry(SPLIT)
 - .boss(Complete Divine Beast):
     comment: Use .gale(GALE 1-3)
     icon: tots
