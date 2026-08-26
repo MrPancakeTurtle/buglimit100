@@ -101,9 +101,12 @@
     icon-map: null
 - _Chest<Ancient Core>:
     comment: In divine beast
+    icon-map: null
 - _Chest<Ice Arrow x10>:
     comment: In divine beast
-- _Snap<Windblight Ganon>
+    icon-map: null
+- _Snap<Windblight Ganon>:
+    icon-map: null
 - .boss(Windblight Ganon):
     comment: 2-cycle it
     icon: ganon
@@ -112,7 +115,9 @@
 - .important(Revali's Gale):
     icon: medoh-done
     counter: .dungeon-complete(SPLIT)
-    coord: [-3585.5, -1802.875]
+    movements:
+    - to: [-3585.5, -1802.875]
+      warp: True
 - _Material<Cold Darner,1>:
     comment: exit revali's gale text box, spam A button and walk to the right
     coord: [-3566.5, -1816]
