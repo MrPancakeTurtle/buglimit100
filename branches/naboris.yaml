@@ -20,7 +20,7 @@
     icon: tots
     coord: [-2570, 3717]
 - Vah Naboris:
-    hide-icon-on-map: true
+    icon-map: null
     icon: naboris-enter
     coord: [-2754.62, 112.53, 3749.44]
     counter: .dungeon-entry(SPLIT)
@@ -30,7 +30,7 @@
     icon: ganon
     comment: EOD, GEB + Bomb Arrows, 2 hits, 2 shots, stasis -> 2 body + 5 Head
     notes: .link([1-cycle strat]https://youtu.be/fcDLoHGBqCU?t=4311)
-    hide-icon-on-map: true
+    icon-map: null
 - .important(Urbosa's Fury):
     icon: naboris-done
     counter: .dungeon-complete(SPLIT)
