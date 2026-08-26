@@ -27,6 +27,13 @@
 - _Chest<Ruby>:
     coord: [4123.5, 2375.25]
 - _Korok::N62
+- _Warp::TechLab::Hateno
+- _Npc::SheikaMale<Lab Assistant>:
+    comment: Free picture
+    icon: npc
+    notes: SELL SOMETHING if you sold a lot of an item recently, otherwise you'll
+      get Compendium Glitch
+    coord: [3778.5, 2133.5]
 - _Npc<Sheep Rustler lady>:
     notes: The Sheep Rustlers
     icon: npc
