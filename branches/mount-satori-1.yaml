@@ -109,5 +109,21 @@
 - _Korok::R60
 - _Shrine::MoggLatan:
     comment: Grab FDB 
+- _Material<Diamond>:
+    coord: [-2236.5, 660.5]
+- _Korok::R70
+- _Material<Energetic Rhino Beetle>:
+    icon: malice
+    coord: [-2199.75,798.25]
+- Boulder of R73:
+    coord: [-2351.25,743.25]
+    icon: tots
+- _Korok::R73
+- _Korok::R75
+- _Korok::R76
+- _Korok::G14
+- _Korok::G19
+- _Korok::R77
+- _Korok::R78
 - _Warp::Shrine::HilaRao:
     color: rgb(9, 227, 56)
