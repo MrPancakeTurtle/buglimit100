@@ -42,7 +42,7 @@
       - [2403,2512]
 - _Korok::F13
 - _Boss::Hinox::Black:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [2423, 2770]
 - Deposit orb:
     icon: tots
@@ -130,8 +130,7 @@
 - _Korok::F47
 - _Korok::F57
 - .boss(Kill all enemies):
-    comment: Use 1 Fury
-    fury: 1
+    comment: .fury(FURY 1)
     icon: tots
     coord: [2105, 3915.5]
 - Tree Launch to F56:
@@ -139,7 +138,7 @@
 - _Korok::F56
 - _Korok::F54
 - _Boss::Talus::Stone:
-    comment: Use 2 fury
+    comment: .fury(FURY 2-3)
     coord: [1405, 3735]
 - _Korok::F53
 - _Warp::Shrine::YahRin:

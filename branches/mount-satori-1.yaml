@@ -14,7 +14,7 @@
     comment: Tree launch up
 - _Korok::R40
 - _Boss::Hinox::Blue:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [-1573, -161]
 - _Korok::R39
 - _Korok::R41

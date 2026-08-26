@@ -21,7 +21,7 @@
 - _Korok::N57
 - _Korok::N54
 - .enemy(Kill all enemies):
-    comment: Use 3 Fury
+    comment: .fury(FURY 1-3)
     icon: tots
     coord: [4100, 2360]
 - _Chest<Ruby>:
@@ -113,7 +113,7 @@
 - _Shrine::BareedaNaag:
     comment: Grab falcon bow and diamond
 - _Boss::Hinox::Black:
-    comment: Use 3 fury, Grab royal bow
+    comment: .fury(FURY 1-3), Grab royal bow
     coord: [-3791, -1557.5]
 - Talk to .npc(Kheel):
     comment: For Korok Leaf

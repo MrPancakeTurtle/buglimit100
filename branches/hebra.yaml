@@ -7,7 +7,7 @@
 - _Korok::K18
 - _Korok::K16
 - _Boss::Hinox::Stal:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     notes: If Dinraal spawns get claw
     coord: [-1289, -2108]
 - _Korok::K12
@@ -113,7 +113,7 @@
     icon: medoh-done
 - _Korok::H31
 - _Boss::Talus::Frost:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [-2153, -3081]
 - _Korok::H30
 - _Shrine::RokUwog
@@ -184,7 +184,7 @@
 - _Korok::H32
 - _Korok::H40
 - _Boss::Hinox::Black:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [-4520, -2681]
 - Start T06 Race:
    coord: [-4496,-2520]

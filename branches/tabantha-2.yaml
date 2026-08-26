@@ -25,7 +25,7 @@
 - _Tower::Tabantha
 - _Korok::T24
 - _Boss::Talus::Rare:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [-3939, -1088]
 - _Korok::T23
 - _Korok::T26
@@ -65,7 +65,7 @@
     coord: [-3286.5,111.5]
     icon: medoh-done
 - _Boss::Talus::Rare:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [-3126, 71]
 - _Korok::R28
 - _Korok::R29

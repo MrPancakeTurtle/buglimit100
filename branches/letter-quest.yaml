@@ -9,7 +9,7 @@
     icon: bow
     coord: [2741.3333740234375,-98]
 - _Boss::Hinox::Black:
-    comment: Use 3 fury, Grab Claymore and bow
+    comment: .fury(FURY 1-3), Grab Claymore and bow
     coord: [2477.5, -133]
 - _Discover<Inogo Bridge>:
     coord: [2343,-250.5]

@@ -60,7 +60,7 @@
     icon: malice
     coord: [-1358, 242]
 - _Boss::Hinox::Black:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [-1167, 125.5]
 - _Korok::R49
 - Use gale:

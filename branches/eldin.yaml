@@ -8,7 +8,7 @@
       in Eldin, get as many as you can
 - _Korok::E27
 - _Boss::Talus::Igneo:
-    comment: Use 3 fury, grab ores
+    comment: .fury(FURY 1-3), grab ores
     coord: [1775, -1810]
 - Push E26 Boulder:
     coord: [1705,-1778]
@@ -64,7 +64,7 @@
     coord: [1640.5, -2944.5]
 - _Korok::E08
 - _Boss::Talus::Igneo:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [1343, -3065.5]
 - Use gale:
     coord: [1386,-3080]
@@ -97,7 +97,7 @@
     coord: [1881.436431394428,-2391.47969601835]
 - _Shrine::DaqaKoh
 - Kill .enemy(2 moblins):
-    comment: Use Ancient Short Sword or 3 Fury if refilled
+    comment: Use Ancient Short Sword or .fury(FURY 1-3) if refilled
     icon: tots
     coord: [2133, -2290]
 #TODO: FIX IF BROKEN
@@ -170,7 +170,7 @@
     coord: [1971.436431394428,-2168.47969601835]
 - _Korok::E20
 - _Boss::Talus::Igneo:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [2136, -2176.5]
 - _Korok::E21
 - Use gale:

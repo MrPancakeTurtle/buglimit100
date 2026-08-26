@@ -14,35 +14,32 @@
     coord: [-3384, 2132]
 - _Korok::W17
 - _Korok::W29
-- Talk to .npc(Benja):
-    icon: npc
-    notes: Forbidden City Entry
-    coord: [-3805.5, 2826.75]
+- _Npc::SheikaMale<Guy near shrine>:
+    comment: Benja
+    coord: [-3804.64, 149.50, 2818.36]
 - _Shrine::DaqoChisay
 - Shield surf to bazaar:
     icon: shield
     coord: [-3299.75, 2578.25]
-- Talk to .npc(Nobiro):
-    icon: npc
-    notes: The Eye of the Sandstorm
-    coord: [-3286.25, 2541]
+- _Npc::SheikaMale<Guy on platform>:
+    comment: Eye of the Sandstorm
+    coord: [-3282.89, 134.16, 2540.95]
 - _Cook<Cook food>:
     notes: Elixir (winterwing butterfly + screw), 2 endura food, Hearty food
     coord: [-3275.25, 2573.75]
-- .gale() Talk to .npc(Vilia):
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
     comment: Buy clothes
-    icon: npc-gerudo
-    coord: [-3258.5, 2611.25]
-- Talk to .npc(Guy):
-    icon: npc-rito
-    notes: An Ice Guy
-    coord: [-3237.75, 2575.25]
+- _Npc::Rito<Rito Guy>:
+    comment: An Ice Guy
+    notes: Talk twice
+    coord: [-3238.62, 130.10, 2574.56]
 - _Memory::KaraKaraBazaar
 - _Warp::Shrine::DaqoChisay
-- Shield surf to .npc(Bozai):
-    icon: npc
-    notes: The Eight Heroine
-    coord: [-3764.75, 2876.25]
+- _Npc<Bozai>:
+    coord: [-3750,2874]
+    comment: 8th Heroine, Forgotten Sword
+    notes: Talk 3 times
 - _Shop<Food shop>:
     icon: shop
     comment: Buy durians

@@ -20,7 +20,7 @@
     comment: Drownwarp
 - _Korok::N22
 - _Boss::Hinox::Red:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [3248.5, 1341]
 - _Korok::N23:
     comment: Do it beford hitting Naydra, else you'll be teleported

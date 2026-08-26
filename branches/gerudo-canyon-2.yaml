@@ -7,7 +7,7 @@
     coord: [-1716.75,1724.75]
     icon: medoh-done
 - _Boss::Hinox::Blue:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [-1698, 1776.5]
 - _Korok::C88:
     comment: Drownwarp

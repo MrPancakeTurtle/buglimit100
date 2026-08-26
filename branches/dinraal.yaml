@@ -7,7 +7,7 @@
 - _Korok::K26
 - _Korok::K19
 - _Boss::Hinox::Blue:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [-436, -2006]
 - _Korok::K11
 - Start H22:
@@ -48,7 +48,7 @@
 - _Korok::K07
 - _Korok::K08
 - _Boss::Hinox::Blue:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [340, -3113]
 - _Shrine::KetohWawai:
     comment: Get ancient core in shrine
@@ -148,7 +148,7 @@
     comment: For Salvager chest and Kilton
     coord: [2681.75, -3467]
 - _Boss::Hinox::Black:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [2915, -3560]
 - Tree Launch to A01:
     coord: [2956.5,-3574.5]
@@ -217,7 +217,7 @@
     notes: Stalhorse, Pictured! ## NOTE: Would be a colon, but the parser doesn't like that :(
     coord: [3931.5, -2344.5]
 - _Boss::Hinox::Stal:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [4088.5, -2242.5]
 - _Korok::A28
 - _Korok::A29:

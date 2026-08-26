@@ -60,7 +60,7 @@
 - _Korok::W62
 - _Korok::W67
 - _Boss::Molduga:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3) 
     coord: [-3785, 3658]
 - _Korok::W57
 - _Korok::W56

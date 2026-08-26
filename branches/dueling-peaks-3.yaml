@@ -5,7 +5,7 @@
     comment: Use cryonis to go acros the river
 - _Korok::D17
 - _Boss::Talus::Stone:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [1477, 1334]
 - _Korok::D18
 - _Korok::D19
@@ -66,7 +66,7 @@
 - _Korok::N05
 - _Korok::N06
 - _Boss::Hinox::Blue:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [2983, 788]
 - Rock of Z51:
     coord: [3211.5,702.5]
@@ -142,7 +142,7 @@
 - _Shrine::ShaiYota:
     comment: Grab flameblade in shrine
 - _Boss::Hinox::Blue:
-    comment: Use 3 fury
+    comment: .fury(FURY 1-3)
     coord: [4445, 359]
 - _Korok::Z58
 - _Material<Lizalfos Tail,3>:
