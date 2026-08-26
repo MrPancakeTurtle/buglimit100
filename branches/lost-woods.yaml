@@ -10,27 +10,30 @@
     coord: [258.375, -2255.375]
 - Talk to .npc(Walton):
     icon: npc
-    notes: Apple, Sunshroom, Trout, Hoof, Pumpkin
+    notes: Apple, Sunshroom, Trout, Lynel Hoof, Pumpkin
+    comment: Drop all items in a single throw
     coord: [420, -2180]
 - .rune(Activate Keo Ruug):
     coord: [475.5, -2159.75]
 - Talk to .npc(Hestu):
-    comment: 7 weapon, 6 bow, 14 shield
+    comment: 7 weapon, 6 bow, 15 shield
     icon: hestu
     coord: [463, -2110]
 - Talk to .npc(statue):
     icon: link
-    notes: 6 heart containers
+    notes: 7 heart containers
     coord: [417.75, -2178.75]
 - .important(Master Sword):
     icon: equipment
     coord: [434.25, -2110.75]
 - _Material<Silent Princess,1>:
+    icon: malice
     coord: [430.375, -2115]
 - Talk to .npc(Kula):
     icon: npc
     notes: A Freezing Rod
     coord: [420.75, -2135.125]
+    comment: Throw rod now
 - Talk to .npc(Peeks):
     icon: npc
     notes: Legendary Rabbit Trial
@@ -38,15 +41,19 @@
 - _Shop<Buy Rushrooms>:
     coord: [432.875, -2179.125]
 - _Material<Rushroom,4>:
+    icon: purple
     comment: from above step
 - _Shop<Buy all arrows>:
     coord: [418.5, -2183.375]
 - Sell ores:
     comment: All but opal
     icon: shop
-- _Material<Restless Cricket,10>:
+- _Material<Restless Cricket>:
     comment: On the way to Oaki
+    notes: You should have 10 crickets
     coord: [156.5, -2346]
+- _Material<Courser Bee Honey>:
+    coord: [178.25,-2311.5]
 - _Shrine::DaagChokah:
     comment: Grab core
 - _Warp::Shrine::KeoRuug
@@ -74,4 +81,4 @@
 - _Korok::A38
 - _Korok::A34
 - _Warp::Shrine::ShoDantu:
-    color: rgb(26, 204, 2400)
+    color: red

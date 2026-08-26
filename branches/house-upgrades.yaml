@@ -1,3 +1,7 @@
+- Talk to .npc(Pruce):
+    comment: Sell all Ores but Opal and amber
+    icon: npc
+    coord: [3360,2173]
 - _Equipment::Weapon<Iron Sledgehammer>:
     coord: [3326.5, 2287.5]
 - _Tod::Noon:
@@ -23,4 +27,5 @@
     comment: 3 truffles for food
     icon: npc
     coord: [3778.25, 2134.875]
-- _Warp::Shrine::DaqoChisay
+- _Warp::Shrine::DaqoChisay:
+    color: white

@@ -1,7 +1,3 @@
-- Talk to .npc(Danda):
-    comment: Sell ores
-    icon: npc-gerudo
-    coord: [-3860.25, 2911.5]
 - _Shop<Buy Everything>:
     coord: [-3856.5, 2915.5]
 - Talk to .npc(Riju):
@@ -27,16 +23,13 @@
 - Enter Naboris:
     icon: naboris-enter
     counter: .dungeon-entry(SPLIT)
-- .boss(Inside Divine Beast):
-    comment: .gale()
-    gale: 2
+- .boss(Complete Divine Beast):
+    comment: Use 3 Gale
     icon: tots
-- _Snap<Guardian Scout>:
-    comment: Guardian Slideshow
-    notes: Before final terminal
 - _Snap<Thunderblight>
 - .boss(Thunderblight):
     icon: calamity
+    comment: 2 Solo, stasis -> 2 body + 5 Head
     notes: .link([1-cycle strat]https://youtu.be/fcDLoHGBqCU?t=4311)
 - .important(Urbosa's Fury):
     icon: naboris-done
@@ -48,12 +41,16 @@
     icon: npc
     notes: Talk twice for both boots
     coord: [-3763, 2860.75]
+- _Tod::Noon:
+    coord: [-3833.75,2947.75]
+    icon-map: 0
 - Talk to .npc(Riju):
     icon: npc-gerudo
     coord: [-3882, 2961.75]
 - Examine Thunder Helm:
     comment: Select "I want it!"
     icon: tots
+    coord: [-3873.75,2971.5]
     notes: The Thunder Helm
 - Talk to .npc(Liana):
     icon: npc-gerudo

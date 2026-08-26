@@ -2,50 +2,64 @@
     icon: chest-special
     coord: [-1076.75, -2672.25]
 - .important(Use all Spirit Orbs):
-    comment: 27 hearts
+    comment: Go to 27 hearts
     icon: tots
     coord: [-1063.5, -2691]
-- _Korok::K09:
-    comment: .gale()
-    gale: 1
+- _Korok::K09
 - _Warp::Shrine::TalohNaeg
 - Talk to .npc(Impa):
     comment: For tunic + memory
     icon: npc-sheika-female
-    notes: Check map here for 100%
+    notes: Check map here for 100%, use this to get locations missed .link([Map]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
     coord: [1777, 985.5]
 - _Tod::Noon:
     coord: [1799.5, 1015.5]
 - Talk to .npc(Koko):
     comment: .boss(4 Quests)
     icon: npc-sheika-female
-- _Shop<Sell all non-important items>:
-    comment: Rubber clothes and ore except opal
-    coord: [1786, 1029]
+- _Tod::Night:
+    comment: For Energetic Rhino Beetle
+    coord: [1799.5, 1015.5]
+- _Material<Energetic Rhino Beetle>:
+    icon: malice
+    coord: [1811.1626162938874,1049.9426078641163]
+- _Shop<only if you don't have 10K rupee>:
+    notes: Sell ores .important(but 55 opal) to have 10K
+    coord: [1793,1031]
+- _Material<Energetic Rhino Beetle>:
+    icon: malice
+    coord: [1952.25,1061.4375]
+    comment: For backup, you should have 15, If not, you can find them around Faron Tower and around trees in Necluda
 - _Warp::Shrine::MyahmAgana
 - Talk to .npc(Bolson):
     icon: npc
     notes: From the Ground Up
     coord: [3328, 2285.25]
 - _Tod::Night
-- _Warp::TechLab::Hateno
-- Talk to .npc(Symin):
-    comment: Buy all pictures
-    icon: npc
-    notes: Need about 35K rupees here or 42K if you didn't ake pictures
-    coord: [3778, 2131.25]
-- _Warp::Shrine::DahHesho
-- .item(Upgrade armour):
+- _Warp::Shrine::DahHesho:
+    notes: If you need ; Courser Bee Honey -> Warp Mogg Latan. Lizalfos Tails -> Warp Castle. Hearty Bass -> Warp Qukah Nata + Warp Faron Tower. Silent Princess -> Any Fairy
+- _Korok::A49
+- _Korok::A48
+- _Material<Silent Princess,3>:
+    icon: malice
+    coord: [4135.75, -1396]
+    comment: Backup
+- .boss(Open fairy Fountain):
     icon: tots
+    coord: [4104.25, -1376.5]
+- .item(Upgrade armour):
+    icon-doc: npc-sheika-female
     notes: Set of the Wild, Zora Armour and Champion's Tunic
-    coord: [4097.5, -1375.75]
 - Talk to .npc(Kilton):
     comment: Ask "About monsters..."
     icon: npc
     notes: Buy Horse bridle, saddle and monster extract, and get medals of honour
     coord: [4152.25, -1592.5]
+- Use gale:
+    coord: [4143,-1595]
+    icon: medoh-done
 - .boss(Listen behind window):
-    comment: A Parent's Love
+    notes: A Parent's Love
     icon: tots
     coord: [3966, -1559.5]
 - _Cook<Monster Fruitcake>:
@@ -63,15 +77,23 @@
     comment: Wedding, talk twice
     icon: npc
     coord: [3960.5, -1634]
+- _Shop<Sell all items to have 42K>:
+    notes: Sell Rubber Stuff + Climbing Gear + ores + meals
+    coord: [3964,-1634]
 - _Warp::Shrine::KeoRuug
 - Talk to .npc(Hestu):
-    comment: 2 shield, Hestu's Gift
+    comment: 1 shield, Hestu's Gift
     icon: hestu
     coord: [465.25, -2112.125]
 - Talk to .npc(Chio):
     icon: npc
     notes: The Korok Trials, check for quests now
     coord: [431.75, -2139]
+- _Warp::TechLab::Hateno
+- Talk to .npc(Symin):
+    comment: Buy all pictures
+    icon: npc
+    coord: [3778, 2131.25]
 - _Warp::Shrine::HaDahamar
 - _Memory::AshSwamp:
     comment: GG

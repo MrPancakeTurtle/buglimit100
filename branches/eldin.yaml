@@ -1,18 +1,26 @@
+- Crate Launch East to Tower:
+    coord: [1824,-1544]
+- Use gale:
+    icon: medoh-done
+    coord: [2086,-1557]
 - _Tower::Eldin:
-    comment: Box launch over
     notes: Remember you can 2-hand damage cancel spin. There are lots of deposits
       in Eldin, get as many as you can
 - _Korok::E27
 - _Boss::Talus::Igneo:
-    comment: Grab ores
+    comment: Use 3 fury, grab ores
     coord: [1775, -1810]
+- Push E26 Boulder:
+    coord: [1705,-1778]
+    icon: tots
 - _Korok::E26
 - _Memory::EldinCanyon
 - _Korok::E31
 - _Korok::E24
 - _Korok::E25
-- _Material<Fireproof Lizard,10>:
+- _Material<10 Fireproof Lizard,10>:
     coord: [1653, -1944.5]
+    comment: There a lot under rocks near Mine
 - Talk to .npc(Kima):
     comment: Get Flamebreaker Armour
     icon: npc
@@ -30,21 +38,21 @@
 - _Korok::E15
 - _Korok::E14
 - _Korok::E13
-- _Shop<Buy Goron Spice>:
+- _Shop<Item Shop>:
+    comment: Buy goron spice
     coord: [1677, -2463.25]
-- _Shop<Buy Flamebreaker Boots>:
+- _Shop<Armor shop>:
+    comment: Buy Flamebreaker boots
     coord: [1648.25, -2411.25]
 - Talk to .npc(Bludo):
     icon: npc-goron
     notes: Divine Beast Vah Rudania
     coord: [1705, -2449.5]
 - _Shrine::ShaeMosah:
-    comment: Get Arrows, Ruby and Smasher
+    comment: Get Stone Smasher in shrine
 - _Discover<Abandoned North Mine>:
     coord: [1704.25, -2711.5]
 - .boss(Use the cannon):
-    comment: .gale()
-    gale: 1
     icon: tots
     coord: [1548.5, -2902.5]
 - Talk to .npc(Yunobo):
@@ -52,41 +60,44 @@
     notes: Divine Beast Vah Rudania
     coord: [1627.5, -2928.5]
 - _Chest<Ice Arrow x10>:
+    comment: Right chest
     coord: [1640.5, -2944.5]
-- _Korok::E08:
-    comment: .gale()
-    gale: 1
+- _Korok::E08
 - _Boss::Talus::Igneo:
-    comment: Grab ores
+    comment: Use 3 fury
     coord: [1343, -3065.5]
-- _Korok::E07:
-    comment: .gale()
-    gale: 1
+- Use gale:
+    coord: [1386,-3080]
+    icon: medoh-done
+- _Korok::E07
 - _Shrine::ShoraHah:
-    notes: Get Royal Bow, Great Flameblade, Giant Ancient Core, Silver Rupee and Ice
-      Arrow x10 in shrine
+    notes: Get Royal Bow and ice arrows in shrine
 - _Korok::E10:
     comment: Use minecart
 - _Korok::E11
 - _Korok::E09
 - _Boss::Talus::Igneo:
-    comment: Grab ores
+    comment: Use stone smasher
     coord: [2147, -3004.5]
 - _Korok::E06
 - _Warp::Shrine::ShaeMosah:
     color: rgb(240, 221, 580)
 - Talk to .npc(Bludo):
     comment: Daruk memory
+    notes: Divine Beast Vah Rudania
     icon: npc-goron
     coord: [1705, -2448]
 - _Korok::E16
+- Use gale:
+    coord: [1882,-2463]
+    icon: medoh-done
 - _Korok::E17
-- _Shrine::DaqaKoh:
-    comment: .gale()
-    gale: 1
+- Use gale:
+    icon: medoh-done
+    coord: [1881.436431394428,-2391.47969601835]
+- _Shrine::DaqaKoh
 - Kill .enemy(2 moblins):
-    comment: .fury()
-    fury: 3
+    comment: Use Ancient Short Sword or 3 Fury if refilled
     icon: tots
     coord: [2133, -2290]
 #TODO: FIX IF BROKEN
@@ -94,6 +105,7 @@
     icon: rudania-enter
     notes: Use crates and smash ores where possible
     counter: .dungeon-entry(SPLIT)
+    comment: You can use 2-3 ancient arrow to kill guardians
     movements:
     - to: [2257, -2378]
     - to: [2322.5, -2356]
@@ -104,8 +116,7 @@
     - to: [2783, -2601.5]
     - to: [2797, -2657]
 - .boss(Complete Divine Beast):
-    comment: .gale()
-    gale: 2
+    comment: Use 1 gale
     icon: tots
 - _Snap<Fireblight>
 - .boss(Fireblight):
@@ -143,6 +154,7 @@
 - _Equipment::Weapon<Drillshaft>:
     coord: [1970, -2211]
 - Talk to .npc(Dugby):
+    comment: Throw Drillshaft after
     icon: npc-goron
     notes: Death Mountain's Secret
     coord: [1793.5, -2249]
@@ -152,22 +164,30 @@
 - .item(Take meat up hill):
     icon: tots
     coord: [1806.5, -1892.5]
-- _Shrine::KayraMah:
-    comment: Grab ruby and bomb arrows
+- _Shrine::KayraMah
+- Push E20 Boulder:
+    icon: tots
+    coord: [1971.436431394428,-2168.47969601835]
 - _Korok::E20
 - _Boss::Talus::Igneo:
-    comment: Grab ores
+    comment: Use 3 fury
     coord: [2136, -2176.5]
 - _Korok::E21
+- Use gale:
+    coord: [2154,-2109.5]
+    icon: medoh-done
 - _Korok::E22
 - _Boss::Talus::Igneo:
+    comment: Use stone smasher
     coord: [2364, -2001.5]
-- _Korok::E28
-- _Korok::E23:
-    comment: .gale()
-    gale: 3
+- _Korok::E28:
+    notes: Use gerudo bow
+- Use gale:
+    coord: [2277,-1837]
+    icon: medoh-done
+- _Korok::E23
 - _Discover<Shadow Hamlet Ruins>:
     coord: [3044, -2289.5]
 - _Korok::E12
-- _Warp::Shrine::KemaZoos:
-    color: rgb(171, 49, 12)
+- _Warp::Shrine::SohKofi:
+    color: purple

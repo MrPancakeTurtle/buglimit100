@@ -1,13 +1,12 @@
 - Glide down to raft:
-    icon: korok
+    icon: tots
     coord: [4232, 2442]
-- _Korok::N66
 - _Shrine::ChaasQeta:
-    comment: .important(GET CLIMBING GEAR)
-    icon: camera-elite
+    comment: Eat attack up food, .important(GET CLIMBING GEAR)
     notes: Strat is ice arrows, EOD spin attack, repeat. When you have only 1 ice
       arrow, use shock arrows instead. Throw EOD for crit. Pick up battleaxe, sword
       and parts.
+- _Korok::N66
 - Sail to Eventide:
     icon: tots
     notes: Drop .important(Sword, 4 arrows and traveller's bow)
@@ -16,7 +15,7 @@
     comment: Don't whistle sprint or you'll wake up the hinox
     icon: npc
 - _Boss::Hinox::Blue:
-    comment: Kill with sword
+    comment: Kill with Guardian Sword
     coord: [4533, 3710]
 - Return first orb:
     comment: Get durians from tree
