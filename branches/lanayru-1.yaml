@@ -118,6 +118,7 @@
     icon: ruta-enter
     counter: .dungeon-entry(SPLIT)
     comment: .gale(GALE 1-3)
+    coords: [3662.40, 315.66, -175.42]
 - _Snap<Waterblight>:
     icon-map: null
 - .important(Waterblight):
