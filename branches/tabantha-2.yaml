@@ -39,11 +39,12 @@
     comment: .gale(GALE 1)
 - _Korok::T35
 - _Shrine::TenaKosah:
-    comment: Grab axe in shrine
+    comment: 3x Barb - Major Test of Strength - Use previous Axe - Grab Axe 
 - _Memory::AncientColumns
 - _Korok::T37
 - _Korok::T32
-- _Shrine::KahOkeo
+- _Shrine::KahOkeo:
+    comment: run + bomb, bomb for flying platform, stasis, bomb arrow, bomb to redirect
 - _Korok::T36
 - _Korok::R33
 - _Tod::Morning:
@@ -76,4 +77,5 @@
 - _Discover<Tanagar Canyon Course>:
     coord: [-3134.5,-679]
 - _Korok::R12
-- _Warp::Shrine::ZeKasho
+- _Warp::Shrine::TahnoOah:
+    color: rgb(173, 48, 240)

@@ -41,6 +41,7 @@
     coord: [1877.25,2400.5]
 - _Korok::D55:
     comment: .gale(GALE 2)
+- _Korok::F01
 - _Korok::F02
 - _Korok::F04
 - _Korok::F03
@@ -61,5 +62,5 @@
 - _Korok::F15
 - _Korok::L46
 - _Korok::L58
-- _Warp::Tower::Faron:
-    color: orange
+- _Warp::Shrine::OmanAu:
+    color: rgb(9, 227, 56)

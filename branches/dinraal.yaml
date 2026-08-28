@@ -177,7 +177,7 @@
 - _Boss::Hinox::Black:
     comment: Use Savage Lynel Crusher, Grab Claymore
     coord: [3491.5, -3345]
-- _Snap::Quest<Kilton>:
+- _Snap<Kilton>:
     coord: [3244.60, 82.63, -3448.81]
     notes: It's common for the camera to not register Kilton. Take 2-3 snaps from different angles to be safe.
     comment: SNAP for quest

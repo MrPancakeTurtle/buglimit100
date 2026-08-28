@@ -143,7 +143,7 @@
 - _Chest::Special<Lightscale Trident>:
     notes: .important(DON'T THROW IT), you need it for Dagah Keek
     coord: [3332.25, -545.75]
-- _Npc::ZoraMale<KFronk>:
+- _Npc::ZoraMale<Fronk>:
     notes: A Wife Washed Away, if not here he is by the pools
     coord: [3344.75, -473]
 - _Npc::ZoraMale<Tumbo>:

@@ -96,5 +96,6 @@
 - _Warp::Shrine::HaDahamar
 - _Memory::AshSwamp:
     comment: GG
+    counter: .dungeon-complete(SPLIT)
     notes: For verifying, show 1. the map counter, 2. the quest log, 3. the Master
       Sword, 4. the Key items tab

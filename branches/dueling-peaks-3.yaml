@@ -5,14 +5,14 @@
     comment: Use cryonis to go acros the pond .gale(GALE 1)
 - _Korok::D17
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 1-3)
+    comment: .fury(FURY 1)
     coord: [1477, 1334]
 - _Korok::D18
 - _Korok::D19
 - Use gale:
     coord: [1650,1296.5]
     icon: medoh-done
-    comment: Use cryonis to go acros the oond .gale(GALE 2)
+    comment: Use cryonis to go acros the pond .gale(GALE 2)
 - _Korok::D09
 - _Tod::Morning:
     coord: [1662.25,1162.5]
@@ -60,14 +60,15 @@
     icon: npc-rito
     notes: THe Crowned Beast
     coord: [2581.9791661231975,467.7783881093628]
-- _Shrine::MezzaLo
+- _Shrine::MezzaLo:
+    comment: Mag cube, jump, mag box onto switch, mag cube and jump to end
 - _Korok::N03
 - _Korok::Z42:
     comment: Shot it from ground or go down and drownwarp
 - _Korok::N05
 - _Korok::N06
 - _Boss::Hinox::Blue:
-    comment: .fury(FURY 1-3)
+    comment: .fury(FURY 2-3)
     coord: [2983, 788]
 - Rock of Z51:
     coord: [3211.5,702.5]
@@ -75,7 +76,8 @@
 - _Korok::Z51
 - _Korok::Z53
 - _Korok::Z52
-- _Shrine::RuccoMaag
+- _Shrine::RuccoMaag:
+    comment: Hit middle, light with fire arrows
 - _Tod::Morning:
     coord: [3333.465668136854,418.3982561839239]
 - _Material<Lizalfos Tail,1>:
@@ -142,7 +144,7 @@
       - [4167.25,453.5]
       - [4230.5,306.75]
 - _Shrine::ShaiYota:
-    comment: Grab flameblade in shrine
+    comment: Blessing - Great Flameblade
 - _Boss::Hinox::Blue:
     comment: .fury(FURY 1-3)
     coord: [4445, 359]
@@ -154,5 +156,5 @@
 - _Korok::Z59
 - _Korok::Z62
 - _Korok::Z61
-- _Warp::Tower::Faron:
-    color: rgb(9, 227, 56)
+- _Warp::Shrine::ZeKasho:
+   color: rgb(31, 192, 237)

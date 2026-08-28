@@ -2,7 +2,8 @@
 - _Korok::R80
 - _Korok::C86
 - _Korok::G29
-- _Shrine::DahKaso
+- _Shrine::DahKaso:
+    comment: Minor Test of Strength - Ancient Core
 - Use gale:
     coord: [-1716.75,1724.75]
     icon: medoh-done
@@ -39,7 +40,8 @@
 - _Npc::Goron<Bayge>:
     notes: Test of Will
     coord: [-2004, 1740.75]
-- _Shrine::JolooNah
+- _Shrine::JolooNah:
+    comment: Electric Arrow, Stasis, Fire Arrow
 - Use gale:
     coord: [-2039,1715]
     icon: medoh-done
@@ -71,5 +73,4 @@
     coord: [-2790.5, 2237]
 - _Discover<Gerudo Desert Gateway>:
     coord: [-2930.5, 2324]
-- _Warp::Shrine::TahnoOah:
-    color: rgb(173, 48, 240)
+- _Warp::Shrine::MonyaToma

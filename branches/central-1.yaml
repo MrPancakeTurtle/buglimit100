@@ -12,7 +12,8 @@
 - _Korok::C70
 - _Korok::C71
 - _Korok::C65
-- _Shrine::WahgoKatta
+- _Shrine::WahgoKatta:
+    comment: bomb, crate on right, 2 hits + bomb stasis
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [351, 1088]
 - _Npc<Beedle>:

@@ -113,5 +113,5 @@
     comment: next to D38
 - _Korok::D47
 - _Korok::D39
-- _Warp::Shrine::KaamYatak:
-    color: yellow
+- _Warp::Tower::Faron:
+    color: rgb(9, 227, 56)

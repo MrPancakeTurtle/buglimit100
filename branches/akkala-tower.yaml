@@ -19,4 +19,5 @@
     icon: tots
 - _Korok::A45
 - _Korok::A50
-- _Warp::Shrine::MonyaToma
+- _Warp::Shrine::KaamYatak:
+    color: yellow

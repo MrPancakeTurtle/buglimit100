@@ -46,6 +46,14 @@
   - use: ./branches/to-korok-forest.yaml
 - Lost Woods:
   - use: ./branches/lost-woods.yaml
+- Hebra:
+  - use: ./branches/hebra.yaml
+- Tabantha 2:
+  - use: ./branches/tabantha-2.yaml
+- Naydra:
+  - use: ./branches/naydra.yaml
+- Faron 2:
+  - use: ./branches/faron-2.yaml
 - Gerudo 3:
   - use: ./branches/gerudo-3.yaml
 - Rito 2:
@@ -58,26 +66,18 @@
   - use: ./branches/lanayru-2.yaml
 - Dueling Peaks 2:
   - use: ./branches/dueling-peaks-2.yaml
-- Faron 2:
-  - use: ./branches/faron-2.yaml
 - Central 3:
   - use: ./branches/central-3.yaml
+- Lake:
+  - use: ./branches/lake.yaml
+- Dueling Peaks 3:
+  - use: ./branches/dueling-peaks-3.yaml
+- Akkala Tower:
+  - use: ./branches/akkala-tower.yaml
 - Zelda's Horse:
   - use: ./branches/satori-2.yaml
 - Gerudo Canyon 2:
   - use: ./branches/gerudo-canyon-2.yaml
-- Naydra:
-  - use: ./branches/naydra.yaml
-- Dueling Peaks 3:
-  - use: ./branches/dueling-peaks-3.yaml
-- Lake:
-  - use: ./branches/lake.yaml
-- Hebra:
-  - use: ./branches/hebra.yaml
-- Tabantha 2:
-  - use: ./branches/tabantha-2.yaml
-- Akkala Tower:
-  - use: ./branches/akkala-tower.yaml
 - Forgotten Temple:
   - use: ./branches/forgotten-temple.yaml
 - Cleanup:

@@ -55,7 +55,7 @@
     icon: npc
     coord: [517, 3444.5]
 - _Shrine::KaoMakagh:
-    comment: Get bow and rupee in shrine
+    comment: Blow up rocks, get bow, mag door, get rupee
 - _Korok::L65:
     notes: Don't do an ordinal windbomb, this is bug limit
 - .item(Park horse):
@@ -78,7 +78,8 @@
 - .boss(Deposit orb):
     icon: tots
     coord: [119.5, 3850]
-- _Shrine::ShoqaTatone
+- _Shrine::ShoqaTatone:
+    comment: 3x Barb - Modest Test of Strength - Royal Broadsword
 - _Korok::L86
 - _Chest<10 Arrows>:
     coord: [-9.25,3682]
@@ -94,7 +95,8 @@
     coord: [-1069, 3786]
 - _Korok::L68
 - _Korok::L67
-- _Shrine::IshtoSoh
+- _Shrine::IshtoSoh:
+    comment: 2 bombs, activate one, jump up to last platform, activate other
 - Use gale:
     coord: [-1002,3309]
     icon: medoh-done
@@ -150,7 +152,8 @@
 - _Korok::L38
 - _Korok::L24
 - _Korok::L25
-- _Shrine::YaNaga
+- _Shrine::YaNaga:
+    comment: Blow up ceiling, then elevator
 - _Npc::ZoraFemale<Zora Lady>:
     notes: A Wife Washed Away
     coord: [-221, 2564]
@@ -207,7 +210,8 @@
 - _Korok::L59
 - _Korok::L60
 - _Korok::L52
-- _Shrine::PumaagNitae
+- _Shrine::PumaagNitae:
+    comment: Minor Test of Strenght - Boomerang
 - _Korok::L53
 - _Korok::L55
 - _Korok::L57
@@ -244,7 +248,8 @@
 - Offer scale:
     icon: material
     coord: [877.5,2359]
-- _Shrine::ShaeKatha
+- _Shrine::ShaeKatha:
+    comment: Blessing - Thunderspear
 - Use gale:
     coord: [848.979511319345,2366.3844853902974]
     icon: medoh-done
@@ -274,5 +279,7 @@
 - _Korok::L03
 - _Korok::L10
 - _Korok::L32
-- _Warp::Shrine::MonyaToma:
-    color: rgb(227, 11, 180)
+- _Warp::Tower::DuelingPeaks:
+    color: rgb(211, 237, 12)
+# - _Warp::Shrine::MonyaToma:
+#     color: rgb(227, 11, 180)

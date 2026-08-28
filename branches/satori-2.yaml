@@ -32,4 +32,5 @@
 - _Npc<Gourmet Meat Guy>:
     coord: [-1432.50, 137.72, 1264.50]
     comment: Trott
-- _Shrine::RotaOoh
+- _Shrine::RotaOoh:
+    comment: Rotating wall

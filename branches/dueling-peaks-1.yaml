@@ -14,11 +14,11 @@
 - _Korok::D40
 - Climb up cliff
 - _Shrine::SheeVaneer:
-    comment: Top - bottom 5 1 2 4 2
+    comment: Bottom-Right->up/right, left->down/left, up->right, up->down/left, right->up/right
 - _Korok::D49
 - Drop down
 - _Shrine::SheeVenath:
-    comment: Top - bottom 2 4 1 3 5
+    comment: Bottom-Left->up/right, right->down/right, left->left, up->up/right, right->down/left
 - Get rare ore (sapphire):
     icon: chest
     coord: [1235.94, 345.84, 1952.43]
@@ -33,7 +33,8 @@
     notes: Shoot them down off of the cliff
     coord: [1650, 1906.5]
     icon: malice
-- _Shrine::HaDahamar
+- _Shrine::HaDahamar:
+    comment: Cryo
 - _Npc<Beedle>:
     comment: Sell all ores
     icon: shop
@@ -99,7 +100,8 @@
     notes: Don't beat the shrine yet
     coord: [1836.5, 892]
 - _Korok::Z50
-- _Shrine::DakaTuss
+- _Shrine::DakaTuss:
+    comment: Mag
 - _Discover<Goponga Village Ruins>:
     comment: To get 100% on map. Run over
     coord: [1627, 277]

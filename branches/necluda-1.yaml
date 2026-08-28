@@ -45,7 +45,8 @@
     icon: tots
     coord: [2514.75, 1531.5]
 - _Korok::N28
-- _Shrine::KamUrog
+- _Shrine::KamUrog:
+    comment: Stasis, ride up the big circle
 - _Material<Hearty Radish,1>:
     coord: [2597.5, 1612.5]
 - _Korok::N36

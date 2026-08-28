@@ -195,5 +195,5 @@
     icon: tots
     coord: [3461.5, 3340.5]
 - _Shrine::KahYah
-- _Warp::Shrine::OmanAu:
-    color: rgb(9, 227, 56)
+- _Warp::Shrine::ShoDantu:
+    color: red

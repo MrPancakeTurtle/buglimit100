@@ -18,7 +18,8 @@
     comment: .gale(GALE 1)
 - _Korok::H38
 - _Korok::H59
-- _Shrine::RinOyaa
+- _Shrine::RinOyaa:
+    comment: Grab box, 3 hits
 - _Tod::Morning:
     coord: [-1666, -2552.5]
 - _Npc<Stalhorse lady in stable>:
@@ -45,7 +46,8 @@
     icon: tots
     notes: .link([Snowball strat]https://youtu.be/CUhW2MnjNXU?t=14968)
     coord: [-2462, -2287]
-- _Shrine::GeeHarah
+- _Shrine::GeeHarah:
+    comment: Shoot up, (run left, shoot left,) run right, stasis, shoot both - (Diamond)
 - _Warp::Tower::Hebra
 - _Material<Lizalfos Tail>:
     icon: malice
@@ -64,7 +66,7 @@
     comment: .gale(GALE 3)
 - _Korok::H73
 - _Shrine::DunbaTaag:
-    comment: Grab bow and thunderblade in shrine
+    comment: Stasis in front. Grab barrel full stasis, grab bow, two hit boulder, grab thunderblade, try one bomb arrow middle top 3/4th 
 - _Warp::Tower::Hebra:
     color: blue
 - _Boss::Talus::Rare:
@@ -95,7 +97,8 @@
     coord: [-3283.5,-2632.5]
 - Tree Launch to Shrine:
     coord: [-3193.189063091947,-3016.104886374033]
-- _Shrine::ShadaNaw
+- _Shrine::ShadaNaw:
+    comment: Grab box 3 hits
 - _Korok::H20
 - Tree Launch up to H28:
     coord: [-2924.5,-3145]
@@ -105,7 +108,7 @@
     comment: Watch chest land
     icon: tots
 - _Shrine::GomaAsaagh:
-    comment: Grab axe and claymore in shrine
+    comment: 3x Barb - Major Test of Strength - Grab Axe and Claymore
 - _Korok::H35
 - _Chest::Special<Salvager's Trousers>:
     coord: [-2608.5, -2653]
@@ -120,7 +123,8 @@
     comment: .fury(FURY 1-3)
     coord: [-2153, -3081]
 - _Korok::H30
-- _Shrine::RokUwog
+- _Shrine::RokUwog:
+    comment: Left and hit boxes, straight hit boxes, bomb arrow barrels, open key chest
 - _Korok::H13
 - _Korok::H21
 - Tree Launch to H12
@@ -129,7 +133,7 @@
     color: green
 - _Korok::H27
 - _Shrine::MozoShenno:
-    comment: Grab axe and diamond in shrine
+    comment: 3x Barb - Major Test of Strength - Use previous Axe - Grab Axe and Diamond
 - _Korok::H26
 - _Korok::H25
 - _Warp::Shrine::ShadaNaw:
@@ -146,7 +150,7 @@
     coord: [-4268, -3775]
 - _Korok::H01
 - _Shrine::HiaMiu:
-    comment: Grab axe in shrine
+    comment: 3x Barb - Major Test of Strength - Use previous Axe - Grab Axe and Sapphire
 - _Discover<Sherfin's Secret Hot Spring>:
     coord: [-4324, -3491]
 - Use gale:
@@ -171,7 +175,7 @@
     comment: Leviathan Bones
     coord: [-3930, -3623]
 - _Shrine::ToQuomo:
-    comment: Grab claymore in shrine
+    comment: Blessing - Claymore
 - _Korok::H03
 - _Korok::H17:
     movements:
@@ -215,7 +219,7 @@
 - .boss(Enter Cave):
     coord: [-3985,-2545]
 - _Shrine::MakaRah:
-    comment: Grab bomb arrows in shrine
+    comment: Light torch, Shock arrow water, (10 bombs in chest), hug left side, stasis
 - _Warp::Shrine::ShadaNaw:
     color: rgb(31, 192, 237)
 - _Boss::Talus::Frost:
@@ -250,7 +254,8 @@
     coord: [-2763,-2513]
 - _Korok::H51
 - _Korok::H56
-- _Shrine::LannoKooh
+- _Shrine::LannoKooh:
+    comment: Blessing - Gold Rupee
 - _Korok::H64
 - _Korok::H65
 - _Korok::T03:

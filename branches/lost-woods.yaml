@@ -78,5 +78,5 @@
     coord: [3987.75, -1602.125]
 - _Korok::A38
 - _Korok::A34
-- _Warp::Shrine::ShoDantu:
-    color: red
+- _Warp::Shrine::MonyaToma:
+    color: rgb(227, 11, 180)

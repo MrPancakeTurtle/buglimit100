@@ -32,7 +32,8 @@
     movements:
     - to: [3937, 1338.5]
       warp: True
-- _Shrine::JitanSami
+- _Shrine::JitanSami:
+    comment: Blessing - Frostspear
 - _Tod::Morning:
     notes: after this farming, you should have 4 horn, 2 scale, 2 claw and 2 fang
     coord: [3924.5,1298]
@@ -67,6 +68,9 @@
     icon: tots
     coord: [2652.5,1166]
 - _Shrine::DowNaeh:
+    comment: Jump to middle, all 3 chests, grab box
     notes: You should have 1 scale, 1 fang, 2 horn and 1 claw, if you have more, it's ok
-- _Warp::Tower::DuelingPeaks:
-    color: rgb(211, 237, 12)
+- _Warp::Tower::Faron:
+    color: orange
+# - _Warp::Shrine::ShoDantu:
+#     color: red

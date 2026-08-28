@@ -1,7 +1,6 @@
 - _Boss::Talus::Stone:
     comment: Use hammer
     coord: [1225, 2182]
-- _Korok::F01
 - _Korok::F05
 - _Material<Ancient Part>:
     notes: What part you get is RNG dependent
@@ -54,7 +53,7 @@
 - _Material<Mighty Bananas,3>:
     coord: [1577, 3557.5]
 - _Shrine::ShaiUtoh:
-    comment: Get core in shrine
+    comment: Stasis, run up, mag chest, grab core
 - _Equipment::Weapon<Woodcutter's Axe>:
     comment: on top of horse head
     notes: Thunder Magnet
