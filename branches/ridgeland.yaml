@@ -16,7 +16,8 @@
 - _Material<Endura Shroom,3>
 - Tree Launch to Monya Toma:
     coord: [-1241,-1577]
-- _Shrine::MonyaToma
+- _Shrine::MonyaToma:
+    comment: face away slam attack with orb
 - _Korok::K23
 - _Discover<Serenne Stable>:
     coord: [-1531, -1742.5]
@@ -29,7 +30,7 @@
     coord: [-1961,-1487.5]
     icon: tots
 - _Shrine::MaagNorah:
-    comment: Grab chest in shrine
+    comment: Blessing - Silver Rupee
 - _Korok::R03:
     comment: Go down one floor
 - _Boss::Talus::Luminous:
@@ -72,7 +73,8 @@
     coord: [-2387,-1109]
 - Place orbs:
     icon-doc: tots
-- _Shrine::TohYahsa
+- _Shrine::TohYahsa:
+    comment: Bomb twice, grab rubber armor, place mag on switch, bomb the rest
 - _Korok::R14
 - Shroom launch to New horse:
     icon-doc: tots
@@ -111,4 +113,4 @@
     comment: Geggle
     notes: Between 8am and midnight
 - _Shrine::ShaeLoya:
-    comment: Grab bow and topaz
+    comment: Stasis orb, shoot it, shoot ropes, grab bow, shoot switch, glide to topaz

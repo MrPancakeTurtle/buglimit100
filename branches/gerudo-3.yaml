@@ -23,7 +23,8 @@
 - .boss(Shoot Arrow):
     icon: tots
     coord: [-3582.5, 1986.25]
-- _Shrine::SasaKai
+- _Shrine::SasaKai:
+    comment: Modest Test of Strength 
 - .item(Take ice block):
     icon: material
     notes: The Perfect Drink
@@ -103,17 +104,19 @@
 - .item(Shoot 4 torches):
     icon: tots
     coord: [-4796, 2825]
-- _Shrine::ThoKayu
+- _Shrine::ThoKayu:
+    comment: Blessing - Golden Bow
 - _Korok::W25:
     comment: Get 2 voltfruit
 - _Warp::Shrine::KemaZoos
-- _Shrine::KemaZoos
+- _Shrine::KemaZoos:
+    comment: Shock Arrow 
 - _Warp::Shrine::HawaKoth
 - _Shrine::HawaKoth:
-    comment: Grab sapphire in shrine
+    comment: Shock Arrow, mag gear + spin, grab sapphire, mag gear into position, then spin
 - _Warp::Shrine::MisaeSuma
 - _Shrine::MisaeSuma:
-    comment: Grab diamond in shrine
+    comment: Blessing - Diamond
 - _Warp::Shrine::DaqoChisay
 - _Tod::Noon:
     coord: [-3806.226960859607,2832.3694185482227]
@@ -138,7 +141,8 @@
     icon: tots
     notes: .link([Diagram]https://media.discordapp.net/attachments/303990410500374528/790049019690614794/Heroines_Map_Directions.png?width=811&height=676)
     coord: [-2654, 2824]
-- _Shrine::KorshOhu
+- _Shrine::KorshOhu:
+    comment: Blessing - Flamespear
 - Use gale:
     coord: [-2690.25,2861.75]
     icon: medoh-done

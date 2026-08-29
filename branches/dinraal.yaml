@@ -16,7 +16,8 @@
 - _Korok::H22
 - _Korok::H14
 - _Korok::H05
-- _Shrine::ShaGehma
+- _Shrine::ShaGehma:
+    comment: mag+stasis for key
 - _Korok::H06
 - _Korok::H15
 - Tree Launch to Maze:
@@ -27,7 +28,7 @@
     icon: tots
     coord: [-772.125, -3528.25]
 - _Shrine::QazaTokki:
-    comment: .important(Get Leg Wraps)
+    comment: Blessing - .important(Barbarian Leg Wraps)
 - _Tod::Morning:
     comment: Make morning twice
     notes: To make dragon appear
@@ -53,7 +54,7 @@
     comment: .fury(FURY 1-3)
     coord: [340, -3113]
 - _Shrine::KetohWawai:
-    comment: Get ancient core in shrine
+    comment: Blessing - Ancient Core
 - Use gale to go out:
     coord: [325,-3117]
     icon: medoh-done
@@ -144,7 +145,7 @@
     icon: tots
     coord: [2700.5, -3481]
 - _Shrine::GoraeTorr:
-    comment: Grab Frostblade in shrine
+    comment: Blessing - Great Frostblade
 - _Tod::Night:
     comment: For Salvager chest and Kilton
     coord: [2681.75, -3467]
@@ -162,7 +163,8 @@
     coord: [3301,-3583]
     icon: medoh-done
     comment: .gale(GALE 1)
-- _Shrine::ZunaKai
+- _Shrine::ZunaKai:
+    comment: Blessing - Flameblade
 - .important(Spawn Salvager Chest):
     comment: Watch north land
     icon: tots
@@ -212,7 +214,7 @@
     icon: link
     coord: [3758.375, -2676.25]
 - _Shrine::TutsuwaNima:
-    comment: Ice arrows + Axe, pick up parts
+    comment: Major Test of Strength - Ice arrows + Axe, pick up parts
 - _Tod::Night:
     coord: [3774.25, -2637.125]
     comment: for Stalhorse and Stalnox
@@ -231,7 +233,8 @@
     coord: [4447, -2569]
 - _Korok::A24
 - _Korok::A23
-- _Shrine::KatosaAug
+- _Shrine::KatosaAug:
+    comment: Apparatus
 - _Npc<Hoz>:
     comment: Talk twice
     notes: A Shady Customer
@@ -252,6 +255,6 @@
     icon: medoh-done
     comment: .gale(GALE 2)
 - _Shrine::TuKaloh:
-    comment: .important(GET BARBARIAN HELM)
+    comment: Blessing - .important(Barbarian Helm)
 - _Warp::Shrine::KatahChuki:
     color: red

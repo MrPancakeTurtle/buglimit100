@@ -50,6 +50,8 @@
   - use: ./branches/hebra.yaml
 - Tabantha 2:
   - use: ./branches/tabantha-2.yaml
+- Hateno 2:
+  - use: ./branches/hateno-2.yaml
 - Naydra:
   - use: ./branches/naydra.yaml
 - Faron 2:
@@ -58,8 +60,6 @@
   - use: ./branches/gerudo-3.yaml
 - Rito 2:
   - use: ./branches/rito-2.yaml
-- Hateno 2:
-  - use: ./branches/hateno-2.yaml
 - Letter Quest:
   - use: ./branches/letter-quest.yaml
 - Lanayru 2:

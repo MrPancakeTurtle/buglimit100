@@ -10,7 +10,8 @@
     comment: 4 endura, 2 hearty
     icon: material
     coord: [829, 235]
-- _Shrine::KayaWan
+- _Shrine::KayaWan:
+    comments: cryo jump
 - _Cook<Cook food>:
     notes: 3x 2 endura carrots, 1x 3 endura shroom, 1x 2 endura shroom, 2x 1 endura
       shroom, 2x 5 hearty radish + durian
@@ -60,7 +61,8 @@
 - Tree Launch to Shrine:
     comment: Else, cryonis across river + fire arrow
     coord: [1477, -282]
-- _Shrine::ShehRata
+- _Shrine::ShehRata:
+    comment: shoot with bomb arrows
 - Tree launch to beach:
     coord: [1542.5,-373]
 - Tree launch to plateau:
@@ -71,7 +73,7 @@
     comment: .gale(GALE 1)
 - _Tower::Lanayru
 - _Shrine::SohKofi:
-    comment: Take bow in chest
+    comment: Minor Test of Strength - Knight's Bow
 - Tree Launch to Z14:
     coord: [2180,-264]
 - _Korok::Z14
@@ -106,7 +108,8 @@
     coord: [3326.75, -494.75]
 - _Material<Fleet-Lotus Seeds,4>:
     coord: [3328.75, -518.75]
-- _Shrine::NeezYohma
+- _Shrine::NeezYohma:
+    comment: cryo the ball down and hope
 - _Cook<Cook speed food>:
     notes: 13 speed food, use lotus when only 1 carrot
     coord: [3302.25, -497.5]
@@ -191,7 +194,7 @@
 - _Discover<East Sokkala Bridge>:
     coord: [3859, -1092.5]
 - _Shrine::DahHesho:
-    comment: Grab axe
+    comment: Minor Test of Strength
 - _Korok::A47
 - _Npc<Hudson>:
     comment: Talk twice
@@ -217,7 +220,8 @@
 - _Equipment::Weapon<Wooden Mob>:
     notes: For Akkala Tech Lab, throw it after
     coord: [3160,-1692.5]
-- _Shrine::ZeKasho
+- _Shrine::ZeKasho:
+    comment: Apparatus, shield lazers
 - .boss(Take horse):
     coord: [3139.25, -1689.25]
 - _Korok::A30

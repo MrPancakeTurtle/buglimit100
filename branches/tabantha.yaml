@@ -70,7 +70,8 @@
 - _Shop<Item Shop>:
     comment: Buy everything
     coord: [-3643.5, -1816.5]
-- _Shrine::AkhVaquot
+- _Shrine::AkhVaquot:
+    comment: arrow two right ones, hit both left ones 3 times, arrow middle ones once during it
 - _Npc::Rito<Kaneli>:
     comment: Owl Elder
     coord: [-3627.20, 323.57, -1830.81]
@@ -81,7 +82,7 @@
     coord: [-3628.5,-1860]
 - _Korok::T04
 - _Shrine::ShaWarvo:
-    comment: Drop Soldier's Bow
+    comment: Glide up - Drop Soldier's Bow
 - _Korok::T02
 - _Equipment::Bow<Swallow Bow>:
     coord: [-3789.25, -2324.125]
@@ -139,5 +140,6 @@
 - _Material<Hearty Truffle,1>:
     coord: [-4025.25, -1754.25]
 - _Korok::T13
-- _Warp::Shrine::KehNamut:
-    color: rgb(9, 227, 56)
+- _Warp::TechLab::Hateno:
+    color: rgb(255, 71, 139)
+    notes: If you haven't bought Ancient Short Sword, warp to Akkala Tech Lab and buy it

@@ -35,7 +35,7 @@
     coord: [1954.75, 2602]
 - _Korok::D59
 - _Shrine::TotoSah:
-    comment: Grab shield in shrine
+    comment: Apparatus across, then put stairs horizontal and boost -  Grab shield in shrine
 - _Korok::D56
 - Tree Launch to D55:
     coord: [1877.25,2400.5]

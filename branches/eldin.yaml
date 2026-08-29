@@ -49,7 +49,7 @@
     notes: Divine Beast Vah Rudania
     coord: [1705, -2449.5]
 - _Shrine::ShaeMosah:
-    comment: Get Stone Smasher in shrine
+    comment: Stasis switch - Stone Smasher in left chest - Fire Arrow Leaves - Stand on Switch - Get key - Stand on back switch
 - _Discover<Abandoned North Mine>:
     coord: [1704.25, -2711.5]
 - .boss(Use the cannon):
@@ -73,7 +73,7 @@
     comment: .gale(GALE 3)
 - _Korok::E07
 - _Shrine::ShoraHah:
-    notes: Get Royal Bow and ice arrows in shrine
+    notes: Carry the flame, get Royal Bow in chest, torch to spin, and ice arrows in last chest
 - _Korok::E10:
     comment: Use minecart
 - _Korok::E11
@@ -98,7 +98,8 @@
     icon: medoh-done
     coord: [1881.436431394428,-2391.47969601835]
     comment: .gale(GALE 2)
-- _Shrine::DaqaKoh
+- _Shrine::DaqaKoh:
+    comment: Stasis
 - Kill .enemy(2 moblins):
     comment: Use Ancient Short Sword or .fury(FURY 1-3) if refilled
     icon: tots
@@ -161,7 +162,8 @@
 - .item(Take meat up hill):
     icon: tots
     coord: [1806.5, -1892.5]
-- _Shrine::KayraMah
+- _Shrine::KayraMah:
+    comment: Just run (stasis)
 - Push E20 Boulder:
     icon: tots
     coord: [1971.436431394428,-2168.47969601835]

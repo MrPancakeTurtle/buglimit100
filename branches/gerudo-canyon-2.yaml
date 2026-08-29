@@ -73,4 +73,5 @@
     coord: [-2790.5, 2237]
 - _Discover<Gerudo Desert Gateway>:
     coord: [-2930.5, 2324]
-- _Warp::Shrine::MonyaToma
+- _Warp::Shrine::MonyaToma:
+    color: orange

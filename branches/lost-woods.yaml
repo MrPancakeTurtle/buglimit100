@@ -53,23 +53,23 @@
 - _Material<Courser Bee Honey>:
     coord: [178.25,-2311.5]
 - _Shrine::DaagChokah:
-    comment: Grab core
+    comment: Blessing - Ancient Core
 - _Warp::Shrine::KeoRuug
 - _Shrine::KeoRuug:
-    notes: 1-5 and 2-3 on left, 2-1 and 2-2 on right
+    notes: 5, 3, 1, 2
 - _Npc<Damia>:
     icon: npc
     notes: The Test of Wood
     coord: [561, -2161]
 - _Shrine::MaagHalan:
-    comment: Grab giant ancient core in shrine
+    comment: Blessing - Giant Ancient Core
 - _Warp::Shrine::KeoRuug
 - _Npc<Zooki>:
     icon: npc
     notes: Trial of Second Sight
     coord: [257, -1983.5]
 - _Shrine::KuhnSidajj:
-    comment: Grab giant ancient core in shrine
+    comment: Blessing - Giant Ancient Core
 - _Warp::Shrine::DahHesho
 - _Npc<Hudson>:
     comment: Give 20 wood

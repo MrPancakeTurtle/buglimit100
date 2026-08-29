@@ -2,9 +2,10 @@
     coord: [2178,-265]
 - _Korok::E45
 - _Shrine::TahMuhl:
-    comment: Get Stone Smasher in shrine
+    comment: Blow up crates, stone smasher on right, run to finish
 - _Korok::E44
-- _Shrine::MoaKeet
+- _Shrine::MoaKeet:
+    comment: Stasis
 - _Equipment::Weapon<Double Axe>:
     coord: [2597.25, -1153]
 - _Npc<Painting guy in stable>:
@@ -30,7 +31,8 @@
     icon: tots
     coord: [2724,-1419]
 - _Korok::E39
-- _Shrine::SahDahaj
+- _Shrine::SahDahaj:
+    comment: Blow up crates x3 
 - Use gale:
     coord: [2688,-1588]
     icon: medoh-done
@@ -65,5 +67,6 @@
     - to: [1862, -1429]
     - to: [1801, -1501]
 - _Shrine::QuaRaym:
-    comment: Drink fireproof elixir until you have Flamebreaker Armor
+    comment: Shoot box, grab key, open door, shoot boulders, drop mag box to rise
+    notes: Drink fireproof elixir until you have Flamebreaker Armor
     color: red

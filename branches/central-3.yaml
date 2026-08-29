@@ -32,7 +32,7 @@
 - Tree Launch to Kaam Ya'tak:
     coord: [-683.5,835.5]
 - _Shrine::KaamYatak:
-    comment: Grab EOD and diamond in shrine
+    comment: Push door with Mag, grab EOD first chest on left and diamond at the end
 - _Korok::C53
 - _Discover<Ancient Tree Stump>:
     coord: [-1111.9779124572424,432.3401915161885]
@@ -88,7 +88,8 @@
 - _Korok::D44
 - _Korok::D31
 - _Korok::D32
-- _Shrine::BoshKala
+- _Shrine::BoshKala:
+    comment: bosh
 - Use gale:
     coord: [80,1610.5]
     icon: medoh-done

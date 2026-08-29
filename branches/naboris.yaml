@@ -78,6 +78,6 @@
     notes: Equip climbing gear
     coord: [-3791.5, 3121]
 - _Shrine::RaqaZunzo:
-    comment: Get Radiant Shield
+    comment: Blessing - Radiant Shield
 - _Warp::Shrine::MonyaToma:
     color: blue

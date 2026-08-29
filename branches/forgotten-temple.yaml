@@ -26,4 +26,5 @@
     icon: medoh-done
     comment: .gale(GALE 3)
 - _Korok::K13
-- _Shrine::RonaKachta
+- _Shrine::RonaKachta:
+    comment: Blessing - Great Flameblade

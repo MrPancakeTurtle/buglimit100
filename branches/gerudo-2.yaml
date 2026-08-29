@@ -13,7 +13,7 @@
 - _Korok::W50
 - _Korok::W58
 - _Shrine::DilaMaag:
-    comment: .important(GET BARBARIAN ARMOUR)
+    comment: Blessing - .important(Barbarian Armour)
 - _Tod::Noon:
     coord: [-1798.25, 3439.5]
 - .gale() out of maze:
@@ -30,7 +30,8 @@
     icon: tots
     notes: Secret of the Snowy Peaks
     coord: [-1387.5, 3497]
-- _Shrine::SumaSahma
+- _Shrine::SumaSahma:
+    comment: Blessing - Moonlight Scimitar
 - _Korok::W53
 - _Korok::W41
 - _Korok::W45

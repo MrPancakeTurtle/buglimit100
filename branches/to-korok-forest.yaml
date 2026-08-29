@@ -23,6 +23,7 @@
 - _Korok::C19
 - _Korok::C12
 - _Shrine::NamikaOzz:
+    comments: Modest Test of Strength
     notes: Grab axe and frostpear, .important(DON'T THROW THEM) you need them for The Weapon Connoisseur
 - _Korok::C09
 - _Korok::C11
@@ -88,7 +89,7 @@
 - .boss(Push Metal Door):
     coord: [-145.5,-1095]
 - _Shrine::SaasKosah:
-    comment: Grab axe
+    comment: Major Test of Strength - Flameblade
 - _Material<Lizalfos Tail,3>:
     icon: malice
     coord: [-236, -1174.75]
@@ -142,7 +143,8 @@
     coord: [1075.9375,-1128.625]
 - _Korok::K34
 - _Korok::K33
-- _Shrine::MirroShaz
+- _Shrine::MirroShaz:
+    comment: 5 hits for hole in one, then bomb arrow (Sledgehammer in chest if low)
 - Use gale:
     coord: [1239.5625,-1193]
     icon: medoh-done

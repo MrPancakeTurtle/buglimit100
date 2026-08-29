@@ -33,7 +33,7 @@
     icon: tots
     coord: [4671.5, 3742.5]
 - _Shrine::KorguChideh:
-    comment: Grab rupee in shrine
+    comment: Blessing - Gold Rupee
 - _Warp::Shrine::ShaiUtoh
 - _Npc<Beedle>:
     comment: Buy arrows

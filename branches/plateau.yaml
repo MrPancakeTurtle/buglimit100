@@ -48,6 +48,7 @@
 - _Korok::P08:
     notes: Can get this later
 - _Shrine::KehNamut:
+    comment: Cryo jump
     notes: Climb up from north side
 - _Korok::P15
 - _Korok::P16:
@@ -71,7 +72,8 @@
     coord: [-945,2324]
 - Tree Launch to Bombs:
     coord: [-676,2121]
-- _Shrine::JaBaij
+- _Shrine::JaBaij:
+    comment: Unless perfect bomb placements hammer is faster
 - Tree Launch up to ToT:
     coord: [-644,2076]
 - Paraglider:

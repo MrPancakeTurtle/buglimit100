@@ -14,7 +14,7 @@
     icon: tots
 - _Korok::F27
 - _Shrine::ShodaSah:
-    comment: Grab key and ice arrows in shrine
+    comment: Bomb, jump to left chest
 - Start F19:
     coord: [1777.25,3057.5]
     icon: tots
@@ -67,7 +67,7 @@
     coord: [2630, 2856]
     icon: tots
 - _Shrine::TawaJinn:
-    comment: Grab Thunderblade in shrine
+    comment: Blessing - Great Thunderblade
 - _Material<Fleet-Lotus Seeds,7>:
     coord: [2369.5, 2864.5]
 - _Korok::F21
@@ -89,7 +89,7 @@
     icon: tots
     coord: [2030, 3289]
 - _Shrine::QukahNata:
-    comment: Grab Rubber Tights in shrine
+    comment: Blessing - Rubber Tights
 - _Material<Hearty Bass + Hyrule Bass,6>:
     coord: [1947, 3283]
 - _Korok::F46
@@ -106,7 +106,8 @@
     comment: Use Royal Claymore
     coord: [2103, 3431]
 - _Korok::F31
-- _Shrine::YahRin
+- _Shrine::YahRin:
+    comment: Grab box, stasis, 3 hits, aim up far
 - _Korok::F36:
     notes: .link([strat]https://youtu.be/M27Chx0LEuk?t=6085)
 - _Material<Hearty Blueshell Snail>:
@@ -166,7 +167,8 @@
 - Tree Launch to F32:
     coord: [3235,2854.25]
 - _Korok::F32
-- _Shrine::MuwoJeem
+- _Shrine::MuwoJeem:
+    comment: Modest Test of Strength
 - _Korok::F33
 - _Korok::N65
 - _Warp::Shrine::MuwoJeem
@@ -194,6 +196,7 @@
 - .boss(Crouch on pedestal):
     icon: tots
     coord: [3461.5, 3340.5]
-- _Shrine::KahYah
+- _Shrine::KahYah:
+    comment: Key on left - Stasis
 - _Warp::Shrine::ShoDantu:
     color: red

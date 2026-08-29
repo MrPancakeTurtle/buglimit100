@@ -9,7 +9,8 @@
     coord: [-1115.75,-528.6875]
 - _Korok::R27
 - _Shrine::ZaltaWa:
-    comment: Tree launch over
+    comment: Hit and glide
+    notes: Tree launch over
 - _Korok::R25:
     comment: Tree launch up
 - _Korok::R40
@@ -27,7 +28,8 @@
 - Shoot arrow into rings:
     icon: tots
     coord: [-1856.75,73.25]
-- _Shrine::SheemDagoze
+- _Shrine::SheemDagoze:
+    comment: Shieldsurf ragdoll
 - _Korok::R38
 - _Korok::R47:
     comment: Tree launch over from R38
@@ -74,7 +76,7 @@
     coord: [-2767.3181439960617,182.02836711541022]
     icon: tots
 - _Shrine::MijahRokee:
-    comment: Ice arrows + Axe
+    comment: Modest Test of Strength - Ice arrows + Axe
 - _Korok::R50
 - _Korok::R59
 - _Korok::R71
@@ -109,7 +111,7 @@
     coord: [-2304.5, 525]
 - _Korok::R60
 - _Shrine::MoggLatan:
-    comment: Grab FDB 
+    comment: Magnesis, Grab FDB (behind last big ball)
 - _Material<Diamond>:
     coord: [-2236.5, 660.5]
 - _Korok::R70

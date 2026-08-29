@@ -4,7 +4,8 @@
 - _Korok::W21
 - _Korok::W20
 - _Korok::G36
-- _Shrine::JeeNoh
+- _Shrine::JeeNoh:
+    comment: shoot first 2 balls, stasis lazer for last 
 - _Korok::W26
 - Use gale:
     icon: medoh-done
@@ -52,4 +53,4 @@
     comment: Don't break it, you need it for a ballon at Eldin
     coord: [-2857.375,2320.75]
 - _Shrine::KayNoh:
-    color: rgb(9, 227, 56)
+    comments: mag electric ball, stasis + hit box, mag

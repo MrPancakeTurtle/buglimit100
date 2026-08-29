@@ -54,5 +54,5 @@
     icon: npc
     notes: Secret of the Cedars
     coord: [3425.5, 2163.5]
-- _Warp::Tower::Lanayru:
-    color: rgb(222, 222, 18)
+- _Warp::Shrine::KehNamut:
+    color: rgb(9, 227, 56)

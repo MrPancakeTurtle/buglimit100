@@ -8,7 +8,7 @@
     coord: [-2810.875, 2238.375]
 - _Korok::G34
 - _Shrine::DakoTah:
-    comment: Grab core and shield
+    comment: Run around and mag box, throw it to metal, grab core, then go up elevator, get shield
 - _Chest<Ice Arrow x10>:
     coord: [-3384, 2132]
 - _Korok::W17
@@ -16,7 +16,8 @@
 - _Npc::SheikaMale<Guy near shrine>:
     comment: Benja
     coord: [-3804.64, 149.50, 2818.36]
-- _Shrine::DaqoChisay
+- _Shrine::DaqoChisay:
+    comment: Mag box, spin with thunderblade
 - Shield surf to bazaar:
     icon: shield
     coord: [-3299.75, 2578.25]
@@ -106,7 +107,7 @@
     comment: .gale(GALE 1)
 - _Korok::W01
 - _Shrine::ShoDantu:
-    comment: Grab stones outside shrine
+    comment: Run left, smash box, (rupee chest,) bomb arrow both sides, throw circle bomb, the bomb arrow + circle 
 - Enter cave:
     notes: Use windcleaver to move boulder
     coord: [-3778.5, 1691.5]
@@ -150,7 +151,7 @@
 - _Chest<Fire arrow>:
     coord: [-3121,1324.5]
 - _Shrine::KuhTakkar:
-    comment: 5-7 fire arrows to open
+    comment: 5-7 fire arrows to open, 4 hits aim up
 - Run to .boss(Guardian):
     icon: tots
     notes: Kill him, Get parts
@@ -190,7 +191,7 @@
     comment: Ice arrows and claymore
     coord: [-4548.5, 948]
 - _Shrine::KemaKosassa:
-    notes: Ice arrow + club, grab parts, grab rupee in chest
+    notes: Major Test of Strength - club, grab parts, grab rupee in chest
 - _Korok::G07
 - _Korok::G08
 - _Korok::G04
@@ -211,7 +212,7 @@
     notes: .link([How to do this korok ?] https://youtu.be/fcDLoHGBqCU?si=I6KuOC0E58Ph-YAh&t=1950)
 - _Korok::G06
 - _Shrine::KeehaYoog:
-    comment: Grab diamond in chest
+    comment: Blessing - Diamond
 - Tree Launch up to G09:
     coord: [-3822.5,764]
 - _Korok::G09
