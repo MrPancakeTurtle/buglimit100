@@ -140,6 +140,5 @@
 - _Material<Hearty Truffle,1>:
     coord: [-4025.25, -1754.25]
 - _Korok::T13
-- _Warp::TechLab::Hateno:
-    color: rgb(255, 71, 139)
-    notes: If you haven't bought Ancient Short Sword, warp to Akkala Tech Lab and buy it
+- _Warp::Shrine::KehNamut:
+    color: rgb(9, 227, 56)

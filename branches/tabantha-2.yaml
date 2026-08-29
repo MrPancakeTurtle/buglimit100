@@ -77,5 +77,8 @@
 - _Discover<Tanagar Canyon Course>:
     coord: [-3134.5,-679]
 - _Korok::R12
-- _Warp::Shrine::TahnoOah:
-    color: rgb(173, 48, 240)
+- _Warp::TechLab::Hateno:
+    color: rgb(255, 71, 139)
+    notes: If you haven't bought Ancient Short Sword, warp to Akkala Tech Lab and buy it
+
+    
