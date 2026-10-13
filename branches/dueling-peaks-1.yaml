@@ -40,7 +40,8 @@
     icon: shop
     notes: Buy all arrows, crickets and frogs (for quest). Don't sell flint/rock salt
     coord: [1764.5, 1926.25]
-- _Npc::SheikaMale<Rensa>, take .item(horse):
+- _Npc::SheikaMale<Rensa>:
+    notes: take .item(horse)
     icon: npc-sheika-male
     coord: [1755, 1927.625]
 - _Korok::D20
