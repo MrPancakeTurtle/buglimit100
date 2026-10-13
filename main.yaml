@@ -4,8 +4,6 @@
   - use: ./branches/central-1.yaml
 - Dueling Peaks 1:
   - use: ./branches/dueling-peaks-1.yaml
-- Faron 1:
-  - use: ./branches/faron-1.yaml
 - Necluda 1:
   - use: ./branches/necluda-1.yaml
 - Kakariko Quests:
