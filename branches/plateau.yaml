@@ -48,8 +48,6 @@
 - _Material<Hylian Shroom,3>:
     notes: Left of SOR
     coord: [-1067.75, 1805.25]
-- _Korok::P08:
-    notes: Can get this later
 - _Shrine::KehNamut:
     comment: Cryo jump
     notes: Climb up from north side

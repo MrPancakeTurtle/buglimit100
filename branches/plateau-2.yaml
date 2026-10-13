@@ -7,6 +7,7 @@
 - _Warp::Shrine::OwaDaim
 - _Snap<Stalhorse>:
     notes: Stalhorse, Pictured!
+    coords: [-816, 2139]
 - _Shrine::RuvoKorbah:
     comment: 10x Bomb Arrow
 - _Warp::Tower::GreatPlateau
@@ -32,8 +33,9 @@
 - Tree Launch up to P03:
     comment: .gale(GALE 1)
 - _Korok::P03
-- _Korok::P07:
+- _Korok::P08:
     comment: .gale(GALE 2)
+- _Korok::P07
 - _Korok::C89
 - _Korok::C87:
     comment: 3 cryo walks then .gale(GALE 3)
