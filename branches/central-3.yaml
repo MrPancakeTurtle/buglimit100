@@ -104,11 +104,6 @@
 - _Korok::R49
 - _Korok::R58
 - _Korok::R74
-- _Korok::C52
-- _Korok::C57
-- Tree Launch to R74:
-    coord: [-1258,706]
-- _Korok::R74
 - _Memory::SanidinPark
 - .boss(Tame Zelda's Horse):
     icon: tots
