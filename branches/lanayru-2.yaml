@@ -205,7 +205,6 @@
     coord: [3622, 626]
 - _Korok::Z54
 - _Korok::Z55
-- _Korok::N12
 - .boss(Shoot Naydra):
     comment: Shoot scale 2S 2F 2C 2H
     icon: tots
