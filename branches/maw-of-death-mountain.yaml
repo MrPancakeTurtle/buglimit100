@@ -8,6 +8,7 @@
 - _Equipment::Weapon<Double Axe>:
     coord: [2597.25, -1153]
 - _Korok::E43:
+    color: blue
     comment: Tree launch, place travel medallion
 - _Shrine::TahMuhl:
     comment: Blow up crates, stone smasher on right, run to finish
@@ -16,7 +17,8 @@
     comment: .gale(GALE 3)
     coord: [2374, -872]
 - _Korok::E45
-- _Warp::TravelMedallion<2315,-1145>
+- _Warp::TravelMedallion<2315,-1145>:
+    color: green
 - _Korok::E41
 - _Korok::E42
 - _Korok::E40
@@ -32,7 +34,8 @@
     icon: tots
 - _Korok::E34
 - _Korok::E30
-- _Warp::TravelMedallion<2315,-1145>
+- _Warp::TravelMedallion<2315,-1145>:
+    color: red
 - _Discover<Maw of death mountain>:
     coord: [2408,-1267]
 - Get E37 rock:

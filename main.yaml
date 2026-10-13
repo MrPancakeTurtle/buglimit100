@@ -23,7 +23,7 @@
 - Gerudo 1:
   - use: ./branches/gerudo-1.yaml
 - Bloodmoon:
-  - use: ./branches/Bloodmoon.yaml
+  - use: ./branches/bloodmoon.yaml
 - House Upgrades:
   - use: ./branches/house-upgrades.yaml
 - Naboris:
@@ -34,8 +34,15 @@
   - use: ./branches/maw-of-death-mountain.yaml
 - Eldin:
   - use: ./branches/eldin.yaml
-- Plateau 2:
+- Champion's Ballad:
   - use: ./branches/plateau-2.yaml
+- Urbosas's Song:
+  - use: ./branches/gerudo-2.yaml
+  - use: ./branches/gerudo-3.yaml
+- Revali's Song:
+  - use: ./branches/rito-2.yaml
+- Letter Quest:
+  - use: ./branches/letter-quest.yaml
 
 
 # - Eventide:
@@ -54,8 +61,7 @@
 
 
 
-# - Gerudo 2:
-#   - use: ./branches/gerudo-2.yaml
+
 # - To Korok Forest:
 #   - use: ./branches/to-korok-forest.yaml
 # - Lost Woods:
@@ -70,12 +76,9 @@
 #   - use: ./branches/naydra.yaml
 # - Faron 2:
 #   - use: ./branches/faron-2.yaml
-# - Gerudo 3:
-#   - use: ./branches/gerudo-3.yaml
-# - Rito 2:
-#   - use: ./branches/rito-2.yaml
-# - Letter Quest:
-#   - use: ./branches/letter-quest.yaml
+
+
+
 # - Lanayru 2:
 #   - use: ./branches/lanayru-2.yaml
 # - Dueling Peaks 2:

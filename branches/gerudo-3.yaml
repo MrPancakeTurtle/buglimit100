@@ -1,21 +1,13 @@
 - _Korok::W02
 - _Korok::G25
-- _Korok::G30
 - _Korok::W04
 - _Korok::W05
 - _Korok::W03
 - _Korok::W06
 - _Tod::Noon
 - _Korok::G33
-- Use gale:
-    coord: [-3987.3307007994886,1935.7841656685387]
-    icon: medoh-done
-    comment: .gale(GALE 1)
+- _Korok::G30
 - _Korok::G31
-- Use gale:
-    coord: [-3830.3307007994886,1857.7841656685387]
-    icon: medoh-done
-    comment: .gale(GALE 2)
 - _Tower::Gerudo
 - _Npc::Rito<Kass>:
     coord: [-3655.84, 471.90, 1837.15]
@@ -24,7 +16,7 @@
     icon: tots
     coord: [-3582.5, 1986.25]
 - _Shrine::SasaKai:
-    comment: Modest Test of Strength 
+    comment: Modest Test of Strength - Ice Arrow
 - .item(Take ice block):
     icon: material
     notes: The Perfect Drink
@@ -37,6 +29,10 @@
 - _Equipment::Weapon<Double Axe>:
     coord: [-3289.5, 2591]
 - _Warp::Shrine::DaqoChisay
+- _Npc<Bozai>:
+    coord: [-3750,2874]
+    comment: 8th Heroine, Forgotten Sword
+    notes: Talk for both boots
 - _Npc::Gerudo<Frelly>:
     coord: [-3769.5,2926.125]
     notes: Talk for a sand seal. It is faster to do this than run in the sand to all the koroks
@@ -49,6 +45,13 @@
     comment: RNG, may not drop
     coord: [-2626.25, 3306.25]
 - _Korok::W63
+- Molduking:
+    icon: molduga
+    notes: .fury(FURY 1-3)
+    coord: [-2391.18, 119.09, 3733.19]
+- Activate .loc(KeiveTala):
+    icon: shrine
+    coord: [-2339, 3901]
 - _Korok::W68
 - _Npc::Gerudo<Pokki>:
     notes: The Perfect Drink
@@ -61,36 +64,35 @@
 - _Korok::W62
 - _Korok::W67
 - _Boss::Molduga:
-    comment: .fury(FURY 1-3) 
+    comment: Best Weapon
     coord: [-3785, 3658]
 - _Korok::W57
 - _Korok::W56
 - _Boss::Molduga:
-    comment: Use savage lynel crusher
+    comment: Best Weapon
     coord: [-4176, 3801]
 - _Korok::W66
 - _Material<Molduga Guts>:
     coord: [-4153, 3796]
 - _Korok::W61
 - _Korok::W55
-- _Chest<Sapphire>:
-    coord: [-4611, 3558]
 - Activate .loc(Hawa Koth):
     icon: shrine
     coord: [-4852.25, 3776.5]
 - .boss(Open fairy fountain):
     icon: tots
     coord: [-4870.25, 3824]
-- _Korok::W65
-- _Npc::Gerudo<Barta>:
-    notes: The Search for Barta
-    coord: [-4818.75, 3727.5]
+- _Korok::W65:
+    comment: .gale(GALE 1)
 - _Snap<Desert Leviathan>:
     comment: Leviathan Bones
     coord: [-4799, 3744]
+- _Npc::Gerudo<Barta>:
+    notes: The Search for Barta
+    coord: [-4818.75, 3727.5]
 - _Korok::W51
 - _Boss::Molduga:
-    comment: Use savage lynel crusher
+    comment: Best Weapon
     coord: [-4560, 3247]
 - _Material<Lizalfos Tail,1>:
     icon: malice
@@ -98,43 +100,76 @@
 - _Chest<Sapphire>:
     coord: [-4185, 3077]
 - _Korok::W47
+- Pass through the light rings:
+    movements:
+    - to: [-4201.4, 154.24, 2713.2]
+    - to: [-4290.06, 159.24, 2679.14]
+    - to: [-4402.44, 152.77, 2628.23]
+    - to: [-4491.5, 162.95, 2589.5]
+    - to: [-4560.0, 172.29, 2513.5]
+    - to: [-4586.5, 150.65, 2423.5]
+    - to: [-4595.0, 144.47, 2336.7]
+    - to: [-4682.0, 152.24, 2295.0]
+    - to: [-4756.1, 171.27, 2252.7]
+    - to: [-4855.12, 147.28, 2169.28]
+- Activate .loc(TakamaShiri):
+    icon: shrine
+    coord: [-4895, 2155]
+- _Korok::W25:
+    comment: Get 2 voltfruit
 - _Boss::Molduga:
     coord: [-4838, 2805]
-    comment: Use savage lynel crusher
+    comment: Best weapon
 - .item(Shoot 4 torches):
     icon: tots
     coord: [-4796, 2825]
 - _Shrine::ThoKayu:
     comment: Blessing - Golden Bow
-- _Korok::W25:
-    comment: Get 2 voltfruit
+- _Warp::Shrine::DaqoChisay
+- _Tod::Noon:
+    coord: [-3806.226960859607,2832.3694185482227]
+    comment: For quests if not already
+- _Npc::Gerudo<Malena>:
+    notes: Medicinal Molduga
+    coord: [-3907.875, 2912.75]
+- _Korok::W42:
+    comment: .gale(GALE 2)
+- _Npc::Gerudo<Wildberry lady>:
+    comment: Calyban
+    notes: Talk twice
+    coord: [-3915.29, 169.20, 2954.60]
+- _Npc::Gerudo<Liana>:
+    notes: The Search for Barta
+    coord: [-3913.375, 2931.5]
+- _Npc::Gerudo<Dalia>:
+    notes: The Mystery Polluter
+    coord: [-3833.625, 2853.25]
+- _Npc::Gerudo<Riju>:
+    comment: Get .boss(Thunder Helm) and equip
+    notes: The Thunder Helm
+    coord: [-3882, 2961.75]
 - _Warp::Shrine::KemaZoos
 - _Shrine::KemaZoos:
     comment: Shock Arrow 
+- _Warp::Shrine::TakamaShiri
+- _Shrine::TakamaShiri:
+    comment: Gold Rupee west of shrine
 - _Warp::Shrine::HawaKoth
 - _Shrine::HawaKoth:
     comment: Shock Arrow, mag gear + spin, grab sapphire, mag gear into position, then spin
 - _Warp::Shrine::MisaeSuma
 - _Shrine::MisaeSuma:
     comment: Blessing - Diamond
-- _Warp::Shrine::DaqoChisay
-- _Tod::Noon:
-    coord: [-3806.226960859607,2832.3694185482227]
-    comment: For npc appear
-- _Npc::Gerudo<Dalia>:
-    notes: The Mystery Polluter
-    coord: [-3833.625, 2853.25]
-- _Npc::Gerudo<Liana>:
-    notes: The Search for Barta
-    coord: [-3913.375, 2931.5]
-- _Npc::Gerudo<Malena>:
-    notes: Medicinal Molduga
-    coord: [-3907.875, 2912.75]
-- _Npc::Gerudo<Riju>:
-    comment: Get .boss(Thunder Helm)
-    notes: The Thunder Helm
-    coord: [-3882, 2961.75]
+- _Warp::Shrine::KeiveTala
+- _Shrine::KeiveTala:
+    comment: Thunderblade spin
+- _Warp::Beast::Naboris
+- Urubosa's Fury+:
+    comment: .fury(FURY 1-3)
+    icon-doc: naboris-done
 - _Warp::Tower::Wasteland
+- _Korok::W39
+- _Korok::W38
 - _Korok::W30
 - _Korok::W35
 - .boss(Do Orb puzzle):
@@ -150,3 +185,23 @@
 - _Korok::W40
 - _Warp::Shrine::DahHesho:
     color: rgb(9, 227, 56)
+- _Npc<Hudson>:
+    comment: Give 30 wood
+    icon: npc
+    notes: From the Ground Up
+    coord: [3988, -1602.5]
+- _Warp::Shrine::WahgoKatta
+- _Tod::Noon:
+    coord: [340, 1106.5]
+- _Cook<Cook Fruit Cake>:
+    comment: Wildberry, apple, sugar, wheat
+    coord: [312.5, 1110]
+- _Npc<Fruitcake Guy>:
+    coord: [325.82, 115.40, 1092.50]
+    comment: Gotter
+    notes: Talk twice. In stable if raining.
+- _Npc<Lady in Stable>:
+    coord: [345.00, 121.73, 1091.50]
+    comment: Parcy
+    notes: Talk twice for Royal Guard's Gear quest
+- _Warp::Shrine::BareedaNaag

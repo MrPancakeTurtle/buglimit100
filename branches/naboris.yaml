@@ -37,10 +37,6 @@
     movements:
     - to: [-3773, 2855]
       warp: True
-- _Npc<Bozai>:
-    coord: [-3750,2874]
-    comment: 8th Heroine, Forgotten Sword
-    notes: Talk for both boots
 - _Tod::Noon:
     coord: [-3833.75,2947.75]
     icon-map: 0
@@ -68,11 +64,6 @@
     coord: [-3833,2852.75]
     notes: Mystery Polluter quest
     comment: Dalia, end of street
-- _Npc::Gerudo<Wildberry lady>:
-    comment: Calyban
-    notes: Talk twice
-    coord: [-3915.29, 169.20, 2954.60]
-- _Korok::W42
 - .important(Sand Seal Race):
     icon: tots
     notes: Equip climbing gear

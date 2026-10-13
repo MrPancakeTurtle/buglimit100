@@ -49,86 +49,22 @@
 - _Shrine::GeeHarah:
     comment: Shoot up, (run left, shoot left,) run right, stasis, shoot both - (Diamond)
 - _Warp::Tower::Hebra
-- _Material<Lizalfos Tail>:
-    icon: malice
-    coord: [-2274,-1900.5]
-- _Chest<Falcon Bow>:
-    coord: [-2309.5, -1879.5]
-- _Korok::H67
-- _Korok::H70
-- _Korok::H69
-- _Korok::R01
-- _Korok::K22
-- _Korok::R04
-- Use gale:
-    coord: [-2598,-1438]
-    icon: medoh-done
-    comment: .gale(GALE 3)
-- _Korok::H73
-- _Shrine::DunbaTaag:
-    comment: Stasis in front. Grab barrel full stasis, grab bow, two hit boulder, grab thunderblade, try one bomb arrow middle top 3/4th 
+
+
 - _Warp::Tower::Hebra:
     color: blue
-- _Boss::Talus::Rare:
-    comment: Use Boulder Breaker
-    coord: [-2855, -1827]
-- _Korok::H66
-- _Chest<Falcon Bow>:
-    coord: [-3222.5, -1910.5]
-- _Korok::T05
-- _Discover<Hebra Trailhead Lodge>:
-    comment: Grab meteor rod inside
-    coord: [-3573.5, -2253.5]
-- _Boss::Talus::Frost:
-    coord: [-3706, -2346.5]
-- _Korok::H54
-- _Korok::H55
-- _Material<Lizalfos Tail>:
-    icon: malice
-    coord: [-3261.5,-2389]
-- _Chest<Fire arrows>:
-    coord: [-3242.5,-2418.5]
-- Use gale:
-    coord: [-3248,-2442]
-    icon: medoh-done
-    comment: .gale(GALE 1)
-- _Korok::H43
-- Tree Launch to Tree:
-    coord: [-3283.5,-2632.5]
-- Tree Launch to Shrine:
-    coord: [-3193.189063091947,-3016.104886374033]
-- _Shrine::ShadaNaw:
-    comment: Grab box 3 hits
-- _Korok::H20
-- Tree Launch up to H28:
-    coord: [-2924.5,-3145]
-- _Korok::H28
-- _Tod::Night
-- Look .important(Sky East):
-    comment: Watch chest land
-    icon: tots
-- _Shrine::GomaAsaagh:
-    comment: 3x Barb - Major Test of Strength - Grab Axe and Claymore
-- _Korok::H35
-- _Chest::Special<Salvager's Trousers>:
-    coord: [-2608.5, -2653]
-- _Korok::H36
-- _Korok::H29
-- Use gale:
-    coord: [-2253.5,-2974]
-    icon: medoh-done
-    comment: .gale(GALE 2)
-- _Korok::H31
-- _Boss::Talus::Frost:
-    comment: .fury(FURY 1-3)
-    coord: [-2153, -3081]
-- _Korok::H30
-- _Shrine::RokUwog:
-    comment: Left and hit boxes, straight hit boxes, bomb arrow barrels, open key chest
-- _Korok::H13
-- _Korok::H21
-- Tree Launch to H12
-- _Korok::H12
+
+
+
+
+
+
+
+
+
+
+
+
 - _Warp::Shrine::ShadaNaw:
     color: green
 - _Korok::H27
@@ -220,50 +156,3 @@
     coord: [-3985,-2545]
 - _Shrine::MakaRah:
     comment: Light torch, Shock arrow water, (10 bombs in chest), hug left side, stasis
-- _Warp::Shrine::ShadaNaw:
-    color: rgb(31, 192, 237)
-- _Boss::Talus::Frost:
-    Comment: Use Boulder Breaker and Fire arrows
-    coord: [-3069, -2915]
-- _Korok::H33
-- Use gale:
-    coord: [-3116.75,-2831.75]
-    icon: medoh-done
-    comment: .gale(GALE 1)
-- _Korok::H34
-- _Korok::H44
-- _Korok::H46
-- Use gale:
-    coord: [-3020,-2507]
-    icon: medoh-done
-    comment: .gale(GALE 2)
-- _Korok::H48
-- Use gale:
-    coord: [-2948.5,-2441.5]
-    icon: medoh-done
-    comment: .gale(GALE 3)
-- _Korok::H49
-- _Korok::H50
-- _Korok::H47
-- _Korok::H45:
-    movements:
-      - [-2836.5,-2424]
-      - [-2736.5,-2584]
-- _Material<Lizalfos Tail>:
-    icon: malice
-    coord: [-2763,-2513]
-- _Korok::H51
-- _Korok::H56
-- _Shrine::LannoKooh:
-    comment: Blessing - Gold Rupee
-- _Korok::H64
-- _Korok::H65
-- _Korok::T03:
-    comment: Drownwarp
-    movements:
-      - [-2954,-2072]
-      - [-2991,-2166]
-- _Korok::T11:
-    movements:
-      - [-2954,-2072]
-      - [-3272,-1867]

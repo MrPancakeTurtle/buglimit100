@@ -2,7 +2,7 @@
     coord: [-2917, -540]
 - _Boss::Talus::Rare:
     coord: [-3256.5, -1081.75]
-    comment: Use stone smasher, is dinraal here?
+    comment: Use stone smasher, shoot dinraals scale and pick up (if at bottom save after picking up before landing)
 - _Korok::T25
 - Smash deposits:
     icon: chest

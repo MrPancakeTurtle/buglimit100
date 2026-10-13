@@ -22,6 +22,8 @@
 - Shield surf to bazaar:
     icon: shield
     coord: [-3299.75, 2578.25]
+- _Equipment::Weapon<Double Axe>:
+    coord: [-3289.5, 2591]
 - _Npc::SheikaMale<Guy on platform>:
     comment: Eye of the Sandstorm
     coord: [-3282.89, 134.16, 2540.95]

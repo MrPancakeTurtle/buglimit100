@@ -1,29 +1,168 @@
-- _Npc<Hudson>:
-    comment: Give 30 wood
-    icon: npc
-    notes: From the Ground Up
-    coord: [3988, -1602.5]
-- _Warp::Shrine::WahgoKatta
-- _Tod::Noon:
-    coord: [340, 1106.5]
-- _Cook<Cook Fruit Cake>:
-    comment: Wildberry, apple, sugar, wheat
-    coord: [312.5, 1110]
-- _Npc<Fruitcake Guy>:
-    coord: [325.82, 115.40, 1092.50]
-    comment: Gotter
-    notes: Talk twice. In stable if raining.
-- _Npc<Lady in Stable>:
-    coord: [345.00, 121.73, 1091.50]
-    comment: Parcy
-    notes: Talk twice for Royal Guard's Gear quest
-- _Warp::Beast::Medoh
-- _Korok::T14
-- .boss(Shoot platform):
+- _Npc::Rito<Kass>:
+    comment: EX Champion Revali's Song
+    coord: [-3662.1, 321.55, -1314.66]
+- _Korok::T20
+- _Warp::Shrine::ShaWarvo
+- _Shrine::NoeRajee
+- _Korok::T02:
+    comment: float up
+- _Boss::Talus::Frost:
+    coord: [-3706, -2346.5]
+    comment: .fury(FURY 1-3)
+- _Korok::H54
+- _Korok::H55
+- Place down Travel Medallion:
+    icon: warp
+    coord: [-3330, -2300]
+- _Korok::T03
+- _Warp::TravelMedallion<-3330, -2300>:
+    color: yellow
+- _Korok::T05
+- _Discover<Hebra Trailhead Lodge>
+- _Warp::TravelMedallion<-3330, -2300>:
+    color: purple
+- Use gale:
+    coord: [-3248,-2442]
+    icon: medoh-done
+    comment: .gale(GALE 1)
+- _Korok::H43
+- Tree Launch to Tree:
+    coord: [-3283.5,-2632.5]
+- Tree Launch to Shrine:
+    coord: [-3193.189063091947,-3016.104886374033]
+- _Shrine::ShadaNaw:
+    comment: Grab box 3 hits
+- _Korok::H20
+- Tree Launch up to H28:
+    coord: [-2924.5,-3145]
+- _Korok::H28
+- _Tod::Night
+- Look .important(Sky East):
+    comment: Watch chest land
     icon: tots
-    coord: [-3612,-1609.5]
-    notes: For Bareeda Naag
-    comment: Use fire arrow and falcon bow
+- _Shrine::GomaAsaagh:
+    comment: 3x Barb - Major Test of Strength - Grab Axe and Claymore
+- _Korok::H35
+- Rings of light:
+    comment: 
+    icon: npc-rito
+    movements:
+    - to: [-2792.1, 665.5, -2810.6]
+    - to: [-2747.4, 636.86, -2727.3]
+- _Chest::Special<Salvager's Trousers>:
+    coord: [-2608.5, -2653]
+- Rings of light:
+    comment: 
+    icon: npc-rito
+    movements:
+    - to: [-2575.1, 578.92, -2648.0]
+    - to: [-2478.8, 557.9, -2650.4]
+    - to: [-2401.8, 542.6, -2671.8]
+    - to: [-2380.6, 525.25, -2727.6]
+- Place down Travel Medallion:
+    icon: warp
+    coord: [-2400, -2765]
+- Rings of light:
+    comment: 
+    icon: npc-rito
+    movements:
+    - to: [-2399.8, 514.9, -2800.5]
+    - to: [-2424.8, 498.5, -2891.6]
+    - to: [-2429.21, 489.01, -2961.43]
+    - to: [-2379.9, 473.6, -3090.8]
+    - to: [-2300.0, 456.55, -3116.6]
+    - to: [-2239.0, 447.7, -3118.1]
+    - to: [-2195.09, 443.89, -3156.53]
+- _Shrine::KiahToza
+- _Korok::H30
+- _Korok::H29
+- _Shrine::RokUwog:
+    comment: Left and hit boxes, straight hit boxes, bomb arrow barrels, open key chest
+- _Warp::TravelMedallion<-2400, -2765>:
+    color: red
+- _Korok::H36:
+    comment: .gale(GALE 2)
+- _Korok::H31
+- _Boss::Talus::Frost:
+    comment: .fury(FURY 1-3)
+    coord: [-2153, -3081]
+- _Korok::H13
+- _Korok::H21
+- Tree Launch to H12
+- _Korok::H12
+- _Warp::Shrine::ShadaNaw:
+    color: rgb(31, 192, 237)
+- _Boss::Talus::Frost:
+    Comment: Use Boulder Breaker and Fire arrows
+    coord: [-3069, -2915]
+- _Korok::H33
+- Use gale:
+    coord: [-3116.75,-2831.75]
+    icon: medoh-done
+    comment: .gale(GALE 3)
+- _Korok::H34
+- _Korok::H44
+- _Korok::H46
+- _Korok::H48
+- _Korok::H49
+- _Korok::H50
+- _Korok::H47
+- _Korok::H45:
+    movements:
+      - [-2836.5,-2424]
+      - [-2736.5,-2584]
+- _Material<Lizalfos Tail>:
+    icon: malice
+    coord: [-2763,-2513]
+- _Korok::H51
+- _Korok::H56
+- _Shrine::LannoKooh:
+    comment: Blessing - Gold Rupee
+- _Korok::H64
+- _Korok::H65
+- _Boss::Talus::Rare:
+    comment: .fury(FURY 1-3)
+    coord: [-2855, -1827]
+- _Korok::H66:
+    comment: Place travel medallion
+- _Korok::T03
+- _Warp::TravelMedallion<-2970, -1880>:
+    color: green
+- _Chest<Falcon Bow>:
+    coord: [-3222.5, -1910.5]
+- _Korok::T11
+- _Npc::Rito<Rito guy on bridge>:
+    coord: [-3308.27, 227.83, -1803.34]
+    comment: Gisane
+    notes: Talk twice
+- _Npc::SheikaMale<Old Guy at cookpot>:
+    coord: [-3267.07, 224.60, -1773.77]
+    comment: Lester
+    notes: Talk twice
+- Tree Launch to Korok:
+    coord: [-3170,-1758]
+- _Korok::T19
+- _Warp::TravelMedallion<-2970, -1880>:
+    color: orange
+    comment: Set ToD to Night
+- _Korok::T18
+- _Korok::H72
+- _Korok::H69
+- _Korok::H67
+- _Korok::H70
+- _Shrine::ShiraGomar:
+    comment: Shoot Dinraals horn and pick it up
+- _Korok::R01
+- _Korok::K22
+- _Korok::R04
+- _Korok::H73
+- _Shrine::DunbaTaag:
+    comment: Stasis in front. Grab barrel full stasis, grab bow, two hit boulder, grab thunderblade, try one bomb arrow middle top 3/4th 
+- _Warp::Beast::Medoh
+- Revali's Gale+:
+    comment: .fury(FURY 1-3)
+    icon-doc: medoh-done
+- _Korok::T14
 - _Npc::Rito<Pink singing girl>:
     coord: [-3596.62, 317.93, -1794.98]
     comment: Notts
@@ -73,10 +212,8 @@
     coord: [-3697.5,-1676.75]
     icon: medoh-done
     comment: .gale(GALE 2)
-- _Shrine::BareedaNaag:
-    comment: Falcon Bow behind rubble, hit targets with bomb arrows, grab diamond
 - _Boss::Hinox::Black:
-    comment: .fury(FURY 1-3), Grab royal bow
+    comment: Grab royal bow
     coord: [-3791, -1557.5]
 - _Npc::Rito<Kheel>:
     comment: For Korok Leaf
@@ -88,5 +225,5 @@
 - _Korok::T16
 - _Korok::T12
 - _Korok::T09
-- _Warp::Tower::Lanayru:
+- _Warp::Shrine::DahHesho:
     color: rgb(222, 222, 18)
