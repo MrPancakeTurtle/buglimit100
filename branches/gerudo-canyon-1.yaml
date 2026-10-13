@@ -5,6 +5,9 @@
 - _Korok::W11
 - _Korok::W12
 - _Korok::W16
+- _Material<Electric Darner,1>:
+    coord: [-2220, 2204]
+    comment: Under pebble
 - _Korok::W23
 - _Korok::W24
 - _Korok::W33

@@ -26,6 +26,9 @@
     icon: tots
     coord: [1707.25, 3000.5]
 - _Korok::F26
+- _Chest::Special<Phantom Ganon Skull>:
+    comment: Drop down from korok
+    coord: [1669, 3163]
 - _Material<Energetic Rhino Beetle,5>:
     notes: .link([Beetle route]https://youtu.be/J3MWwgrkk9M?t=7319)
     icon: malice

@@ -1,26 +1,26 @@
 - _Korok::W34
+- _Npc::Rito<Kass>:
+    comment: "EX Champion Urbosa's Song"
+    coord: [-1536.5, 426.0, 2919.0]
+- _Korok::W41
+- _Korok::W46
+- _Korok::W45
+- _Korok::W49
+- _Korok::W48
 - _Korok::W39
 - _Korok::W38
 - _Boss::Talus::Luminous:
-    comment: Grab ores
+    comment: Grab ores .fury(FURY 2-3)
     coord: [-2077, 3046]
-- _Korok::W48
-- _Korok::W49
-- _Material<Rushroom,1>:
-    comment: .gale()
-    gale: 1
-    coord: [-1920, 3263]
-- _Korok::W50
+- _Korok::W50:
+    comment: .gale(GALE 1)
 - _Korok::W58
-- _Shrine::DilaMaag:
-    comment: Blessing - .important(Barbarian Armour)
 - _Tod::Noon:
     coord: [-1798.25, 3439.5]
-- .gale() out of maze:
-    gale: 1
+- _Shrine::DilaMaag:
+    comment: Blessing - .important(Barbarian Armour)
 - _Korok::W54:
-    comment: .gale()
-    gale: 1
+    comment: .gale(GALE 2-3)
 - _Korok::W59
 - _Korok::W64
 - _Material<Rushroom,2>:
@@ -33,7 +33,5 @@
 - _Shrine::SumaSahma:
     comment: Blessing - Moonlight Scimitar
 - _Korok::W53
-- _Korok::W41
-- _Korok::W45
-- _Korok::W46
+- _Korok::L41
 - _Warp::Shrine::SohKofi

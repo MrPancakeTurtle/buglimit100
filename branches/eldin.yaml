@@ -1,15 +1,10 @@
 - Crate Launch East to Tower:
     coord: [1824,-1544]
-- Use gale:
-    icon: medoh-done
-    coord: [2086,-1557]
-    comment: .gale(GALE 3)
 - _Tower::Eldin:
     notes: Remember you can 2-hand damage cancel spin. There are lots of deposits
       in Eldin, get as many as you can
 - _Korok::E27
 - _Boss::Talus::Igneo:
-    comment: .fury(FURY 1-3), grab ores
     coord: [1775, -1810]
 - Push E26 Boulder:
     coord: [1705,-1778]
@@ -21,7 +16,7 @@
 - _Korok::E25
 - _Material<10 Fireproof Lizard,10>:
     coord: [1653, -1944.5]
-    comment: There a lot under rocks near Mine
+    comment: .gale(GALE 1) There a lot under rocks near Mine
 - _Npc<Kime>:
     comment: Get Flamebreaker Armour
     icon: npc
@@ -36,26 +31,23 @@
 - _Korok::E18
 - _Discover<Stolock Bridge>:
     coord: [1667, -2406]
-- _Korok::E15
-- _Korok::E14
+- _Korok::E14:
+    comment: .gale(GALE 2)
 - _Korok::E13
+- _Korok::E15
 - _Shop<Item Shop>:
     comment: Buy goron spice
     coord: [1677, -2463.25]
 - _Shop<Armor shop>:
-    comment: Buy Flamebreaker boots
+    comment: Buy Flamebreaker boots, equip
     coord: [1648.25, -2411.25]
 - _Npc::Goron<Bludo>:
     notes: Divine Beast Vah Rudania
     coord: [1705, -2449.5]
 - _Shrine::ShaeMosah:
-    comment: Stasis switch - Stone Smasher in left chest - Fire Arrow Leaves - Stand on Switch - Get key - Stand on back switch
+    comment: Stasis switch - Stone Smasher in left chest, ice arrows - Fire Arrow Leaves - Stand on Switch - Get key - Stand on back switch
 - _Discover<Abandoned North Mine>:
     coord: [1704.25, -2711.5]
-- .boss(Use the cannon):
-    icon: tots
-    coord: [1548.5, -2902.5]
-    comment: .gale(GALE 1)
 - _Npc::Goron<Yunobo>:
     notes: Divine Beast Vah Rudania
     coord: [1627.5, -2928.5]
@@ -63,25 +55,14 @@
     comment: Right chest
     coord: [1640.5, -2944.5]
 - _Korok::E08:
-    comment: .gale(GALE 2)
-- _Boss::Talus::Igneo:
-    comment: .fury(FURY 1-3)
-    coord: [1343, -3065.5]
-- Use gale:
-    coord: [1386,-3080]
-    icon: medoh-done
     comment: .gale(GALE 3)
-- _Korok::E07
 - _Shrine::ShoraHah:
     notes: Carry the flame, get Royal Bow in chest, torch to spin, and ice arrows in last chest
-- _Korok::E10:
-    comment: Use minecart
-- _Korok::E11
-- _Korok::E09
+- _Korok::E07:
+    comment: Climb the wall to get out
 - _Boss::Talus::Igneo:
-    comment: Use stone smasher
-    coord: [2147, -3004.5]
-- _Korok::E06
+    comment: .fury(FURY 1-3) 
+    coord: [1343, -3065.5]
 - _Warp::Shrine::ShaeMosah:
     color: rgb(240, 221, 580)
 - _Npc::Goron<Bludo>:
@@ -93,7 +74,8 @@
     coord: [1882,-2463]
     icon: medoh-done
     comment: .gale(GALE 1)
-- _Korok::E17
+- _Korok::E17:
+    comment: gold rupee behind rubble
 - Use gale:
     icon: medoh-done
     coord: [1881.436431394428,-2391.47969601835]
@@ -150,45 +132,11 @@
     coord: [1705, -2450.75]
 - _Chest::Special<Boulder Breaker>:
     coord: [1753.5, -2450]
-- _Warp::Shrine::DaqaKoh
-- _Equipment::Weapon<Drillshaft>:
-    coord: [1970, -2211]
-- _Npc::Goron<Dugby>:
-    comment: Throw Drillshaft after
-    notes: Death Mountain's Secret
-    coord: [1793.5, -2249]
-- _Npc::Goron<Gonguron>:
-    coord: [2051.5, -2040]
-- .item(Take meat up hill):
-    icon: tots
-    coord: [1806.5, -1892.5]
-- _Shrine::KayraMah:
-    comment: Just run (stasis)
-- Push E20 Boulder:
-    icon: tots
-    coord: [1971.436431394428,-2168.47969601835]
-- _Korok::E20
-- _Boss::Talus::Igneo:
-    comment: .fury(FURY 1-3)
-    coord: [2136, -2176.5]
-- _Korok::E21
-- Use gale:
-    coord: [2154,-2109.5]
-    icon: medoh-done
-    comment: .gale(GALE 1)
-- _Korok::E22
-- _Boss::Talus::Igneo:
-    comment: Use stone smasher
-    coord: [2364, -2001.5]
-- _Korok::E28:
-    notes: Use gerudo bow
-- Use gale:
-    coord: [2277,-1837]
-    icon: medoh-done
-    comment: .gale(GALE 2-3)
-- _Korok::E23
-- _Discover<Shadow Hamlet Ruins>:
-    coord: [3044, -2289.5]
-- _Korok::E12
-- _Warp::Beast::Naboris:
+- _Warp::Shrine::DahHesho
+- _Npc<Hudson>:
+    comment: Give 20 wood
+    icon: npc
+    notes: From the Ground Up
+    coord: [3987.75, -1602.125]
+- _Warp::SOR:
     color: purple

@@ -27,7 +27,7 @@
 - _Material<Spicy Pepper,6>
 - _Npc<Beedle>:
     icon: shop
-    notes: Buy arrows, 3 warm darner
+    notes: Buy arrows, 1 warm darner
     coord: [-3250.5, -1750.25]
 - _Material<1 Voltfin Trout, 1 Octorok Balloon>:
     icon: malice

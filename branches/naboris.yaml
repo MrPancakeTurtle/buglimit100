@@ -79,5 +79,5 @@
     coord: [-3791.5, 3121]
 - _Shrine::RaqaZunzo:
     comment: Blessing - Radiant Shield
-- _Warp::Shrine::MonyaToma:
-    color: blue
+- _Warp::Shrine::HilaRao:
+    color: rgb(9, 227, 56)

@@ -3,43 +3,8 @@
 - _Discover<Eagus Bridge>:
     coord: [986.6666564941406,921.1666717529297]
 - _Korok::Z47
-- _Material<Courser Bee Honey,1>:
-    coord: [926.25, 255.5]
-- _Korok::Z37
-- .item(Grab food):
-    comment: 4 endura, 2 hearty
-    icon: material
-    coord: [829, 235]
-- _Shrine::KayaWan:
-    comments: cryo jump
-- _Cook<Cook food>:
-    notes: 3x 2 endura carrots, 1x 3 endura shroom, 1x 2 endura shroom, 2x 1 endura
-      shroom, 2x 5 hearty radish + durian
-    coord: [869.5, 186.5]
-- _Material<Hyrule Bass,4>:
-    coord: [815.5, 130.5]
-- Magnesis up chest:
-    comment: Select option 2
-    icon: korok-magnesis
-    notes: Riverbed Reward
-    coord: [846, 137]
-- _Equipment::Weapon<Axe>:
-    coord: [928.9298193299019,174.4446054917653]
-- .boss(Take Horse):
-    coord: [886,162.25]
 - _Korok::Z48
 - _Korok::Z49
-- .boss(Leave Horse here):
-    icon: horse
-    coord: [1601.75,505.5]
-- Tree Launch to Z60:
-    coord: [1578,499]
-- _Korok::Z60
-- _Warp::Shrine::DakaTuss:
-    color: rgb(9, 227, 56)
-- .boss(Take horse):
-    coord: [1601.75,505.5]
-    icon: horse
 - Kill .enemy(Guardian):
     comment: Use Ancient Arrow, Grab parts
     icon: tots
@@ -67,6 +32,7 @@
     coord: [1542.5,-373]
 - Tree launch to plateau:
     coord: [2020,-256]
+    comment: (Or ride horse and climb)
 - Use gale:
     coord: [2239,-147.5]
     icon: medoh-done
@@ -86,9 +52,10 @@
     comment: .gale(GALE 2-3)
 - _Chest<Forest Dweller Bow>:
     coord: [2723,-559.5]
+    comments: if needed
 - _Korok::Z15
 - _Boss::Hinox::Blue:
-    comment: Use Savage Lynel Crusher
+    comment: Use EOD/Claymore
     coord: [2926.5, -295.5]
 - _Material<Fleet-Lotus Seeds,6>:
     coord: [2930.5, -239.5]
@@ -111,10 +78,26 @@
 - _Shrine::NeezYohma:
     comment: cryo the ball down and hope
 - _Cook<Cook speed food>:
-    notes: 13 speed food, use lotus when only 1 carrot
+    notes: speed food, use lotus when only 1 carrot
     coord: [3302.25, -497.5]
-- Tree Launch to Z18:
-    coord: [3519.5,-473]
+- Waterfall Up:
+    coord: [3601,-573]
+    icon: tots
+- Waterfall Up:
+    coord: [3649,-593]
+    icon: tots
+- Zora Monument:
+    comment: 1/10
+    icon: npc-zora-male
+    coord: [3715.5, -529]
+- _Material<Fleet-Lotus Seeds,3>:
+    coord: [3703.5, -582]
+- Waterfall up:
+    coord: [3735,-597.5]
+    icon: tots
+- _Snap<Lynel>:
+    notes: Lynel Safari
+    coord: [3851, -589.5]
 - _Korok::Z18
 - _Korok::Z26
 - Enter Ruta:
@@ -157,31 +140,11 @@
     notes: The Ceremonial Song
     coord: [3280, -487]
 - Waterfall Up:
-    coord: [3601,-573]
+    coord: [3356.5,-807.5]
     icon: tots
-- Waterfall Up:
-    coord: [3649,-593]
-    icon: tots
-- Zora Monument:
-    comment: 1/10
-    icon: npc-zora-male
-    coord: [3715.5, -529]
-- _Material<Fleet-Lotus Seeds,3>:
-    coord: [3703.5, -582]
-- Waterfall up:
-    coord: [3735,-597.5]
-    icon: tots
-- _Snap<Lynel>:
-    notes: Lynel Safari
-    coord: [3851, -589.5]
-- _Korok::Z08
-- _Korok::Z05
 - _Chest::Special<Zora Helm>:
     coord: [3477, -885]
-- _Korok::Z04
-- _Boss::Hinox::Blue:
-    comment: .fury(FURY 1-3)
-    coord: [3292, -1252.5]
+- _Korok::Z05
 - _Korok::A52
 - _Discover<Sokkala Bridge>:
     coord: [3689, -1003]
@@ -205,8 +168,9 @@
     notes: Hobbies for the Rich
     coord: [3664, -1554]
 - _Korok::A37
-- Tree Launch to Stable:
+-  Ride to stable:
     coord: [3657,-1711]
+    comment: Take out 5 speed horse and give saddle and bridle
 - _Tod::Noon:
     coord: [3133.5, -1680.5]
 - _Npc::SheikaFemale<Big Sister>:
@@ -232,39 +196,14 @@
 - _Korok::A26
 - _Korok::A22
 - _Korok::A19
-- _Tod::Noon:
-    comment: make noon if raining
-    coord: [4152.25, -3169.125]
-- Take .important(Blue Flame):
-    comment: Light posts on the way
-    icon-doc: tots
-    notes: Use Wooden Mob
-    movements:
-    - to: [4251,-3129]
-    - to: [4314,-3000]
-    - to: [4379,-2967]
-- Kill .enemy(Guardian):
-    comment: On the way, Grab parts
-    icon: tots
-    coord: [4466, -3034.5]
-- _Npc<Robbie>:
-    comment: Text options 2-1-2
-    coord: [4514.28, 352.96, -3158.73]
-- Buy .boss(Ancient Short Sword):
-    icon: equipment
-    notes: For The Weapon Connoisseur, if you don't have enough parts, you can buy it later
-- _Npc<Jerrin>:
-    comment: Text options 1-1-3
-    notes: The Skull's Eye quest
-- _Korok::A16
+- _Korok::A14:
+    comment: .gale(GALE 1)
 - _Korok::A15
-- _Korok::A08
-- _Material<Hearty Blueshell Snail>:
-    coord: [4592,-3318]
-    comment: find one on the beach
-- _Korok::A09
-- _Korok::A17
-- _Material<Lizalfos Tail,1>:
-    coord: [4811, -3120]
+- Use gale:
+    coord: [4631.750120015677,-3668.426391640086]
+    icon: medoh-done
+    comment: .gale(GALE 2)
+- _Shrine::TuKaloh:
+    comment: Blessing - .important(Barbarian Helm)
 - _Warp::Shrine::SohKofi:
     color: red

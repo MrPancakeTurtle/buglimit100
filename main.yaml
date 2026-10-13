@@ -22,13 +22,20 @@
   - use: ./branches/gerudo-canyon-1.yaml
 - Gerudo 1:
   - use: ./branches/gerudo-1.yaml
+- Bloodmoon:
+  - use: ./branches/Bloodmoon.yaml
 - House Upgrades:
   - use: ./branches/house-upgrades.yaml
 - Naboris:
   - use: ./branches/naboris.yaml
-
-#- Plateau Cleanup:
-#  - use: ./branches/plateau-cleanup.yaml
+- Lanayru 1:
+  - use: ./branches/lanayru-1.yaml
+- Maw of Death Mountain:
+  - use: ./branches/maw-of-death-mountain.yaml
+- Eldin:
+  - use: ./branches/eldin.yaml
+- Plateau 2:
+  - use: ./branches/plateau-2.yaml
 
 
 # - Eventide:
@@ -44,12 +51,9 @@
 #   - use: ./branches/dinraal.yaml
 # - Mount Satori 1:
 #   - use: ./branches/mount-satori-1.yaml
-# - Lanayru 1:
-#   - use: ./branches/lanayru-1.yaml
-# - Maw of Death Mountain:
-#   - use: ./branches/maw-of-death-mountain.yaml
-# - Eldin:
-#   - use: ./branches/eldin.yaml
+
+
+
 # - Gerudo 2:
 #   - use: ./branches/gerudo-2.yaml
 # - To Korok Forest:

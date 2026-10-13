@@ -1,0 +1,54 @@
+- _Korok::G12
+- _Korok::G10
+- _Korok::R72
+- _Korok::R71
+- _Korok::R59
+- _Korok::R50
+- _Shrine::MijahRokee:
+    comment: Modest Test of Strength - Ice arrows + Claymore
+- _Korok::R63
+- _Material<Fleet-Lotus Seeds,8>:
+    coord: [-2558, 663.5]
+- _Korok::R67
+- _Korok::R66
+- _Korok::R65
+- _Korok::R64
+- _Korok::R51
+- _Material<Rushroom,1>:
+    coord: [-2357.5, 352.5]
+- _Material<Endura Carrot,3>:
+    coord: [-2305, 348.5]
+- _Korok::R52
+- _Chest::Special<Ancient Saddle>:
+    comment: And Enduras
+    coord: [-2295, 343]
+- _Material<Silent Princess, 4>:
+    icon: malice
+    coord: [-2274,332.5]
+- _Korok::R61
+- _Korok::R60
+- _Shrine::MoggLatan:
+    comment: Magnesis, Grab FDB (behind last big ball)
+- _Material<Endura Carrot,2>:
+    coord: [-2304.5, 525]
+- _Boss::Hinox::Stal:
+    coord: [-2221.5, 580.5]
+- _Korok::R62
+- _Material<Hearty Durian,10>:
+    coord: [-2191.25, 442]
+- _Korok::R53
+- _Korok::R54
+- _Korok::R55
+- _Korok::R56
+- _Korok::R57
+- _Korok::R68
+- _Korok::R69
+- _Korok::R70
+- _Material<Diamond>:
+    coord: [-2236.5, 660.5]
+- Boulder of R73:
+    coord: [-2351.25,743.25]
+    icon: tots
+- _Korok::R73
+- _Warp::Shrine::MyahmAgana:
+    color: white

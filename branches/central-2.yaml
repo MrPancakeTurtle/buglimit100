@@ -11,11 +11,14 @@
     notes: Watch Out for the Flowers
     coord: [816, 842.5]
 - _Korok::Z37:
-    comment: Cryo Across, whistle for horse,
+    comment: Cryo Across, whistle for horse
+- _Material<Courser Bee Honey,1>:
+    coord: [926.25, 255.5]
+    comment: Hearty ingrediants and armoranth
 - _Shrine::KayaWan:
     comment: Grab ancient core in shrine
 - Magnesis up chest:
-    comment: Select option 2
+    comment: Select option 2, get the 4 hyrule bass
     icon: korok-magnesis
     notes: Riverbed Reward
     coord: [846, 137]

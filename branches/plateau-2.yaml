@@ -1,0 +1,40 @@
+- _Korok::P09
+- _Npc::SheikaFemale<Monk Maz Koshia>:
+    comment: EX The Champions' Ballad
+    coord: [-1124.96, 238.47, 1903.14]
+- _Warp::Shrine::KehNamut
+- _Shrine::EtsuKorima
+- _Warp::Shrine::OwaDaim
+- _Snap<Stalhorse>:
+    notes: Stalhorse, Pictured!
+- _Shrine::RuvoKorbah:
+    comment: 10x Bomb Arrow
+- _Warp::Tower::GreatPlateau
+- _Shrine::RohtaChigah:
+    comment: 2x Honey
+- _Warp::SOR
+- _Shrine::YowakaIta:
+    comment: 1x honey and goodies
+- _Korok::P05:
+    comment: Grab 10 arrows
+- _Material<Acorn,3>:
+    notes: Around tree stump
+    coord: [-945.5, 1703]
+- _Korok::P06
+- _Korok::P04
+- _Material<Courser Bee Honey,1>:
+    coord: [-1057.63, 188.0, 1628.47]
+- _Material<Wood,2>
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 1) Grab all ores dropped by Talus
+    notes: Get shrooms during talus death
+    coord: [-1087.75, 179.14, 1663.18]
+- Tree Launch up to P03:
+    comment: .gale(GALE 1)
+- _Korok::P03
+- _Korok::P07:
+    comment: .gale(GALE 2)
+- _Korok::C89
+- _Korok::C87:
+    comment: 3 cryo walks then .gale(GALE 3)
+- _Warp::Beast::Naboris
