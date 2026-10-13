@@ -135,5 +135,5 @@
 - _Korok::T01
 - _Shrine::MakaRah:
     comment: Light torch, Shock arrow water, (10 bombs in chest), hug left side, stasis
-- _Warp::Shrine:TahnoOah:
+- _Warp::Shrine::TahnoOah:
     color: purple
