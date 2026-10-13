@@ -46,7 +46,7 @@
     coord: [-2626.25, 3306.25]
 - _Korok::W63
 - Molduking:
-    icon: molduga
+    icon: molduking
     notes: .fury(FURY 1-3)
     coord: [-2391.18, 119.09, 3733.19]
 - Activate .loc(KeiveTala):

@@ -1,8 +1,12 @@
-- .item(Take horse):
-    coord: [-1551, -1781]
+- _Boss::Hinox::Blue:
+    comment: .fury(FURY 1-3)
+    coord: [-436, -2006]
 - _Tod::Night:
     coord: [-1541.5,-1798.25]
     comment: For Stalnox
+- _Korok::K19
+- _Korok::K26
+- _Korok::K25
 - _Korok::K17
 - _Korok::K18
 - _Korok::K16
@@ -31,7 +35,7 @@
 - _Korok::H58
 - _Korok::H62
 - .boss(Shoot Dinraal):
-    comment: Shoot claw
+    comment: Shoot claw (missing 0/1 claw)
     icon: tots
 - _Discover<Pondo's Lodge>:
     coord: [-2078, -2094.5]
@@ -48,25 +52,8 @@
     coord: [-2462, -2287]
 - _Shrine::GeeHarah:
     comment: Shoot up, (run left, shoot left,) run right, stasis, shoot both - (Diamond)
-- _Warp::Tower::Hebra
-
-
-- _Warp::Tower::Hebra:
-    color: blue
-
-
-
-
-
-
-
-
-
-
-
-
 - _Warp::Shrine::ShadaNaw:
-    color: green
+    color: blue
 - _Korok::H27
 - _Shrine::MozoShenno:
     comment: 3x Barb - Major Test of Strength - Use previous Axe - Grab Axe and Diamond
@@ -76,13 +63,14 @@
     color: red
 - Tree Launch to H10:
     coord: [-3037,-3251.5]
-- _Korok::H10
+- _Korok::H10:
+    comment: Place Travel Medallion
 - _Korok::H11
 - _Korok::H09
 - _Korok::H04
 - _Tod::Night
 - _Boss::Hinox::Stal:
-    comment: Use Royal Claymore
+    comment: .fury(FURY 1-3)
     coord: [-4268, -3775]
 - _Korok::H01
 - _Shrine::HiaMiu:
@@ -96,14 +84,11 @@
 - _Korok::H07
 - _Korok::H08
 - _Korok::H02
-- _Warp::Shrine::ShadaNaw:
-    color: green
-- Tree Launch to H19:
-    coord: [-3037,-3251.5]
+- _Warp::TravelMedallion<-3600,-3480>:
+    color: orange
 - _Korok::H19
-- _Chest<Bomb Arrow x5>:
-    coord: [-3670, -3290]
-- _Korok::H18
+- _Korok::H18:
+    comment: Place Travel Medallion
 - Open door:
     icon: tots
     coord: [-3724, -3545.5]
@@ -113,11 +98,9 @@
 - _Shrine::ToQuomo:
     comment: Blessing - Claymore
 - _Korok::H03
-- _Korok::H17:
-    movements:
-      - [-3792.6549224356527,-3539.6644673071314]
-      - [-3862.6549224356527,-3429.6644673071314]
-      - [-4162.654922435653,-3401.6644673071314]
+- _Warp::TravelMedallion<-3850,-3350>:
+    color: white
+- _Korok::H17
 - _Korok::H24
 - Use gale:
     coord: [-4275,-3144]
@@ -128,7 +111,8 @@
     icon: medoh-done
     comment: .gale(GALE 2)
 - _Korok::H23
-- _Korok::H32
+- _Korok::H32:
+    comment: Place Travel Medallion
 - _Korok::H40
 - _Boss::Hinox::Black:
     comment: .fury(FURY 1-3)
@@ -140,19 +124,16 @@
 - _Korok::T06:
     coord: [-4396,-2052]
 - _Korok::H60
-- Use gale:
-    coord: [-4483.222545813406,-2142.0974072771332]
-    icon: medoh-done
-    comment: .gale(GALE 3)
-- _Korok::T08
-- _Korok::T07
-- _Korok::T01
-- _Korok::H42
-- _Korok::H41
+- _Warp::TravelMedallion<-3850,-3350>:
+    color: blue
+- _Korok::H39
 - _Discover<Sturdina Secret Hot Spring>:
     coord: [-4112, -2714]
-- _Korok::H39
-- .boss(Enter Cave):
-    coord: [-3985,-2545]
+- _Korok::H41:
+    comment: .gale(GALE 3)
+- _Korok::H42
+- _Korok::T01
 - _Shrine::MakaRah:
     comment: Light torch, Shock arrow water, (10 bombs in chest), hug left side, stasis
+- _Warp::Shrine:TahnoOah:
+    color: purple

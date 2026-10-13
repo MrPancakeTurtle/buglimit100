@@ -82,6 +82,7 @@
 - .important(Ganon):
     icon: calamity
     coord: [-261.375, -1047]
+    comment: .fury(FURY 1-3)
 - .important(Dark Beast):
     icon: ganon
     notes: This now gives us the star and % markers, which are useful for backing anything up. Re-load the game
@@ -94,6 +95,4 @@
 - _Korok::K30
 - _Korok::K28
 - _Korok::K27
-- Tree Launch to Settlement:
-    coord: [-390,-1723]
 

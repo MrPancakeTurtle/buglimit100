@@ -20,8 +20,6 @@
     comment: 5/10
     icon: npc-zora-male
     coord: [3068, -213.5]
-- _Material<Fleet-Lotus Seeds,2>:
-    coord: [3120, -36]
 - _Korok::Z32
 - Use gale:
     coord: [3148.5,-12.5]
@@ -31,20 +29,32 @@
     comment: 6/10
     icon: npc-zora-male
     coord: [3095, 69.5]
-- _Material<Fleet-Lotus Seeds,4>:
-    coord: [3194.25, 16]
 - _Korok::Z33
 - Zora Monument:
     comment: 7/10
     icon: npc-zora-male
     coord: [3262, 39.5]
-- _Korok::Z34
+- _Korok::Z34:
+    comment: Place Travel Medallion
 - Zora Monument:
     comment: 8/10
     icon: npc-zora-male
     coord: [3393.25, 54]
-- Tree Launch to Z25:
-    coord: [3392.5,82.5]
+- _Npc::Rito<Kass>:
+    comment: EX Champion Mipha's Song
+    coord: [3739.8, 401.52, 53.38]
+- _Tod::Morning:
+    coord: [3750.8, 401.52, 83.38]
+- _Boss::Hinox::Blue:
+    comment: .fury(FURY 1-3)
+    coord: [3534.5, 369]
+- .boss(Shoot Naydra):
+    comment: Shoot horn, and pick it up (1S 2F 1C 2H)
+    icon: tots
+    coord: [3522.5, 718.5]
+- _Korok::N12
+- _Warp::TravelMedallion<3300, 20>:
+    color: blue
 - _Korok::Z25
 - Zora Monument:
     comment: 9/10
@@ -69,6 +79,8 @@
 - Waterfall Up:
     coord: [3356.5,-807.5]
     icon: tots
+- _Korok::Z04
+- _Shrine::SatoKoda
 - _Korok::Z17
 - _Korok::Z16
 - _Npc::ZoraFemale<Finley>:
@@ -86,10 +98,8 @@
 - _Npc::ZoraFemale<Laflat>:
     notes: Lynel Safari
     coord: [3345.25, -505]
-- Tree Launch up to trees:
-    coord: [3532.75,-473]
-- Tree Launch to Talus:
-    coord: [3681.25,-412]
+- _Shrine::MahEliya
+- _Korok::Z08
 - _Boss::Talus::Luminous:
     comment: .fury(FURY 1-3)
     coord: [3991.5, -163]
@@ -101,9 +111,6 @@
     comment: .gale(GALE 3)
 - _Korok::Z19
 - _Korok::Z20
-- _Material<Hearty Bass,4>:
-    icon: malice
-    coord: [4095, -492]
 - _Korok::A57
 - _Korok::A55
 - Tree Launch to Ballons:
@@ -117,7 +124,12 @@
 - _Korok::A56
 - _Korok::Z09
 - _Korok::Z10
-- _Korok::Z07
+- _Korok::Z07:
+    comment: Place Travel Medallion
+- _Shrine::KeeDafunia:
+    comment: needs morning
+- _Warp::TravelMedallion<4700, -1000>:
+    color: white
 - _Material<Rushroom,5>:
     icon: purple
     coord: [4687.5, -1037]
@@ -151,5 +163,93 @@
 - _Korok::A33
 - _Shrine::RitaagZumo:
     comment: Blessing - Giant Ancient Core
-- _Warp::Shrine::HaDahamar:
-    color: red
+- _Warp::Beast::Ruta:
+    color: yellow
+- Mipha's Grace+:
+    comment: .fury(FURY 1-3)
+    icon-doc: medoh-done
+- _Korok::Z42
+- _Korok::N03
+- _Korok::N02
+- _Korok::N04
+- .boss(Ride deer to pedestal):
+    icon: tots
+    coord: [2529,362]
+- _Npc::Rito<Kass>:
+    icon: npc-rito
+    notes: THe Crowned Beast
+    coord: [2581.9791661231975,467.7783881093628]
+- _Shrine::MezzaLo:
+    comment: Mag cube, jump, mag box onto switch, mag cube and jump to end
+- _Korok::N05
+- _Korok::N06
+- _Boss::Hinox::Blue:
+    comment: Best weapon
+    coord: [2983, 788]
+- _Korok::N14
+- Rock of Z51:
+    coord: [3211.5,702.5]
+    icon: tots
+- _Korok::Z51
+- _Shrine::RuccoMaag:
+    comment: Hit middle, light with fire arrows
+- _Tod::Morning:
+    coord: [3333.465668136854,418.3982561839239]
+- _Korok::Z53
+- _Korok::Z52
+- .boss(Shoot Naydra):
+    comment: Shoot claw 1S 2F 2C 2H
+    icon: tots
+    coord: [3546.5, 751]
+- _Tod::Morning:
+    coord: [3622, 626]
+- _Korok::Z54
+- _Korok::Z55
+- _Korok::N12
+- .boss(Shoot Naydra):
+    comment: Shoot scale 2S 2F 2C 2H
+    icon: tots
+    notes: May depend on how fast Naydra is
+- _Korok::Z45
+- _Korok::Z35
+- _Tod::Morning:
+    coord: [4135.5, 79]
+- _Korok::Z36
+- _Korok::Z46
+- _Npc::Rito<Kass>:
+    icon: npc-rito
+    notes: Master of the Wind
+    coord: [4098.5, 402]
+- .boss(Shoot Naydra):
+    comment: Shoot horn 2S 2F 2C 3H
+    icon: tots
+    coord: [4013, 478]
+- .boss(Break rocks):
+    coord: [4088.5,470.5]
+    icon: tots
+- .boss(Break rocks):
+    coord: [4161,487]
+    icon: tots
+- .boss(Break rocks):
+    coord: [4196,490]
+    icon: tots
+- _Korok::Z56
+- .boss(Drop onto pedestal):
+    movements:
+      - [4167.25,453.5]
+      - [4230.5,306.75]
+- _Shrine::ShaiYota:
+    comment: Blessing - Great Flameblade
+- _Boss::Hinox::Blue:
+    comment: .fury(FURY 1-3)
+    coord: [4445, 359]
+- _Korok::Z58
+- _Material<Lizalfos Tail,3>:
+    icon: malice
+    coord: [4317, 599]
+- _Korok::Z57
+- _Korok::Z59
+- _Korok::Z62
+- _Korok::Z61
+- _Warp::Tower::Faron:
+    color: blue

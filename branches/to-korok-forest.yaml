@@ -56,7 +56,7 @@
     icon: malice
     comment: 2 if lucky
     coord: [1292, -1238.5]
-- _Korok::E35:
+- _Korok::E35
 - _Material<Lizalfos Tail,2>:
     icon: malice
     coord: [1197, -1258.5]
@@ -74,10 +74,11 @@
     comment: .gale(GALE 3)
 - _Tower::Woodland
 - Through Lost Woods:
-    comment: Use torch if not sure
-    icon: tots
+    comment: Pickup Korok Mask on the way
+    icon: chest-special
     movements:
     - to: [932, -1867]
+    - to: [721, -1847]
     - to: [548.5, -1941.75]
 - _Npc<Tasho>:
     coord: [256.19, 281.61, -2229.61]

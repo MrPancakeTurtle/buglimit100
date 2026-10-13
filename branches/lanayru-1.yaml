@@ -112,6 +112,7 @@
     icon: calamity
     icon-map: null
 - .important(Mipha's Grace):
+    color: orange
     icon: ruta-done
     counter: .dungeon-complete(SPLIT)
     movements:
@@ -205,5 +206,7 @@
     comment: .gale(GALE 2)
 - _Shrine::TuKaloh:
     comment: Blessing - .important(Barbarian Helm)
+- _Chest::Special<Travel Medallion>:
+    coord: [4655, -3560]
 - _Warp::Shrine::SohKofi:
     color: red

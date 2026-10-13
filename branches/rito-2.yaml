@@ -2,6 +2,62 @@
     comment: EX Champion Revali's Song
     coord: [-3662.1, 321.55, -1314.66]
 - _Korok::T20
+- _Tower::Tabantha
+- _Korok::T24
+- _Boss::Talus::Rare:
+    comment: .fury(FURY 1-3)
+    coord: [-3939, -1088]
+- _Korok::T23
+- _Korok::T26
+- _Korok::T27
+- _Korok::T28
+- _Korok::T29
+- _Korok::T30
+- .boss(Open fairy fountain):
+    icon: tots
+    movements:
+    - to: [-3547, -744]
+- _Korok::T31
+- _Korok::T33
+- _Korok::T35
+- _Shrine::TenaKosah:
+    comment: 3x Barb - Major Test of Strength - Use previous Axe - Grab Axe 
+- _Memory::AncientColumns
+- _Korok::T37
+- _Korok::T32
+- _Shrine::KahOkeo:
+    comment: run + bomb, bomb for flying platform, stasis, bomb arrow, bomb to redirect
+- _Korok::T36
+- _Korok::R33
+- _Tod::Morning:
+    coord: [-4064.5,-215.5]
+    comment: For dinraal
+- _Korok::R32
+- .boss(Shoot Dinraal):
+    comment: Shoot fang
+    icon: tots
+    coord: [-3944, -122]
+- _Korok::R35
+- _Korok::R34
+- Use gale:
+    coord: [-3538,-102.5]
+    icon: medoh-done
+    comment: .gale(GALE 2)
+- _Korok::R36
+- _Korok::R46
+- Use gale:
+    coord: [-3286.5,111.5]
+    icon: medoh-done
+    comment: .gale(GALE 3)
+- _Boss::Talus::Rare:
+    comment: Best weapon
+    coord: [-3126, 71]
+- _Korok::R28
+- _Korok::R29
+- _Korok::R20
+- _Discover<Tanagar Canyon Course>:
+    coord: [-3134.5,-679]
+- _Korok::R12
 - _Warp::Shrine::ShaWarvo
 - _Shrine::NoeRajee
 - _Boss::Talus::Frost:
@@ -138,7 +194,7 @@
     coord: [-3170,-1758]
 - _Korok::T19
 - _Warp::TravelMedallion<-2970, -1880>:
-    color: green
+    color: rgb(9, 227, 56)
     comment: Set ToD to Night
 - _Korok::T18
 - _Korok::H72

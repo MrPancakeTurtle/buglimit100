@@ -1,79 +1,3 @@
-- _Korok::C82
-- _Korok::C83
-- _Discover<Gatepost Town Ruins>:
-    coord: [-547, 1432]
-- _Korok::C76
-- _Korok::C75
-- _Boss::Talus::Luminous:
-    comment: Use stone smasher
-    coord: [-504, 1185]
-- _Korok::C69
-- _Memory::LakeKolomo
-- Tree Launch to C81:
-    coord: [-755.5,1180.25]
-- _Korok::C81
-- _Korok::C80
-- _Korok::C79
-- _Korok::C74
-- _Chest<Bomb Arrow x5>:
-    coord: [-1150, 1198.25]
-- _Korok::C73
-- _Korok::C68
-- _Korok::C67
-- _Discover<Aquame Bridge>:
-    coord: [-1127.3333740234375,971.3333129882812]
-- _Korok::C60
-- Get C61 Rock:
-    coord: [-1000,882]
-    icon: tots
-- _Korok::C61
-- _Korok::C62
-- _Korok::C63
-- Tree Launch to Kaam Ya'tak:
-    coord: [-683.5,835.5]
-- _Shrine::KaamYatak:
-    comment: Push door with Mag, grab EOD first chest on left and diamond at the end
-- _Korok::C53
-- _Discover<Ancient Tree Stump>:
-    coord: [-1111.9779124572424,432.3401915161885]
-    comment: Don't touch ground
-- _Korok::C47:
-    comment: Drownwarp
-- Tree Launch from C53 to Tower:
-    coord: [-1018,559.125]
-- _Tower::Central
-- _Korok::C48
-- Use gale:
-    coord: [-864.0625,222.5625]
-    icon: medoh-done
-    comment: .gale(GALE 1)
-- _Korok::C39
-- _Korok::C38
-- Tree Launch to R58:
-    coord: [-1188,247.5]
-- _Korok::R58
-- _Korok::C37
-- _Material<Acorn,18>:
-    coord: [-1305.5, 227.5]
-    comment: Around Trees
-- _Korok::C36
-- _Material<Lizalfos Tail,1>:
-    icon: malice
-    coord: [-1358, 242]
-- _Boss::Hinox::Black:
-    comment: .fury(FURY 1-3)
-    coord: [-1167, 125.5]
-- _Korok::R49
-- Use gale:
-    coord: [-1518.5,149.5]
-    icon: medoh-done
-    comment: .gale(GALE 2)
-- _Korok::R48
-- _Korok::R42
-- _Korok::R43
-- _Korok::R45
-- _Korok::R44
-- _Warp::Shrine::JaBaij
 - _Korok::P12
 - _Korok::P13
 - _Discover<Outpost Ruins>:
@@ -82,7 +6,7 @@
     icon: purple
     coord: [-181.75, 1606]
 - _Boss::Talus::Luminous:
-    comment: Use Savage Lynel Bow
+    comment: .fury(FURY 2-3)
     coord: [-170, 1773]
 - _Korok::D43
 - _Korok::D44
@@ -93,7 +17,7 @@
 - Use gale:
     coord: [80,1610.5]
     icon: medoh-done
-    comment: .gale(GALE 3)
+    comment: .gale(GALE 2)
 - _Korok::D26
 - _Discover<East Post Ruins>:
     coord: [68,1519]
@@ -105,14 +29,114 @@
 - _Korok::D36
 - _Korok::D46
 - _Korok::D37
-- _Tod::Night:
-    coord: [670.5,1796.5]
-    comment: For stalnox near Mogg Latan
 - _Korok::D38
 - _Chest<Smash Deposits>:
     coord: [701.25,1778.5]
     comment: next to D38
 - _Korok::D47
 - _Korok::D39
-- _Warp::Tower::Faron:
-    color: rgb(9, 227, 56)
+- _Warp::Shrine::OmanAu
+- _Korok::C82
+- _Korok::C83
+- _Boss::Talus::Luminous:
+    comment: .gale(GALE 3) Use stone smasher
+    coord: [-504, 1185]
+- _Korok::C69
+- _Korok::C63
+- _Korok::C62
+- _Chest::Special<Tingle's Hood>:
+    coord: [-744, 890]
+- _Memory::LakeKolomo
+- Tree Launch to C81:
+    coord: [-755.5,1180.25]
+- _Korok::C81
+- _Korok::C80
+- _Korok::C79
+- _Korok::C74
+- _Chest::Special<Phantom Helmet>:
+    coord: [-1200, 1229]
+- _Korok::C73
+- _Korok::C68
+- _Korok::C67
+- _Discover<Aquame Bridge>:
+    coord: [-1127.3333740234375,971.3333129882812]
+- _Korok::C60
+- Get C61 Rock:
+    coord: [-1000,882]
+    icon: tots
+- _Korok::C61
+- _Shrine::KaamYatak:
+    comment: Push door with Mag, grab EOD first chest on left and diamond at the end
+- _Korok::C57
+- _Korok::C52
+- _Korok::C53
+- _Discover<Ancient Tree Stump>:
+    coord: [-1111.9779124572424,432.3401915161885]
+    comment: Don't touch ground
+- _Korok::C47:
+    comment: Drownwarp
+- Tree Launch from C53 to Tower:
+    coord: [-1018,559.125]
+- _Tower::Central
+- _Korok::C48
+- _Korok::C39:
+    comment: .gale(GALE 1)
+- _Korok::C38
+- _Korok::C37
+- _Material<Acorn,18>:
+    coord: [-1305.5, 227.5]
+    comment: Around Trees
+- _Korok::C36
+- _Material<Lizalfos Tail,1>:
+    icon: malice
+    coord: [-1358, 242]
+- _Boss::Hinox::Black:
+    comment: .fury(FURY 1-3)
+    coord: [-1167, 125.5]
+- _Korok::R48:
+    comment: Tree Launch, place Travel Medallion
+- _Korok::R42
+- _Korok::R43
+- _Korok::R45
+- _Korok::R44
+- _Warp::TravelMedallion<-1510, 55>:
+    color: cyan
+- _Korok::R49
+- _Korok::R58
+- _Korok::R74
+- _Korok::C52
+- _Korok::C57
+- Tree Launch to R74:
+    coord: [-1258,706]
+- _Korok::R74
+- _Memory::SanidinPark
+- .boss(Tame Zelda's Horse):
+    icon: tots
+    coord: [-1680, 810]
+- _Korok::R79
+- _Korok::C59:
+    movements:
+      - [-1500.5,923.5]
+      - [-1512.5,909.5]
+- _Korok::C58
+- _Discover<Gleeok Bridge>:
+    coord: [-1325, 804]
+- _Korok::C66
+- _Korok::C72
+- _Korok::C78
+- _Npc<Master Sword Lady>:
+    coord: [-1400.00, 137.72, 1280.00]
+    comment: Aliza
+    notes: Star Fragment 1/3
+- _Equipment::Weapon<Axe>:
+    coord: [-1412.5,1248.5]
+- .boss(Register Zelda's horse):
+    coord: [-1432, 1264]
+- _Npc<White Horse Guy>:
+    coord: [-1439.25, 137.72, 1278.45]
+    comment: Toffa
+- _Npc<Gourmet Meat Guy>:
+    coord: [-1432.50, 137.72, 1264.50]
+    comment: Trott
+- _Shrine::RotaOoh:
+    comment: Rotating wall

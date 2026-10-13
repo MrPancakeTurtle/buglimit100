@@ -9,31 +9,30 @@
     icon: medoh-done
     comment: .gale(GALE 1)
 - _Boss::Hinox::Blue:
-    comment: .fury(FURY 1-3)
+    comment: Best Weapon
     coord: [-1698, 1776.5]
 - _Korok::C88:
     comment: Drownwarp
 - _Discover<Gerudo Canyon Pass>:
     coord: [-1648.75,2056]
-- .enemy(Take horse from boko):
-    icon: tots
-    coord: [-1623.25,2114]
-- _Npc<Zyle>:
-    notes: A Good-Sized Horse
-    movements:
-    - to: [-1638, 2260]
-    - to: [-1857, 2297]
-    - to: [-2009, 2086]
-    - to: [-2020, 1886]
-    - to: [-2031.5, 1878]
-- Use gale:
-    coord: [-2054,1978]
-    icon: medoh-done
-    comment: .gale(GALE 2)
+- _Korok::G36
+- _Korok::W20
+- _Korok::W21
+- _Shrine::JeeNoh
+- _Korok::W14
+- _Boss::Talus::Luminous:
+    comment: .fury(FURY 1-2)
+    coord: [-1888, 2042]
 - _Npc<Palme>:
     comment: Missing in Action
     coord: [-2063.50, 208.00, 1994.50]
 - _Korok::W07
+- _Npc<Zyle>:
+    notes: A Good-Sized Horse
+- Use gale:
+    coord: [-2054,1978]
+    icon: medoh-done
+    comment: .gale(GALE 2)
 - _Npc<Oliff>:
     comment: Missing in Action
     coord: [-2055.00, 209.05, 1742.00]
@@ -42,13 +41,6 @@
     coord: [-2004, 1740.75]
 - _Shrine::JolooNah:
     comment: Electric Arrow, Stasis, Fire Arrow
-- Use gale:
-    coord: [-2039,1715]
-    icon: medoh-done
-    comment: .gale(GALE 3)
-- _Material<Lizalfos Tail,3>:
-    icon: malice
-    coord: [-2191, 1825.5]
 - _Npc<Flaxel>:
     comment: Missing in Action
     coord: [-2163.76, 249.00, 1707.54]
@@ -57,6 +49,9 @@
     coord: [-2187.78, 207.99, 1691.46]
 - _Korok::G32
 - _Korok::W08
+- _Boss::Talus::Luminous:
+    comment: .gale(GALE 3) .fury(FURY 3) Best Weapon
+    coord: [-2273, 1980]
 - _Korok::W10
 - _Material<Rushroom,4>:
     icon: purple
@@ -73,5 +68,5 @@
     coord: [-2790.5, 2237]
 - _Discover<Gerudo Desert Gateway>:
     coord: [-2930.5, 2324]
-- _Warp::Shrine::MonyaToma:
-    color: orange
+- _Warp::Shrine::KatahChuki:
+    color: red

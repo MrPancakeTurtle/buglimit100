@@ -55,7 +55,7 @@
 - _Korok::N21
 - _Korok::N20
 - _Boss::Hinox::Red:
-    comment: Use Royal Claymore
+    comment: .fury(FURY 1-3)
     coord: [2429, 1182]
 - .boss(Shoot Naydra):
     comment: Shoot fang
@@ -69,8 +69,8 @@
     coord: [2652.5,1166]
 - _Shrine::DowNaeh:
     comment: Jump to middle, all 3 chests, grab box
-    notes: You should have 1 scale, 1 fang, 2 horn and 1 claw, if you have more, it's ok
-- _Warp::Tower::Faron:
-    color: orange
+    notes: 1S 2F 1C 1H
+- _Warp::Beast::Ruta:
+    color: red
 # - _Warp::Shrine::ShoDantu:
 #     color: red

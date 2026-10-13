@@ -8,9 +8,9 @@
 - _Equipment::Weapon<Double Axe>:
     coord: [2597.25, -1153]
 - _Korok::E43:
-    color: blue
     comment: Tree launch, place travel medallion
 - _Shrine::TahMuhl:
+    color: blue
     comment: Blow up crates, stone smasher on right, run to finish
 - Smash deposits:
     icon: chest
@@ -18,7 +18,7 @@
     coord: [2374, -872]
 - _Korok::E45
 - _Warp::TravelMedallion<2315,-1145>:
-    color: green
+    color: rgb(9, 227, 56)
 - _Korok::E41
 - _Korok::E42
 - _Korok::E40
