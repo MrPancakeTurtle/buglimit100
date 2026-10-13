@@ -16,7 +16,8 @@
 - _Warp::TravelMedallion<-3330, -2300>:
     color: yellow
 - _Korok::T05
-- _Discover<Hebra Trailhead Lodge>
+- _Discover<Hebra Trailhead Lodge>:
+    coord: [-3573.5, -2253.5]
 - _Warp::TravelMedallion<-3330, -2300>:
     color: purple
 - Use gale:
