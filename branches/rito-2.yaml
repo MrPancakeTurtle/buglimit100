@@ -218,7 +218,8 @@
 - _Material<Spicy Pepper>:
     coord: [-3975, -1692]
 - _Korok::T16
-- _Korok::T12
 - _Korok::T09
+- _Korok::T12
+- _Korok::T08
 - _Warp::Shrine::DahHesho:
     color: rgb(222, 222, 18)
