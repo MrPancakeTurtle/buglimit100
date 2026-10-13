@@ -114,11 +114,10 @@
 - .boss(Kill Bladmaster):
     comment: Use Eightfold Blade
     icon: tots
-    notes: .important(Kill him with a throw, else, he may don't drop him weapon. Grab windcleaver) for The Weapon Connoisseur
     coord: [2029.75, 962]
 - _Shrine::LaknaRokee:
     comment: Grab EOD in shrine
 - _Korok::Z60:
     comment: tree launch
 - _Warp::Shrine::WahgoKatta:
-    color: grey
+    color: yellow

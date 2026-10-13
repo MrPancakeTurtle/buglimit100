@@ -1,13 +1,6 @@
 - _Korok::N47:
     comment: On top of tech lab .gale(GALE 3)
-- _Korok::N60
-- _Npc::Rito<Kass>:
-    icon: npc-rito
-    notes: The Hero's Cache
-    coord: [3743.5, 2629]
-- _Chest<Gold Rupee>:
-    coord: [3776.25, 2640.25]
-- _Korok::N61
+
 - _Warp::TechLab::Hateno
 - _Korok::N48
 - Tree Launch to N55:

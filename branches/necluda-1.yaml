@@ -42,11 +42,11 @@
     comment: Stasis, ride up the big circle
 - _Material<Hearty Radish,1>:
     coord: [2597.5, 1612.5]
+- _Korok::N36
+- _Korok::N38
 - _Boss::Talus::Stone:
     comment: Use hammer
     coord: [3196.5, 1917.5]
-- _Korok::N36
-- _Korok::N38
 - _Korok::N41
 - _Chest<Arrow 10x>:
     coord: [3020, 2014]
@@ -83,11 +83,6 @@
     movements: 
     - [3373.0625,2170.8125]
     - [3365, 2149]
-- _Npc::SheikaMale<Shopkeeper>:
-    comment: Sell all ores, finish by selling 1 of anything
-    icon: npc
-    notes: Buy bomb arrows (NOT singular ones), arrows and endura shrooms
-    coord: [3360,2173]
 - _Npc::SheikaMale<Farmer>:
     notes: The Spring of Wisdom
     coord: [3382, 2095]

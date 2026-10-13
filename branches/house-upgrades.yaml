@@ -1,6 +1,11 @@
 - _Npc::SheikaMale<Shopkeeper>:
-    comment: Sell all Ores but Opal and amber
+    comment: Sell all Ores but Opal and amber, end by selling 1
     coord: [3360,2173]
+- _Npc<Nebb>:
+    comment: Show duplex bow and windcleaver
+    icon: npc
+    notes: The Weapon Connoisseur
+    coord: [3365, 2149]
 - _Equipment::Weapon<Iron Sledgehammer>:
     coord: [3326.5, 2287.5]
 - _Tod::Noon:
@@ -25,5 +30,13 @@
     comment: 3 truffles for food
     icon: npc
     coord: [3778.25, 2134.875]
+- _Korok::N60
+- _Npc::Rito<Kass>:
+    icon: npc-rito
+    notes: The Hero's Cache
+    coord: [3743.5, 2629]
+- _Chest<Gold Rupee>:
+    coord: [3776.25, 2640.25]
+- _Korok::N61
 - _Warp::Shrine::DaqoChisay:
     color: white

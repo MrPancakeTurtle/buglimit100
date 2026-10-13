@@ -34,44 +34,6 @@
     notes: If that horse is better, keep, if not, leave
     coord: [-2120, -1398]
     icon: tots
-- _Korok::R06:
-    comment: On leafless tree
-- smash deposits:
-    icon: chest
-    coord: [-1900, -1260]
-- _Korok::R09
-- Tree Launch to tower:
-    coord: [-1861.5,-1176.5]
-- _Tower::Ridgeland
-- Shroom Launch up to first flower:
-    coord: [-1988,-550]
-- .boss(Grab 4 first flowers):
-    icon: tots
-    coord: [-2054.470773902878,-506.7189310441345]
-- _Korok::R24
-- _Korok::R23:
-    coord: [-2030.2207739028781,-547.7189310441345]
-- _Korok::R18
-- Shroom Launch to Pathern:
-    coord: [-1955.7207739028781,-613.2189310441345]
-- _Korok::R15
-- Full send red orb:
-    icon: tots
-    coord: [-2138, -909.5]
-- Full send orange orb:
-    icon: tots
-    coord: [-2270, -1038]
-- Place orbs:
-    icon-doc: tots
-- _Shrine::TohYahsa:
-    comment: Bomb twice, grab rubber armor, 3 hits aim up
-- _Korok::R14
-- _Korok::R08
-- Shroom launch to New horse:
-    icon-doc: tots
-    movements:
-    - to: [-2407,-990]
-    - to: [-2120, -1398]
 - _Korok::R05
 - _Discover<Footrace Check-in>:
     coord: [-2650, -1192]

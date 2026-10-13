@@ -18,8 +18,14 @@
   - use: ./branches/ridgeland.yaml
 - Tabantha:
   - use: ./branches/tabantha.yaml
-
-
+- Gerudo Canyon 1:
+  - use: ./branches/gerudo-canyon-1.yaml
+- Gerudo 1:
+  - use: ./branches/gerudo-1.yaml
+- House Upgrades:
+  - use: ./branches/house-upgrades.yaml
+- Naboris:
+  - use: ./branches/naboris.yaml
 
 #- Plateau Cleanup:
 #  - use: ./branches/plateau-cleanup.yaml
@@ -30,14 +36,10 @@
 
 
 
-# - Gerudo Canyon 1:
-#   - use: ./branches/gerudo-canyon-1.yaml
-# - Gerudo 1:
-#   - use: ./branches/gerudo-1.yaml
-# - House Upgrades:
-#   - use: ./branches/house-upgrades.yaml
-# - Naboris:
-#   - use: ./branches/naboris.yaml
+
+
+
+
 # - Dinraal:
 #   - use: ./branches/dinraal.yaml
 # - Mount Satori 1:

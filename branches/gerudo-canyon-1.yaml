@@ -1,28 +1,8 @@
 - _Korok::P14
 - _Korok::W22
 - _Korok::W27
-- _Korok::W21
-- _Korok::W20
-- _Korok::G36
-- _Shrine::JeeNoh:
-    comment: shoot first 2 balls, stasis lazer for last 
 - _Korok::W26
-- Use gale:
-    icon: medoh-done
-    coord: [-2006.5,2219.5]
-    comment: .gale(GALE 1)
-- _Korok::W14
-- _Boss::Talus::Luminous:
-    comment: Use GEB + bomb arrow
-    coord: [-1888, 2042]
-- _Boss::Talus::Luminous:
-    comment: Use Stone Smasher
-    coord: [-2273, 1980]
 - _Korok::W11
-- Kill .enemy(Fire Wizzrobe):
-    comment: For fire rod
-    icon: equipment
-    coord: [-2169.75, 2134]
 - _Korok::W12
 - _Korok::W16
 - _Korok::W23
@@ -31,7 +11,7 @@
 - Use gale:
     icon: medoh-done
     coord: [-2261,2588.5]
-    comment: .gale(GALE 2)
+    comment: .gale(GALE 1)
 - _Korok::W32
 - _Korok::W31
 - _Tower::Wasteland:
@@ -44,7 +24,7 @@
 - Use gale:
     icon: medoh-done
     coord: [-2852,2174.5]
-    comment: .gale(GALE 3)
+    comment: .gale(GALE 2)
 - _Boss::Talus::Luminous:
     comment: Use GEB + bomb arrow
     coord: [-2892, 2208.5]

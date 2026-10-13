@@ -54,7 +54,7 @@
     comment: Blizzard Rod, then mag chest down
     coord: [-360.875, -850.875]
 - _Chest::Special<Royal Guard Boots>:
-    icon: chest
+    icon: chest-special
     coord: [-360, -855]
     comment: Throw away EoD (Damaged) get Knight's Claymore
 - _Chest<Shard of Naydra's Fang>:
@@ -89,7 +89,7 @@
     icon: malice
     coord: [-150.5, -897.25]
 - _Chest::Special<Royal Guard Uniform>:
-    icon: chest
+    icon: chest-special
     coord: [-175, -889]
 - _Korok::X15
 - _Equipment::Weapon<Royal Claymore>:
@@ -115,7 +115,7 @@
 - _Korok::X16
 - _Korok::X14
 - _Chest::Special<Royal Guard Cap>:
-    icon: chest
+    icon: chest-special
     coord: [-253, -1080]
     comment: equip all
 - _Korok::X07
