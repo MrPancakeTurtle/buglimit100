@@ -9,17 +9,22 @@
 - Tree Launch from Z21 to Z29:
     coord: [1122.4046460519494,-220.425183018604]
 - _Korok::Z29
-- Tree Launch to C46:
-    coord: [1173,-75]
 - _Korok::C46
+- _Korok::C51
+- _Boss::Hinox::Blue:
+    comment: Any weapon
+    coord: [408, 306]
+- _Korok::C50
+- _Korok::C44
+- _Chest::Special<Tingle's Tights>:
+    coord: [-31, 211]
+- _Korok::C45
 - _Korok::C34
 - _Boss::Hinox::Blue:
     comment: .fury(FURY 1-3)
     coord: [629.75, -303.75]
-- Tree Launch to Beach:
-    coord: [586.5,-284]
-- _Korok::C18
 - _Korok::C23
+- _Korok::C18
 - _Korok::C19
 - _Korok::C12
 - _Shrine::NamikaOzz:
@@ -27,112 +32,10 @@
     notes: Grab axe and frostpear, .important(DON'T THROW THEM) you need them for The Weapon Connoisseur
 - _Korok::C09
 - _Korok::C11
-- _Tod::Night:
-    coord: [627.5, -733.5]
 - _Korok::C06
 - _Boss::Talus::Luminous:
-    comment: Use stone smasher
+    comment: Use stone smasher, place Travel Medallion
     coord: [779.5, -1020]
-- _Korok::C02
-- .boss(Avoid Guardians):
-    comment: You can also kill them
-    icon: tots
-    coord: [427, -1087.5]
-- _Discover<Helmhead Bridge>:
-    coord: [398.5, -1164]
-- _Korok::C05
-- _Boss::Hinox::Stal:
-    comment: Use Savage Lynel Crusher
-    coord: [277.5, -933]
-- _Korok::C04
-- _Korok::C10
-- _Korok::C17
-- Use gale:
-    coord: [97.125,-450.875]
-    icon: medoh-done
-    comment: .gale(GALE 1)
-- _Korok::C29
-- _Korok::C28
-- _Korok::C33
-- _Korok::C32
-- _Korok::C27
-- _Korok::C16
-- _Korok::X25
-- _Korok::X24
-- _Korok::X21
-- _Korok::X20
-- Use gale:
-    coord: [-39,-944]
-    icon: medoh-done
-    comment: .gale(GALE 2)
-- _Korok::X12
-- .boss(Enter Cave):
-    coord: [-101.5,-1141.5]
-- _Korok::X11
-- _Boss::Talus::Rare:
-    comment: .fury(FURY 1-3)
-    coord: [-133, -953]
-- _Chest<Shard of Farosh's Fang>:
-    coord: [-130.75, -948.5]
-- _Material<Lizalfos Tail,5>:
-    icon: malice
-    comment: In all Library room
-    coord: [-155.5, -1076.25]
-- _Discover<King's Study>:
-    coord: [-172.75, -1117.75]
-    comment: Grab chest inside
-    notes: You can grab Royal Guard Shield if you don't have already one
-- .boss(Push Metal Door):
-    coord: [-164.5,-1082.5]
-- _Equipment::Weapon<Stone Smasher>:
-    coord: [-197.5,-1078]
-- .boss(Push Metal Door):
-    coord: [-145.5,-1095]
-- _Shrine::SaasKosah:
-    comment: Major Test of Strength - Flameblade
-- _Material<Lizalfos Tail,3>:
-    icon: malice
-    coord: [-236, -1174.75]
-- _Chest::Special<Star Fragment>:
-    coord: [-223.5, -1174.5]
-    comment: In water
-- _Korok::X01
-- Use gale:
-    coord: [-293.5,-1154.5]
-    icon: medoh-done
-    comment: .gale(GALE 3)
-- _Chest<Bomb Arrow x5>:
-    coord: [-293.25, -1132.25]
-- Climb up
-- _Korok::X03
-- _Chest<Ancient Arrow x5>:
-    coord: [-258.5625, -1064.4375]
-- _Korok::X06:
-    comment: Mid-high of castle
-- _Korok::X05:
-    comment: Top of castle
-- _Korok::X10
-- .important(Ganon):
-    icon: calamity
-    coord: [-261.375, -1047]
-- .important(Dark Beast):
-    icon: ganon
-    notes: This now gives us the star and % markers, which are useful for backing anything up. Re-load the game
-    counter: .dungeon-complete(SPLIT)
-- _Chest<Naydra's Scale>:
-    coord: [-177, -1166.75]
-- _Korok::X02
-- _Chest<Dinraal's Scale>:
-    coord: [-176.625, -1192.625]
-- _Korok::K30
-- _Korok::K28
-- _Korok::K27
-- Tree Launch to Settlement:
-    coord: [-390,-1723]
-- _Discover<Rauru Settlement Ruins>:
-    coord: [700, -1241]
-- _Tod::Noon:
-    coord: [1075.75, -1125.5]
 - _Npc<Balloon Girl>:
     coord: [1080.50, 127.38, -1125.00]
     notes: 7am-8pm. Make noon if needed.
@@ -153,7 +56,7 @@
     icon: malice
     comment: 2 if lucky
     coord: [1292, -1238.5]
-- _Korok::E35
+- _Korok::E35:
 - _Material<Lizalfos Tail,2>:
     icon: malice
     coord: [1197, -1258.5]
@@ -170,3 +73,79 @@
     icon: medoh-done
     comment: .gale(GALE 3)
 - _Tower::Woodland
+- Through Lost Woods:
+    comment: Use torch if not sure
+    icon: tots
+    movements:
+    - to: [932, -1867]
+    - to: [548.5, -1941.75]
+- _Npc<Tasho>:
+    coord: [256.19, 281.61, -2229.61]
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't follow Oaki; he'll move along his path while we do the next steps. Note the in-game time that he starts moving; he will arrive at the shrine 5:20 later.
+- _Npc<Walton>:
+    icon: npc
+    notes: Apple, Sunshroom, Trout, Lynel Hoof, Pumpkin
+    comment: Drop all items in a single throw
+    coord: [420, -2180]
+- Activate .loc(Keo Ruug):
+    icon: shrine
+    coord: [474.69, 248.84, -2167.82]
+    notes: Don't enter shrine or Oaki will reset
+- _Npc<Hestu>:
+    comment: 7 weapon, 6 bow, 15 shield
+    icon: hestu
+    coord: [463, -2110]
+- _Npc<Goddess Statue>:
+    icon: link
+    notes: 7 heart containers
+    coord: [417.75, -2178.75]
+- .important(Master Sword):
+    icon: equipment
+    coord: [434.25, -2110.75]
+- _Material<Silent Princess,1>:
+    icon: malice
+    coord: [430.375, -2115]
+- _Npc<Kula>:
+    comment: Freezing Rod (can get rid of rod now)
+    coord: [419.28, 248.65, -2134.93]
+- _Npc<Peeks>:
+    coord: [441.00, 248.56, -2133.05]
+    comment: Legendary Rabbit Trial
+- _Shop<Buy Rushrooms>:
+    coord: [432.875, -2179.125]
+- _Material<Rushroom,4>:
+    icon: purple
+    comment: from above step
+- _Shop<Buy all arrows>:
+    coord: [418.5, -2183.375]
+- Sell ores:
+    comment: All but opal
+    icon: shop
+- _Material<Restless Cricket>:
+    comment: On the way to Oaki
+    notes: You should have 10 crickets
+    coord: [156.5, -2346]
+- _Material<Courser Bee Honey>:
+    coord: [178.25,-2311.5]
+- _Shrine::DaagChokah:
+    comment: Blessing - Ancient Core
+- _Warp::Shrine::KeoRuug
+- Trial of the Sword:
+    comment: Watch a video
+- _Shrine::KeoRuug:
+    notes: 5, 3, 1, 2
+- _Npc<Damia>:
+    icon: npc
+    notes: The Test of Wood
+    coord: [561, -2161]
+- _Shrine::MaagHalan:
+    comment: Blessing - Giant Ancient Core
+- _Warp::Shrine::KeoRuug
+- _Npc<Zooki>:
+    icon: npc
+    notes: Trial of Second Sight
+    coord: [257, -1983.5]
+- _Shrine::KuhnSidajj:
+    comment: Blessing - Giant Ancient Core
+- _Warp::TravelMedallion<770,-1010>:
+    color: rgb(227, 11, 180)

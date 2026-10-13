@@ -43,6 +43,13 @@
   - use: ./branches/rito-2.yaml
 - Letter Quest:
   - use: ./branches/letter-quest.yaml
+- Daruk's Song:
+  - use: ./branches/dinraal.yaml
+- To Korok Forest:
+  - use: ./branches/to-korok-forest.yaml
+- Ganon's Castle:
+  - use: ./branches/ganons.yaml
+
 
 
 # - Eventide:
@@ -62,8 +69,7 @@
 
 
 
-# - To Korok Forest:
-#   - use: ./branches/to-korok-forest.yaml
+
 # - Lost Woods:
 #   - use: ./branches/lost-woods.yaml
 # - Hebra:
