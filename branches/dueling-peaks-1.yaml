@@ -36,7 +36,7 @@
 - _Shrine::HaDahamar:
     comment: Cryo
 - _Npc<Beedle>:
-    comment: Sell all ores
+    comment: Sell all ores and Climber's Bandanna 
     icon: shop
     notes: Buy all arrows, crickets and frogs (for quest). Don't sell flint/rock salt
     coord: [1764.5, 1926.25]
@@ -118,4 +118,5 @@
     - [1688.6666870117188,140.66665649414062]
     - [1710.6666870117188,52.666656494140625]
 - _Korok::N01
-- _Warp::Shrine::SheeVaneer
+- _Warp::Shrine::SheeVaneer:
+    color: green

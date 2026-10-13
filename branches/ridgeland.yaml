@@ -1,5 +1,6 @@
+- _Korok::C01
 - _Boss::Hinox::Blue:
-    comment: Use RGC, break it
+    comment: Use RGC + 2 phatom pieces
     coord: [-690, -1313]
 - _Material<Wood>:
     coord: [-709, -1311]
@@ -18,14 +19,6 @@
     coord: [-1241,-1577]
 - _Shrine::MonyaToma:
     comment: face away slam attack with orb
-- _Korok::K23
-- _Discover<Serenne Stable>:
-    coord: [-1531, -1742.5]
-- _Material<Endura Shroom,3>
-- _Cook<Cook food>:
-    notes: 5 speed food, 1 hearty greens (1 big and regular radish), 6 stamina skewers
-    coord: [-1548.5, -1803.5]
-- .item(Take horse)
 - Break rubbles in front of shrine:
     coord: [-1961,-1487.5]
     icon: tots
@@ -34,7 +27,7 @@
 - _Korok::R03:
     comment: Go down one floor
 - _Boss::Talus::Luminous:
-    comment: Use Royal Claymore
+    comment: Use RGC + 2 phatom pieces
     coord: [-2170, -1596]
 - _Korok::R02
 - .item(Tame another horse):
@@ -68,14 +61,12 @@
 - Full send orange orb:
     icon: tots
     coord: [-2270, -1038]
-- _Korok::R08
-- Shroom Launch to Thunder Plateau:
-    coord: [-2387,-1109]
 - Place orbs:
     icon-doc: tots
 - _Shrine::TohYahsa:
-    comment: Bomb twice, grab rubber armor, place mag on switch, bomb the rest
+    comment: Bomb twice, grab rubber armor, 3 hits aim up
 - _Korok::R14
+- _Korok::R08
 - Shroom launch to New horse:
     icon-doc: tots
     movements:
@@ -103,10 +94,8 @@
     coord: [-2911.25, -566.75]
 - _Npc<Beedle>:
     icon: shop
-    comment: Sell all ores but luminous stones, opal and flint, buy arrows and 1 winterwing butterfly
+    comment: Sell all ores+armor but luminous stones, opal and flint, buy arrows and 1 winterwing butterfly
     coord: [-2907.25, -539.5]
-- _Tod::Night:
-    coord: [-2917, -540]
 - _Material<Wood>
 - _Npc::SheikaMale<Pointing guy>:
     coord: [-2942.5,-485.5]

@@ -118,5 +118,7 @@
     coord: [2029.75, 962]
 - _Shrine::LaknaRokee:
     comment: Grab EOD in shrine
-- _Warp::TechLab::Hateno:
+- _Korok::Z60:
+    comment: tree launch
+- _Warp::Shrine::WahgoKatta:
     color: grey

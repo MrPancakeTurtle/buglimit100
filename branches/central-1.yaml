@@ -1,10 +1,10 @@
-- _Chest<10x Arrows>:
-    coord: [-343, 1578]
-- Climb up tower
-- _Chest<5x Fire Arrows>:
-    coord: [-283, 1584.5]
-- .item(Tree Launch to horses):
-    coord: [-174, 1371.5]
+- _Discover<Gatepost Town Ruins>:
+    coord: [-547, 1432]
+- _Korok::C76
+- _Chest::Special<Majora's Mask>:
+    comment: Equip
+    coord: [-448, 1281]
+- _Korok::C75
 - Get horse with ice arrow:
     icon: location
     coord: [-275.5, 1070.5]
@@ -17,7 +17,7 @@
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [351, 1088]
 - _Npc<Beedle>:
-    notes: Sell ores, buy arrows and 1 Electric Darner
+    notes: Sell Ruby, buy arrows and 1 Electric Darner
     coord: [361.5, 1038.5]
 - Register horse:
     notes: Keep using the horse, it's faster
