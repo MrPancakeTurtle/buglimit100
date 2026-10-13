@@ -194,7 +194,7 @@
 - _Korok::A09:
     comment: .gale(GALE 3)
 - _Korok::A17
-- _Warp::Shrine:DaqaKoh:
+- _Warp::Shrine::DaqaKoh:
     color: orange
 - _Equipment::Weapon<Drillshaft>:
     coord: [1970, -2211]
