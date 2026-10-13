@@ -7,8 +7,6 @@
 - _Korok::W45
 - _Korok::W49
 - _Korok::W48
-- _Korok::W39
-- _Korok::W38
 - _Boss::Talus::Luminous:
     comment: Grab ores .fury(FURY 2-3)
     coord: [-2077, 3046]
