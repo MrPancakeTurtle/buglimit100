@@ -29,6 +29,7 @@
 - _Korok::W07
 - _Npc<Zyle>:
     notes: A Good-Sized Horse
+    coord: [-2054,1978]
 - Use gale:
     coord: [-2054,1978]
     icon: medoh-done
