@@ -103,8 +103,7 @@
 - _Korok::G01:
     notes: Very dumb
     comment: Boulder is on cliff next to Hole
-- _Discover<The Statue of The Eighth Heroine>:
-    coord: [-4381.5,529]
+- _Location::Statueofthe8thHeroine
 - _Snap<The Eighth Heroine>:
     comment: The Eighth Heroine
     coord: [-4362, 457]

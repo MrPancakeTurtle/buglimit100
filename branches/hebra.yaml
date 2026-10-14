@@ -39,8 +39,7 @@
 - .boss(Shoot Dinraal):
     comment: Shoot claw (missing 0/1 claw)
     icon: tots
-- _Discover<Pondo's Lodge>:
-    coord: [-2078, -2094.5]
+- _Location::PondosLodge
 - Use gale:
     coord: [-2133,-2050]
     icon: medoh-done
@@ -77,8 +76,7 @@
 - _Korok::H01
 - _Shrine::HiaMiu:
     comment: 3x Barb - Major Test of Strength - Use previous Axe - Grab Axe and Sapphire
-- _Discover<Sherfin's Secret Hot Spring>:
-    coord: [-4324, -3491]
+- _Location::SherfinsSecretHotSpring
 - Use gale:
     coord: [-4302.5,-3524.5]
     icon: medoh-done
@@ -129,8 +127,7 @@
 - _Warp::TravelMedallion<-4400,-2870>:
     color: blue
 - _Korok::H39
-- _Discover<Sturdina Secret Hot Spring>:
-    coord: [-4112, -2714]
+- _Location::SturdinaSecretHotSpring
 - _Korok::H41:
     comment: .gale(GALE 3)
 - _Korok::H42

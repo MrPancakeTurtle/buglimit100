@@ -13,8 +13,7 @@
     coord: [-1698, 1776.5]
 - _Korok::C88:
     comment: Drownwarp
-- _Discover<Gerudo Canyon Pass>:
-    coord: [-1648.75,2056]
+- _Location::GerudoCanyonPass
 - _Korok::G36
 - _Korok::W20
 - _Korok::W21
@@ -67,7 +66,6 @@
     icon: npc
     notes: Rushroom Rush!
     coord: [-2790.5, 2237]
-- _Discover<Gerudo Desert Gateway>:
-    coord: [-2930.5, 2324]
+- _Location::GerudoDesertGateway
 - _Warp::Shrine::KuhTakkar:
     color: red

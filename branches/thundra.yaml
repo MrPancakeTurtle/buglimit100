@@ -32,8 +32,7 @@
     comment: Text option 2-1-1
     notes: The Two Rings
     coord: [-1680.5, 52.5]
-- _Discover<Jeddo Bridge>:
-    coord: [-1700,93.75]
+- _Location::JeddoBridge
 - Shoot arrow into rings:
     icon: tots
     coord: [-1856.75,73.25]
@@ -44,7 +43,7 @@
     comment: Tree launch over from R38
 - _Korok::R37
 - _Korok::R30:
-  comment: Tree launch from R37
+    comment: Tree launch from R37
 - _Korok::R31
 - _Boss::Hinox::Blue:
     coord: [-2357, -414]

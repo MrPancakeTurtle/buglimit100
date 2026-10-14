@@ -167,8 +167,7 @@
     notes: The Serpent's Jaws
     coord: [791, 3079]
 - _Korok::L56
-- _Discover<Zonai Ruins>:
-    coord: [845.5,2952]
+- _Location::ZonaiRuins
 - _Korok::L54
 - Use gale:
     coord: [687.5,2954.5]
@@ -195,8 +194,7 @@
 - _Korok::L20
 - _Chest::Special<Ravios's Hood>:
     coord: [830, 2440]
-- _Discover<Spring of Courage>:
-    coord: [877, 2390.75]
+- _Location::SpringofCourage
 - Offer scale:
     icon: material
     coord: [877.5,2359]

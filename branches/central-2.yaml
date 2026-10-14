@@ -2,7 +2,7 @@
     comment: 1 bow, 4 weapon
     icon: hestu
     coord: [393, 1040]
-- _Location::HorwellBridge>
+- _Location::HorwellBridge
 - _Shrine::HilaRao:
     comment: Cryo Across, grab ice arrows in shrine
     vars:
@@ -64,7 +64,7 @@
 - _Korok::C26
 - _Location::WaterReservoir
 - _Korok::C22
-- Location::MoatBridge>
+- Location::MoatBridge
 - _Korok::C15
 - _Chest<Bomb Arrow x5>:
     coord: [-589, -633.5]

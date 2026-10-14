@@ -85,7 +85,7 @@
     icon-map: null
 - _Snap<Windblight Ganon>:
     icon-map: null
-- _Boss::WindblightGanon:
+- _Boss::Windblight:
     comment: 2-cycle it
     icon: ganon
     notes: 2-cycle with RGB and bomb arrows (break/drop rgb)

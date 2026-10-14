@@ -94,10 +94,8 @@
     notes: Sell Rubber Stuff + Climbing Gear + ores + meals
     coord: [3964,-1634]
 - _Warp::Shrine::HaDahamar
-- _Discover<Big Twin Bridge>:
-    coord: [1682.5, 2029.5]
-- _Discover<Little Twin Bridge>:
-    coord: [1714.5, 2152.5]
+- _Location::BigTwinBridge
+- _Location::LittleTwinBridge
 - _Korok::D55
 - _Korok::D52
 - _Korok::D51

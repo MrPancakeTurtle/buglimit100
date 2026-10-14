@@ -57,8 +57,7 @@
 - _Korok::R28
 - _Korok::R29
 - _Korok::R20
-- _Discover<Tanagar Canyon Course>:
-    coord: [-3134.5,-679]
+- _Location::TanagarCanyonCourse
 - _Korok::R12
 - _Warp::Shrine::ShaWarvo
 - _Shrine::NoeRajee
@@ -74,8 +73,7 @@
 - _Warp::TravelMedallion<-3330, -2300>:
     color: yellow
 - _Korok::T05
-- _Discover<Hebra Trailhead Lodge>:
-    coord: [-3573.5, -2253.5]
+- _Location::HebraTrailheadLodge
 - _Warp::TravelMedallion<-3330, -2300>:
     color: purple
 - Use gale:

@@ -35,8 +35,7 @@
     coord: [-2120, -1398]
     icon: tots
 - _Korok::R05
-- _Discover<Footrace Check-in>:
-    coord: [-2650, -1192]
+- _Location::FootraceCheck-in
 - _Material<Hearty Bass,5>:
     comment: Shock them
     icon: malice
@@ -45,8 +44,7 @@
 - _Chest<Shock Arrow x5>
 - _Korok::R13
 - _Korok::R17
-- _Discover<Tabantha Bridge Stable>:
-    coord: [-2913, -542]
+- _Location::TabanthaBridgeStable
 - _Material<Wood>
 - .item(Register horse):
     vars:

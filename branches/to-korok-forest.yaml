@@ -63,8 +63,7 @@
     icon: malice
     coord: [1197, -1258.5]
 - _Korok::K32
-- _Discover<Military Training Camp>:
-    coord: [898.25,-1399]
+- _Location::MilitaryTrainingCamp
 - _Korok::K31
 - Use gale:
     coord: [982.75,-1577.75]

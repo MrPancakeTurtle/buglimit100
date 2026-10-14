@@ -2,9 +2,8 @@
     comment: EX Champion Daruk's Song
     coord: [1406.12, 523.28, -2282.18]
 - _Warp::Beast::Rudania
-- _Shrine:SharoLun
-- _Discover<Shadow Hamlet Ruins>:
-    coord: [3044, -2289.5]
+- _Shrine::SharoLun
+- _Location::ShadowHamletRuins
 - _Korok::E12
 - _Warp::Shrine::ShaeMosah
 - _Korok::E10

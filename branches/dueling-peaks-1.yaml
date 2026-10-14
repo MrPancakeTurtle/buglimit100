@@ -105,9 +105,7 @@
 - _Korok::Z50
 - _Shrine::DakaTuss:
     comment: Mag
-- _Discover<Goponga Village Ruins>:
-    comment: To get 100% on map. Run over
-    coord: [1627, 277]
+- _Location::GopongaVillageRuins
 - _Korok::Z38
 - _Korok::Z39
 - _Korok::Z40

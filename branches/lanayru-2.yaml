@@ -4,8 +4,7 @@
     comment: 2/10
     icon: npc-zora-male
     coord: [2834, 197]
-- _Discover<Oren Bridge>:
-    coord: [2875.5, 29.25]
+- _Location::OrenBridge
 - Zora Monument:
     comment: 3/10
     icon: npc-zora-male
@@ -14,8 +13,7 @@
     comment: 4/10
     icon: npc-zora-male
     coord: [2868.5, -71.5]
-- _Discover<Luto's Crossing>:
-    coord: [3008.75, -29.5]
+- _Location::LutosCrossing
 - Zora Monument:
     comment: 5/10
     icon: npc-zora-male
