@@ -136,10 +136,5 @@
     notes: For verifying, show 1. the map counter, 2. the quest log, 3. the Master
       Sword, 4. the Key items tab
 - GG:
-    comment: "final-trial = .var(counter-final-trial). dlc-shrine = .var(counter-dlc-shrine)
-        calamity-ganon = .var(counter-calamity-ganon)
-        dark-beast-ganon = .var(counter-dark-beast-ganon)
-        divine-beast-done =  .var(counter-divine-beast-done)
-       divine-beast-enter = .var(counter-divine-beast-enter)"
     presets:
         - _map%<comment>
