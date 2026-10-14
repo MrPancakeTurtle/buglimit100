@@ -174,3 +174,9 @@ presets:
       icon: naboris-enter
       icon-priority: 0
       coord: [-2754.62, 112.53, 3749.44]
+
+    MonkMazKoshia:
+      text: Monk Maz Koshia
+      counter: .var(counter-final-trial)
+      icon: maz
+      icon-map: null
