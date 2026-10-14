@@ -5,7 +5,7 @@ route:
   use: ./main.yaml
 
 config:
-- use: Pistonight/celer-presets/botw/full.yaml
+- use: sobolews/celer-presets/botw/full.yaml
 - use: ./100.yaml
 - use: ./locations.yaml
 - icons:
