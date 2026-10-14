@@ -3,7 +3,7 @@
     icon: sor
     notes: Grab slate, open door, watch opening CS
     vars:
-      - counter-location: .add(2)
+      - counter-location: .add(2) #One for GreatPlateau and one for ShrineofResurrection
 - Grab Axe:
     icon: equipment
     coord: [-905.5, 1866.5]

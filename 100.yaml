@@ -2,12 +2,14 @@
 # counter-divine-beast-enter      4  
 # counter-divine-beast-done       4  
 # counter-shrine                120  
+# counter-dlc-shrine             16  
 # counter-tower                  15  
-# counter-location              164  
+# counter-location              165  
 # counter-korok                 900  
+# counter-final-trial             1
 # counter-calamity-ganon          1  
 # counter-dark-beast-ganon        1  
-# Total                        1209  
+# Total                        1227  
 
 presets:
   KorokLoc:
