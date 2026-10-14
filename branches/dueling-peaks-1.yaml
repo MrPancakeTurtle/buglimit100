@@ -46,7 +46,7 @@
     notes: take .item(horse)
     icon: npc-sheika-male
     coord: [1755, 1927.625]
-- _Korok::D20
+- _KorokLoc<D20,Kakariko Bridge>
 - _Chest<Ice Arrows x5>:
     notes: Break crates
     coord: [1773, 1552.5]
