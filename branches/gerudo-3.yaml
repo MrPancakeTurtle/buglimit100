@@ -81,7 +81,7 @@
 - Activate .loc(Hawa Koth):
     icon: shrine
     coord: [-4852.25, 3776.5]
-- .boss(Open fairy fountain):
+- _Location::GreatFairyFountainGerudo:
     icon: tots
     coord: [-4870.25, 3824]
 - _KorokLoc<W65,Gerudo Great Skeleton>:

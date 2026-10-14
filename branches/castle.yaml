@@ -66,6 +66,8 @@
 - _Chest<Shard of Naydra's Fang>:
     coord: [-355, -810.125]
 - _Korok::X18
+- _Location::FirstGatehouse:
+    icon-map: null
 - Kill Lynel in gatehouse with AA:
     icon: boss-dlc
     coord: [-350.75, -830.375]
@@ -82,6 +84,8 @@
 - _Location::ObservationRoom:
     comment: Jump in red stuff
 - _Korok::X23
+- _Location::DiningHall:
+    icon-map: null
 - _Equipment::Bow<Royal Bow>:
     comment: on chandelier
     coord: [-110.25, -845]
@@ -107,6 +111,8 @@
 - Smash crates:
     comment: Grab arrows
     coord: [-184.25, -853.5]
+- _Location::SecondGatehouse:
+    icon-map: null
 - AA lynel:
     icon: boss-dlc
     movements:
@@ -132,6 +138,8 @@
     comment: Guardian Slideshow
 - _Equipment::Weapon<Edge of Duality>:
     coord: [-323.25, -995]
+    vars:
+        - counter-location: .add(1) #PrincessZeldasRoom
 - _Equipment::Bow<Royal  Guard's Bow>:
     comment: Grab 5 Arrows as well
 - _Korok::X09

@@ -99,7 +99,7 @@
     coord: [-3665, 1353]
 - _Equipment::Bow<Windcleaver>:
     comment: headshot first guard for it
-- Enter .boss(Yiga Hideout):
+- _Location::YigaClanHideout:
     icon: tots
     notes: Follow VOD .link([here]https://youtu.be/J3MWwgrkk9M?t=23577)
     coord: [-3597.5, 1381]

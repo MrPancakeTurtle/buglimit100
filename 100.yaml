@@ -34,6 +34,7 @@ presets:
       - map-pct-items: .add(counter-dark-beast-ganon)
       - map-pct-items: .add(counter-divine-beast-done)
       - map-pct-items: .add(counter-divine-beast-enter)
+      - map-pct-items: .add(counter-final-trial)
       - map-pct: .var(map-pct-items)
       - map-pct: .mul(100)
       - map-pct: .div(map-pct-items-total)
@@ -58,6 +59,7 @@ presets:
       - map-pct-items: .add(counter-dark-beast-ganon)
       - map-pct-items: .add(counter-divine-beast-done)
       - map-pct-items: .add(counter-divine-beast-enter)
+      - map-pct-items: .add(counter-final-trial)
       - map-pct-items: .add(1)  # count this Tower
       - map-pct: .var(map-pct-items)
       - map-pct: .mul(100)

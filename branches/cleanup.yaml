@@ -59,7 +59,7 @@
     icon: malice
     coord: [4135.75, -1396]
     comment: Backup
-- .boss(Open fairy Fountain):
+- _Location::GreatFairyFountainAkkala:
     icon: tots
     coord: [4104.25, -1376.5]
 - .item(Upgrade armour):
@@ -136,3 +136,5 @@
     coord: [-1124.96, 238.47, 1903.14]
     notes: For verifying, show 1. the map counter, 2. the quest log, 3. the Master
       Sword, 4. the Key items tab
+    vars:
+      - counter-final-trial: .add(1)

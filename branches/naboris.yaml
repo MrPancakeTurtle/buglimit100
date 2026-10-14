@@ -64,7 +64,7 @@
     coord: [-3833,2852.75]
     notes: Mystery Polluter quest
     comment: Dalia, end of street
-- .important(Sand Seal Race):
+- _Location::SandSealRally:
     icon: tots
     notes: Equip climbing gear
     coord: [-3791.5, 3121]
