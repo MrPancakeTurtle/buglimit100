@@ -87,7 +87,7 @@
     coord: [-3193.189063091947,-3016.104886374033]
 - _Shrine::ShadaNaw:
     comment: Grab box 3 hits
-- _Korok::H20
+- _KorokLoc<H20,Selmie's Spot>
 - Tree Launch up to H28:
     coord: [-2924.5,-3145]
 - _Korok::H28
@@ -199,7 +199,7 @@
 - _Korok::T18
 - _Korok::H72
 - _Korok::H69
-- _Korok::H67
+- _KorokLoc<H67,Tabantha Village Ruins>
 - _Korok::H70
 - _Shrine::ShiraGomar:
     comment: Shoot Dinraals horn and pick it up
@@ -223,7 +223,7 @@
 - _Npc::Rito<Harth>:
     notes: Make a new GEB
     coord: [-3665.25, -1772.5]
-- _Korok::T15
+- _KorokLoc<T12,Dragon Bone Mire>
 - _Npc::Rito<Yellow Girl in pool>:
     coord: [-3488.88, 258.52, -1850.25]
     comment: Kotts

@@ -11,7 +11,7 @@
     coord: [-404, -779.75]
 - _Material<Bird Egg>:
     coord: [-455.75, -924.5]
-- _Korok::X13
+- _KorokLoc<X13,East Passage>
 - _Chest<Arrow x10>:
     coord: [-415.75, -1050.25]
 - _Equipment::Weapon<Blizzard Rod>:

@@ -11,15 +11,15 @@
 - _Boss::Hinox::Stal:
     comment: .fury(FURY 1-3)
     coord: [277.5, -933]
-- _Korok::C04
-- _Korok::C10
-- _Korok::C17
+- _KorokLoc<C04,Hyrule Forest Park>
+- _KorokLoc<C10,Boneyard Bridge>
+- _KorokLoc<C17,Hyrule Cathedral>
 - Use gale:
     coord: [97.125,-450.875]
     icon: medoh-done
     comment: .gale(GALE 1)
 - _Korok::C29
-- _Korok::C28
+- _KorokLoc<C28,Castle Town Watchtower>
 - _Korok::C33
 - _Korok::C32
 - _Korok::C27:
@@ -37,7 +37,7 @@
 - _Korok::X12
 - .boss(Enter Cave):
     coord: [-101.5,-1141.5]
-- _Korok::X11
+- _KorokLoc<X11,West Passage>
 - _Boss::Talus::Rare:
     comment: .fury(FURY 1-3)
     coord: [-133, -953]

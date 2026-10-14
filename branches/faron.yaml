@@ -3,7 +3,8 @@
     icon: malice
     notes: .link([Beetle route:]https://youtu.be/M27Chx0LEuk?t=3963)
     coord: [1550.5, 3257.5]
-- _Korok::F42
+- _Korok::F34
+- _KorokLoc<F42,Floria Bridge>
 - _Korok::F35
 - _Chest::Special<Phantom Ganon Greaves>:
     coord: [1832, 3355]
@@ -148,7 +149,7 @@
     comment: Grab box, stasis, 3 hits, aim up far
 - _Korok::F36:
     notes: .link([strat]https://youtu.be/M27Chx0LEuk?t=6085)
-- _Korok::F45
+- _KorokLoc<F45,Lurelin Village>
 - _Material<Hearty Blueshell Snail>:
     coord: [2948.625,3462.625]
 - _Npc::SheikaMale<Harpoon Guy>:

@@ -73,7 +73,7 @@
 - _Boss::Molduga:
     comment: Best Weapon
     coord: [-4176, 3801]
-- _Korok::W66
+- _KorokLoc<W66,Arbiter's Grounds>
 - _Material<Molduga Guts>:
     coord: [-4153, 3796]
 - _Korok::W61
@@ -84,7 +84,7 @@
 - .boss(Open fairy fountain):
     icon: tots
     coord: [-4870.25, 3824]
-- _Korok::W65:
+- _KorokLoc<W65,Gerudo Great Skeleton>:
     comment: .gale(GALE 1)
 - _Snap<Desert Leviathan>:
     comment: Leviathan Bones

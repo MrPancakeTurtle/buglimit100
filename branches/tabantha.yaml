@@ -64,7 +64,7 @@
 - _Korok::T04
 - _Shrine::ShaWarvo:
     comment: Glide up - Drop 2 Bows
-- _Korok::T02
+- _KorokLoc<T02,Flight Range>
 - _Equipment::Bow<Swallow Bow>:
     coord: [-3789.25, -2324.125]
 - _Npc::Rito<Teba>:

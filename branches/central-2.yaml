@@ -64,8 +64,7 @@
 - _Korok::C26
 - _Location::WaterReservoir
 - _Korok::C22
-- _Location::MoatBridge
-- _Korok::C15
+- _KorokLoc<C15,Moat Bridge>
 - _Chest<Bomb Arrow x5>:
     coord: [-589, -633.5]
 - _Chest<Ice Arrow x5>:

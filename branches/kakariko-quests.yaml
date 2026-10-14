@@ -108,7 +108,7 @@
 - _Korok::D08
 - Run to North Kakariko
 - _Korok::N08
-- _Korok::N10
+- _KorokLoc<N10,Lanayru Road West Gate>
 - _Korok::N07
 - _Korok::N09
 - Farm wood while waiting:

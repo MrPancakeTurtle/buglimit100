@@ -20,7 +20,7 @@
     icon: purple
     coord: [2353.5, 1734]
 - _Korok::N33
-- _Korok::N34
+- _KorokLoc<N34,Fort Hateno>
 - _Material<Courser Bee Honey,3>:
     coord: [2371.5, 1857.5]
 - _Material<Wood,3>:

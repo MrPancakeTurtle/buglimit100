@@ -20,7 +20,7 @@
 - _Korok::D26
 - _Location::EastPostRuins
 - _Korok::C84
-- _Korok::D27
+- _KorokLoc<D27,Proxim Bridge>
 - _Korok::D34
 - _Korok::D33
 - _Korok::D35
@@ -41,7 +41,7 @@
     coord: [-504, 1185]
 - _Korok::C69
 - _Korok::C63
-- _Korok::C62
+- _KorokLoc<C62,Exchange Ruins>
 - _Chest::Special<Tingle's Hood>:
     coord: [-744, 890]
 - _Memory::LakeKolomo
@@ -50,7 +50,7 @@
 - _Korok::C81
 - _Korok::C80
 - _Korok::C79
-- _Korok::C74
+- _KorokLoc<C74,Coliseum Ruins>
 - _Chest::Special<Phantom Helmet>:
     coord: [-1200, 1229]
 - _Korok::C73
@@ -82,7 +82,7 @@
 - _Material<Acorn,18>:
     coord: [-1305.5, 227.5]
     comment: Around Trees
-- _Korok::C36
+- _KorokLoc<C36,Sage Temple Ruins>
 - _Material<Lizalfos Tail,1>:
     icon: malice
     coord: [-1358, 242]

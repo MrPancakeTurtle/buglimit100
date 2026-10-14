@@ -1,3 +1,4 @@
+- _Korok::K23
 - _Npc::SheikaMale<Leviathan Bones brothers>:
     icon: npc
     comment: Inside if raining
@@ -26,6 +27,6 @@
     coord: [-1437,-2243.5]
     icon: medoh-done
     comment: .gale(GALE 3)
-- _Korok::K13
+- _KorokLoc<K13,Forgotten Temple>
 - _Shrine::RonaKachta:
     comment: Blessing - Great Flameblade

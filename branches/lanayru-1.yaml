@@ -97,7 +97,7 @@
     notes: Lynel Safari
     coord: [3851, -589.5]
 - _Korok::Z18
-- _Korok::Z26
+- _KorokLoc<Z26,East Reservoir Lake>
 - _Boss::VahRuta:
     icon: ruta-enter
     counter: .dungeon-entry(SPLIT)

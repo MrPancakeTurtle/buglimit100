@@ -67,7 +67,7 @@
 - _Korok::H10:
     comment: Place Travel Medallion
 - _Korok::H11
-- _Korok::H09
+- _KorokLoc<H09,Goflam's Secret Hot Spring>
 - _Korok::H04
 - _Tod::Night
 - _Boss::Hinox::Stal:
@@ -97,7 +97,7 @@
     coord: [-3930, -3623]
 - _Shrine::ToQuomo:
     comment: Blessing - Claymore
-- _Korok::H03
+- _KorokLoc<H03,Hebra Great Skeleton>
 - _Warp::TravelMedallion<-3850,-3350>:
     color: white
 - _Korok::H17
@@ -123,6 +123,7 @@
 - _Korok::H53
 - _Korok::T06:
     coord: [-4396,-2052]
+- _Korok::T07
 - _Korok::H60
 - _Warp::TravelMedallion<-4400,-2870>:
     color: blue

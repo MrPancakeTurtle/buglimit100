@@ -19,7 +19,7 @@
 - _Warp::Shrine::ZeKasho
 - Tree Launch to A41:
     coord: [3066,-1614]
-- _Korok::A41
+- _KorokLoc<A41,Akkala Citadel Ruins>
 - _Korok::A40
 - _Korok::A39
 - Box Launch up to tower
@@ -36,6 +36,6 @@
     coord: [3097,-1343]
     icon: tots
 - _Korok::A45
-- _Korok::A50
+- _KorokLoc<A50,Akkala Span>
 - _Warp::Tower::DuelingPeaks:
     color: orange

@@ -23,7 +23,7 @@
 - _Snap<Eldin Leviathan>:
     comment: Leviathan Bones, morning for Dinraal
     coord: [1677, -3667]
-- _Korok::E01
+- _KorokLoc<E01,Eldin Great Skeleton>
 - .boss(Kill Lynel):
     icon: boss-dlc
     notes: While waiting for Dinraal
@@ -88,7 +88,7 @@
     color: rgb(227, 11, 180)
 - _Korok::E03
 - _Korok::E04
-- _Korok::E05
+- _KorokLoc<E05,Gut Check Rock>
 - .boss(Gut Check Challenge):
     icon: tots
     comment: .gale(GALE 3)
@@ -145,7 +145,7 @@
 - _Material<Lizalfos Tail,1>:
     icon: malice
     coord: [3698, -2787.5]
-- _Korok::A21
+- _KorokLoc<A21,Spring of Power>
 - _Memory::SpringofPower
 - .item(Offer scale):
     icon: tots

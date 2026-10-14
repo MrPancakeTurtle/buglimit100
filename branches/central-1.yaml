@@ -1,5 +1,5 @@
 - _Location::GatepostTownRuins
-- _Korok::C76
+- _KorokLoc<C76,Kolomo Garrison Ruins>
 - _Chest::Special<Majora's Mask>:
     comment: Equip
     coord: [-448, 1281]

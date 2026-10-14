@@ -10,6 +10,7 @@
 - _Npc<Symin>:
     comment: Buy all pictures
     coord: [3778, 2131.25]
+- _Korok::N47
 - _Korok::N48
 - Tree Launch to N55:
     coord: [3941.5,2103.875]

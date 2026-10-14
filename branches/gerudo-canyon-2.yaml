@@ -11,7 +11,7 @@
 - _Boss::Hinox::Blue:
     comment: Best Weapon
     coord: [-1698, 1776.5]
-- _Korok::C88:
+- _KorokLoc<C88,Digdogg Suspension Bridge>:
     comment: Drownwarp
 - _Location::GerudoCanyonPass
 - _Korok::G36

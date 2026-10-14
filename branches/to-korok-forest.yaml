@@ -3,13 +3,13 @@
 - _Korok::K35
 - _Korok::Z02
 - _Korok::Z03
-- _Korok::C13
+- _KorokLoc<C13,Thims Bridge>
 - _Korok::Z11
 - _Korok::Z21
 - Tree Launch from Z21 to Z29:
     coord: [1122.4046460519494,-220.425183018604]
 - _Korok::Z29
-- _Korok::C46
+- _KorokLoc<C46,Rebonae Bridge>
 - _Korok::C51
 - _Boss::Hinox::Blue:
     comment: Any weapon
