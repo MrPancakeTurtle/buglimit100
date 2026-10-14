@@ -40,6 +40,6 @@
 - _Boss::Hinox::Blue:
     comment: .fury(FURY 1-3)
     coord: [3292, -1252.5]
-- _Location::AkkalaParadeGrounds
+- _Location::AkkalaParadeGroundRuins
 - _Warp::Tower::DuelingPeaks:
     color: orange

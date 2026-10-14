@@ -174,7 +174,7 @@
     notes: A Shady Customer
     coord: [4244.75, -2746.25]
     vars:
-        - counter-location: .add(1)
+        - counter-location: .add(1) #EastAkkalaStable
 - _Npc<Nobo>:
     icon: npc
     notes: The Spring of Power
@@ -195,7 +195,7 @@
     comment: Text options 2-1-2
     coord: [4514.28, 352.96, -3158.73]
     vars:
-        - counter-location: .add(1)
+        - counter-location: .add(1) #AkkalaAncientTechLab
 - Buy .boss(Ancient Short Sword):
     icon: equipment
     notes: For The Weapon Connoisseur, if you don't have enough parts, you can buy it later

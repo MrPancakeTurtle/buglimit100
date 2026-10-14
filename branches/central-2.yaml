@@ -6,7 +6,7 @@
 - _Shrine::HilaRao:
     comment: Cryo Across, grab ice arrows in shrine
     vars:
-        - counter-location: .add(1)
+        - counter-location: .add(1) #FloretSandbar
 - Jump into flowers:
     comment: To have quest
     notes: Watch Out for the Flowers
