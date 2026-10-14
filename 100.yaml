@@ -113,6 +113,11 @@ presets:
       presets: _TowerWithMap%<Ridgeland,-1755.30,328.58,-774.30>
 
   _Boss:
+    MonkMazKoshia:
+      text: Monk Maz Koshia
+      counter: .var(counter-final-trial)
+      icon: maz
+
     CalamityGanon:
       text: .boss(Calamity Ganon)
       counter: .var(counter-calamity-ganon)
@@ -183,8 +188,3 @@ presets:
       icon-priority: 0
       coord: [-2754.62, 112.53, 3749.44]
 
-    MonkMazKoshia:
-      text: Monk Maz Koshia
-      counter: .var(counter-final-trial)
-      icon: maz
-      icon-map: null

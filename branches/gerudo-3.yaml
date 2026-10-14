@@ -154,7 +154,7 @@
 - _Shrine::KemaZoos:
     comment: Shock Arrow 
 - _Warp::Shrine::TakamaShiri
-- _ShrineDLC::TakamaShiri:
+- _Shrine::TakamaShiri:
     comment: Gold Rupee west of shrine
 - _Warp::Shrine::HawaKoth
 - _Shrine::HawaKoth:
@@ -163,7 +163,7 @@
 - _Shrine::MisaeSuma:
     comment: Blessing - Diamond
 - _Warp::Shrine::KeiveTala
-- _ShrineDLC::KeiveTala:
+- _Shrine::KeiveTala:
     comment: Thunderblade spin
 - _Warp::Beast::Naboris
 - Urubosa's Fury+:

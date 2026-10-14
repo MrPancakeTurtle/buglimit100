@@ -78,7 +78,7 @@
     coord: [3356.5,-807.5]
     icon: tots
 - _Korok::Z04
-- _ShrineDLC::SatoKoda
+- _Shrine::SatoKoda
 - _Korok::Z17
 - _Korok::Z16
 - _Npc::ZoraFemale<Finley>:
@@ -96,7 +96,7 @@
 - _Npc::ZoraFemale<Laflat>:
     notes: Lynel Safari
     coord: [3345.25, -505]
-- _ShrineDLC::MahEliya
+- _Shrine::MahEliya
 - _Korok::Z08
 - _Boss::Talus::Luminous:
     comment: .fury(FURY 1-3)
@@ -124,7 +124,7 @@
 - _Korok::Z10
 - _Korok::Z07:
     comment: Place Travel Medallion
-- _ShrineDLC::KeeDafunia:
+- _Shrine::KeeDafunia:
     comment: needs morning
 - _Warp::TravelMedallion<4700, -1000>:
     color: white
