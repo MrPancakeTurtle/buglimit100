@@ -1,3 +1,22 @@
+- _Korok::G17
+- _Boss::Talus::Frost:
+    comment: Place Travel Medallion
+    coord: [-2924.75, 1298.75]
+- _Korok::G18
+- _Korok::G13
+- _Korok::G19
+- _Korok::G14
+- _Korok::R75
+- _Korok::R76
+- _Korok::R77
+- _Korok::R78
+- _Warp::TravelMedallion<-2920, 1300>:
+    color: yellow
+- _Korok::G23
+- _Korok::G27
+- _Korok::G28
+- _Korok::G24
+- _Warp::Shrine::ZeKasho
 - Tree Launch to A41:
     coord: [3066,-1614]
 - _Korok::A41
@@ -19,5 +38,5 @@
     icon: tots
 - _Korok::A45
 - _Korok::A50
-- _Warp::Shrine::KaamYatak:
-    color: yellow
+- _Warp::Tower::DuelingPeaks:
+    color: orange

@@ -189,6 +189,8 @@
     icon: npc
     notes: From the Ground Up
     coord: [3988, -1602.5]
+- _Korok::A38
+- _Korok::A34
 - _Warp::Shrine::WahgoKatta
 - _Tod::Noon:
     coord: [340, 1106.5]

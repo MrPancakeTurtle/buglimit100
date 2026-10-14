@@ -57,48 +57,19 @@
   - use: ./branches/faron.yaml
 - Lake:
   - use: ./branches/lake.yaml
+- Thundra Plateau:
+  - use: ./branches/thundra.yaml
 - Central 3:
   - use: ./branches/central-3.yaml
 - Gerudo Canyon 2:
   - use: ./branches/gerudo-canyon-2.yaml
-- Thundra Plateau:
-  - use: ./branches/thundra.yaml
+- Korok Stragglers:
+  - use: ./branches/korok-cleanup.yaml
+- Dueling Peaks 2: 
+  - use: ./branches/dueling-peaks-2.yaml
+- Forgotten Temple:
+  - use: ./branches/forgotten-temple.yaml
+- Cleanup:
+  - use: ./branches/cleanup.yaml
 
 
-
-
-
-# - Dinraal:
-#   - use: ./branches/dinraal.yaml
-
-
-
-
-
-
-# - Lost Woods:
-#   - use: ./branches/lost-woods.yaml
-# - Hebra:
-#   - use: ./branches/hebra.yaml
-# - Tabantha 2:
-#   - use: ./branches/tabantha-2.yaml
-# - Hateno 2:
-#   - use: ./branches/hateno-2.yaml
-
-
-
-# - Dueling Peaks 2:
-#   - use: ./branches/dueling-peaks-2.yaml
-# - Central 3:
-#   - use: ./branches/central-3.yaml
-# - Lake:
-#   - use: ./branches/lake.yaml
-# - Dueling Peaks 2:
-#   - use: ./branches/dueling-peaks-2.yaml
-# - Akkala Tower:
-#   - use: ./branches/akkala-tower.yaml
-
-# - Forgotten Temple:
-#   - use: ./branches/forgotten-temple.yaml
-# - Cleanup:
-#   - use: ./branches/cleanup.yaml

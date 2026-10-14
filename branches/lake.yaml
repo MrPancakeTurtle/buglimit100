@@ -248,5 +248,5 @@
 - _Korok::L04
 - _Korok::L03
 - _Korok::L10
-- _Warp::Shrine::JaBaij:
-    color: rgb(211, 237, 12)
+- _Warp::Shrine::ShiraGomar:
+    color: red

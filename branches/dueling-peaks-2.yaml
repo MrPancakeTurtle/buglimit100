@@ -23,7 +23,7 @@
 - _Tod::Noon:
     coord: [1799.5, 1015.5]
 - _Npc<Koko>:
-    comment: .boss(4 Quests)
+    comment: .boss(4 Quests) then sell everything at arrow shop.
     icon: npc-sheika-female
 - _Npc::SheikaFemale<Impa>:
     comment: For tunic + memory
@@ -43,6 +43,6 @@
 - _Korok::N11
 - _Korok::N13
 - .boss(Shoot Naydra):
-    comment: Last part 2S 2F 2C 3H
+    comment: Last part 2S 2F 2C 4H
     icon: tots
     coord: [2682,994]

@@ -6,35 +6,50 @@
     icon: tots
     coord: [-1063.5, -2691]
 - _Korok::K09
-- _Warp::Shrine::TalohNaeg
-- _Npc::SheikaFemale<Impa>:
-    comment: For tunic + memory
-    icon: npc-sheika-female
-    notes: Check map here for 100%, use this to get locations missed .link([Map]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view)
-    coord: [1777, 985.5]
-- _Tod::Noon:
-    coord: [1799.5, 1015.5]
-- _Npc<Koko>:
-    comment: .boss(4 Quests)
-    icon: npc-sheika-female
-- _Tod::Night:
-    comment: For Energetic Rhino Beetle
-    coord: [1799.5, 1015.5]
-- _Material<Energetic Rhino Beetle>:
-    icon: malice
-    coord: [1811.1626162938874,1049.9426078641163]
-- _Shop<only if you don't have 10K rupee>:
-    notes: Sell ores .important(but 55 opal) to have 10K
-    coord: [1793,1031]
-- _Material<Energetic Rhino Beetle>:
-    icon: malice
-    coord: [1952.25,1061.4375]
-    comment: For backup, you should have 15, If not, you can find them around Faron Tower and around trees in Necluda
+- _Warp::TechLab::Hateno
+- _Npc<Symin>:
+    comment: Buy all pictures
+    coord: [3778, 2131.25]
+- _Korok::N48
+- Tree Launch to N55:
+    coord: [3941.5,2103.875]
+- _Korok::N55
+- _Korok::N56
+- _Boss::Talus::Stone:
+    comment: Use Bomb arrow + GEB
+    coord: [4562, 2467]
+- _Korok::N63
+- _Korok::N57
+- _Korok::N54
+- .enemy(Kill all enemies):
+    comment: .fury(FURY 1-3)
+    icon: tots
+    coord: [4100, 2360]
+- _Korok::N62
 - _Warp::Shrine::MyahmAgana
 - _Npc::SheikaMale<Invite Bolson>:
     icon: npc
     coord: [3328, 2285.25]
-- _Tod::Night
+- _Npc<Nebb>:
+    icon: npc
+    notes: The Weapon Connoisseur
+    comment: Finish quest
+    coord: [3376, 2143.25]
+- _Npc<Lady on dock>:
+    icon: npc
+    notes: Secret of the Cedars
+    coord: [3425.5, 2163.5]
+- _Npc::SheikaMale<Cricket guy + hotel lady>:
+    comment: Manny, Prima, Manny, Manny
+    icon: npc
+    notes: A Gift for My Beloved
+    coord: [3445.75, 2123.75]
+- _Tod::Night:
+    coord: [3450.75, 2113.75]
+- _Npc<Sheep Rustler lady>:
+    notes: The Sheep Rustlers
+    icon: npc
+    coord: [3623.75, 2105.75]
 - _Warp::Shrine::DahHesho:
     notes: If you need ; Courser Bee Honey -> Warp Mogg Latan. Lizalfos Tails -> Warp Castle. Hearty Bass -> Warp Qukah Nata + Warp Faron Tower. Silent Princess -> Any Fairy
 - _Korok::A49
@@ -78,6 +93,30 @@
 - _Shop<Sell all items to have 42K>:
     notes: Sell Rubber Stuff + Climbing Gear + ores + meals
     coord: [3964,-1634]
+- _Warp::Shrine::HaDahamar
+- _Discover<Big Twin Bridge>:
+    coord: [1682.5, 2029.5]
+- _Discover<Little Twin Bridge>:
+    coord: [1714.5, 2152.5]
+- _Korok::D55
+- _Korok::D52
+- _Korok::D51
+- .item(Park horse):
+    comments: wild horse for quest
+    coord: [1754,1922]
+    icon: horse
+- _Npc::SheikaMale<Rensa>:
+    icon: npc
+    notes: Wild Horses
+    coord: [1754.375, 1925.5]
+- _Npc<Brothers in stable>:
+    icon: npc
+    comment: Talk twice
+    notes: Misko, the Great Bandit
+    coord: [1771, 1926.5]
+- _Memory::AshSwamp:
+    comment: All Memories
+    counter: .dungeon-complete(SPLIT)
 - _Warp::Shrine::KeoRuug
 - _Npc<Hestu>:
     comment: All inventory upgrades
@@ -89,13 +128,11 @@
     icon: npc
     notes: The Korok Trials, check for quests now
     coord: [431.75, -2139]
-- _Warp::TechLab::Hateno
-- _Npc<Symin>:
-    comment: Buy all pictures
-    coord: [3778, 2131.25]
-- _Warp::Shrine::HaDahamar
-- _Memory::AshSwamp:
-    comment: GG
-    counter: .dungeon-complete(SPLIT)
+- _Warp::SOR:
+    comment: 99.91% Map
+- Monk Maz Koshia:
+    icon: maz
+    counter: .split(SPLIT)
+    coord: [-1124.96, 238.47, 1903.14]
     notes: For verifying, show 1. the map counter, 2. the quest log, 3. the Master
       Sword, 4. the Key items tab
