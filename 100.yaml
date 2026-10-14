@@ -47,13 +47,13 @@ presets:
       - map-floor: .sub(0.5)
     $(0): 'Map: .var(pad02:last3:map-floor).val(.).var(pad02:last2:map-mul-100)%'
 
-  ShrineDLC:
-    text: ".shrine-dlc($(0))"
-    icon: $(1)
-    icon-priority: 0
-    counter: .var(counter-dlc-shrine)
-    coord: [$(2), $(3), $(4)]
-    time-override: $(5)
+  # ShrineDLC:
+  #   text: ".shrine-dlc($(0))"
+  #   icon: $(1)
+  #   icon-priority: 0
+  #   counter: .var(counter-dlc-shrine)
+  #   coord: [$(2), $(3), $(4)]
+  #   time-override: $(5)
 
   TowerWithMap%:
     text: ".loc($(0) Tower)"
