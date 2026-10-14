@@ -89,7 +89,7 @@
     icon: tots
     coord: [2133, -2290]
 #TODO: FIX IF BROKEN
-- .boss(Enter Rudania):
+- _Boss::VahRudania:
     icon: rudania-enter
     notes: Use crates and smash ores where possible. .gale(GALE 3) inside Rudania
     counter: .dungeon-entry(SPLIT)
@@ -107,7 +107,7 @@
         - counter-location: .add(1)
 - _Snap<Fireblight>:
     icon-map: null
-- .boss(Fireblight):
+- _Boss::Fireblight:
     comment: 1-cycle -> 10x Ice arrows
     icon: calamity
     notes: If your GEB breaks, use the lynel bow

@@ -86,13 +86,13 @@
 - _Korok::X05:
     comment: Top of castle
 - _Korok::X10
-- .important(Ganon):
+- _Boss::CalamityGanon:
     icon: calamity
     coord: [-261.375, -1047]
     comment: .fury(FURY 1-3)
     vars:
         - counter-location: .add(1)
-- .important(Dark Beast):
+- _Boss:DarkBeastGanon:
     icon: ganon
     notes: This now gives us the star and % markers, which are useful for backing anything up. Re-load the game
     counter: .dungeon-complete(SPLIT)

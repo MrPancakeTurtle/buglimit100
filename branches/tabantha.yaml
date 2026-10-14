@@ -72,7 +72,7 @@
     coord: [-3800.75, -2312.625]
 - _Chest<Falcon Bow>:
     coord: [-3801.75, -2315.25]
-- Enter Vah Medoh:
+- _Boss::VahMedoh:
     icon: medoh-enter
     notes: 2 bomb arrows per cannon
     counter: .dungeon-entry(SPLIT)
@@ -85,7 +85,7 @@
     icon-map: null
 - _Snap<Windblight Ganon>:
     icon-map: null
-- .boss(Windblight Ganon):
+- _Boss::WindblightGanon:
     comment: 2-cycle it
     icon: ganon
     notes: 2-cycle with RGB and bomb arrows (break/drop rgb)
