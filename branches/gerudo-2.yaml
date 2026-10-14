@@ -65,7 +65,7 @@
 - Place down Travel Medallion:
     icon: warp
     coord: [-3430, 1190]
-- _Shrine::KihiroMoh:
+- _ShrineDLC::KihiroMoh:
     comment: 1-2-2-4
     notes: Pick up a ton of bananas
 - _Warp::TravelMedallion<-3430, 1190>

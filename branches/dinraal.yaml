@@ -2,7 +2,7 @@
     comment: EX Champion Daruk's Song
     coord: [1406.12, 523.28, -2282.18]
 - _Warp::Beast::Rudania
-- _Shrine::SharoLun
+- _ShrineDLC::SharoLun
 - _Location::ShadowHamletRuins
 - _Korok::E12
 - _Warp::Shrine::ShaeMosah
@@ -17,7 +17,7 @@
     icon: talus-igneo-titan
     notes: Boulder Breaker
     coord: [2160.11, 500.65, -3190.37]
-- _Shrine::KamiaOmuna
+- _ShrineDLC::KamiaOmuna
 - _Korok::E02:
     comment: Smash deposits nearby, place Travel Medallion
 - _Snap<Eldin Leviathan>:
@@ -233,7 +233,7 @@
 - _Korok::E21
 - _Korok::E22:
     comment: .gale(GALE 1-2) Magnesis platform into the Lava first
-- _Shrine::RinuHonika
+- _ShrineDLC::RinuHonika
 - _Boss::Talus::Igneo:
     comment: Use stone smasher
     coord: [2364, -2001.5]
