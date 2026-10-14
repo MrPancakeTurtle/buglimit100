@@ -107,6 +107,7 @@
     coord: [-2907.25, -539.5]
 - _Tod::Night:
     coord: [-2917, -540]
+    comment: "You may get blood moon here, if that's the case just activate ShaeLoya, ride to Mijah Rokee, then warp back to ShaeLoya afterwards"
 - _Material<Wood>
 - _Npc::SheikaMale<Pointing guy>:
     coord: [-2942.5,-485.5]
