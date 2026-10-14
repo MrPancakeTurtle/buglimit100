@@ -93,7 +93,6 @@
 - _Boss::DarkBeastGanon:
     icon: ganon
     notes: This now gives us the star and % markers, which are useful for backing anything up. Re-load the game
-    counter: .dungeon-complete(SPLIT)
 - _Chest<Naydra's Scale>:
     coord: [-177, -1166.75]
 - _Korok::X02

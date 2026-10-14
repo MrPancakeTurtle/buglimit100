@@ -92,7 +92,6 @@
 - _Boss::VahRudania:
     icon: rudania-enter
     notes: Use crates and smash ores where possible. .gale(GALE 3) inside Rudania
-    counter: .dungeon-entry(SPLIT)
     comment: You can use 2-3 ancient arrow to kill guardians
     movements:
     - to: [2257, -2378]

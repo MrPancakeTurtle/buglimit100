@@ -22,7 +22,6 @@
 - _Boss::VahNaboris:
     icon-map: null
     icon: naboris-enter
-    counter: .dungeon-entry(SPLIT)
     comment: Use .gale(GALE 1-3)
 - _Boss::Thunderblight:
     icon-map: null

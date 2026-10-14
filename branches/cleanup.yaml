@@ -132,7 +132,6 @@
         - _map%<comment>
 - _Boss::MonkMazKoshia:
     icon: maz
-    counter: .split(SPLIT)
     coord: [-1124.96, 238.47, 1903.14]
     notes: For verifying, show 1. the map counter, 2. the quest log, 3. the Master
       Sword, 4. the Key items tab

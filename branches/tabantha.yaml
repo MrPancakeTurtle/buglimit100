@@ -75,7 +75,6 @@
 - _Boss::VahMedoh:
     icon: medoh-enter
     notes: 2 bomb arrows per cannon
-    counter: .dungeon-entry(SPLIT)
     icon-map: null
 - _Chest<Ancient Core>:
     comment: In divine beast
