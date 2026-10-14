@@ -1,5 +1,4 @@
-- _Discover<Gatepost Town Ruins>:
-    coord: [-547, 1432]
+- _Location::GatepostTownRuins
 - _Korok::C76
 - _Chest::Special<Majora's Mask>:
     comment: Equip
@@ -26,8 +25,7 @@
     comment: Kill moblin
     notes: The Weapon Connoisseur
     coord: [139, 1398.5]
-- _Discover<Owlan Bridge>:
-    coord: [310.5,1271.5]
+- _Location::OwlanBridge
 - _Korok::D14:
     notes: Use bombs to blow up acorn
 - _Material<Hearty Radish,1>:

@@ -2,8 +2,7 @@
     comment: 1 bow, 4 weapon
     icon: hestu
     coord: [393, 1040]
-- _Discover<Horwell Bridge>:
-    coord: [664,967.5]
+- _Location::HorwellBridge>
 - _Shrine::HilaRao:
     comment: Cryo Across, grab ice arrows in shrine
 - Jump into flowers:
@@ -27,8 +26,7 @@
 - _Korok::C56:
     comment: Grab apples after
 - _Korok::C55
-- _Discover<Hyrule Garrison Ruins>:
-    coord: [-542,582.5]
+- _Location::HyruleGarrisonRuins
 - _Chest::Special<Phantom Greaves>:
     comment: Equip
     coord: [-507, 609]
@@ -60,11 +58,9 @@
 - _Chest<Bomb Arrow x5>:
     coord: [-644.5, -438.25]
 - _Korok::C26
-- _Discover<Water Reservoir>:
-    coord: [-623, -513.5]
+- _Location::WaterReservoir
 - _Korok::C22
-- _Discover<Moat Bridge>:
-    coord: [-613.5,-665]
+- Location::MoatBridge>
 - _Korok::C15
 - _Chest<Bomb Arrow x5>:
     coord: [-589, -633.5]

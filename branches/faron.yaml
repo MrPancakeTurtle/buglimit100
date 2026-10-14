@@ -42,7 +42,7 @@
 - _Korok::D58
 - _Korok::N49
 - _Korok::N50
-- _Tower::Hateno
+- _TowerWithMap%::Hateno
 - _Korok::D53
 - _Warp::TravelMedallion<2180, 2530>:
     color: red

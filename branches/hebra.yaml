@@ -43,7 +43,7 @@
     coord: [-2133,-2050]
     icon: medoh-done
     comment: .gale(GALE 2)
-- _Tower::Hebra
+- _TowerWithMap%::Hebra
 - _Korok::H61
 - _Korok::H57
 - .boss(Knock door down):

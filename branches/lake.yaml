@@ -134,7 +134,7 @@
     coord: [-12.75,2976.25]
     icon: medoh-done
     comment: .gale(GALE 1)
-- _Tower::Lake
+- _TowerWithMap%::Lake
 - _Korok::L49
 - _Korok::L48
 - _Chest::Special<Island Lobster Shirt>:

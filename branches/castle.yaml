@@ -73,8 +73,7 @@
 - _Chest<Ancient Arrow x3>:
     coord: [-255.25, -742.125]
 - _Korok::X22
-- _Discover<Observatory room>:
-    coord: [-253.10416793823242,-756.2708339691162]
+- _Location::ObservationRoom:
     comment: Jump in red stuff
 - _Korok::X23
 - _Equipment::Bow<Royal Bow>:
@@ -119,8 +118,7 @@
     coord: [-253, -1080]
     comment: equip all
 - _Korok::X07
-- _Discover<Princess Zelda's Study>:
-    coord: [-387, -994]
+- _Location::PrincessZeldasStudy
 - _Material<Silent Princess,1>:
     coord: [-381.5, -997]
 - _Memory::HyruleCastle
