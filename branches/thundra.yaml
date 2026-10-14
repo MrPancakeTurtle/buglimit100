@@ -12,7 +12,7 @@
 - _Shrine::TohYahsa:
     comment: Bomb twice, grab rubber armor, 3 hits aim up
 - _Korok::R14
-.boss(Grab 4 first flowers):
+-  .boss(Grab 4 first flowers):
     icon: tots
     coord: [-2054.470773902878,-506.7189310441345]
 - _Korok::R24
