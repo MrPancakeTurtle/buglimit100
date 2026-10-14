@@ -127,7 +127,7 @@
 - _Warp::TravelMedallion<-4400,-2870>:
     color: blue
 - _Korok::H39
-- _Location::SturdinaSecretHotSpring
+- _Location::SturnidaSecretHotSpring
 - _Korok::H41:
     comment: .gale(GALE 3)
 - _Korok::H42

@@ -38,7 +38,7 @@
 - _Korok::E30
 - _Warp::TravelMedallion<2315,-1145>:
     color: red
-- _Location::Mawofdeathmountain
+- _Location::MawofDeathMountain
 - Get E37 rock:
     coord: [2279.7778079890613,-1237.0242951510195]
     icon: tots
