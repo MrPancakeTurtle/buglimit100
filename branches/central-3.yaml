@@ -100,7 +100,9 @@
 - _Korok::R49
 - _Korok::R58
 - _Korok::R74
-- _Memory::SanidinPark
+- _Memory::SanidinPark:
+    vars:
+        - counter-location: .add(1)
 - .boss(Tame Zelda's Horse):
     icon: tots
     coord: [-1680, 810]
@@ -109,6 +111,8 @@
     movements:
       - [-1500.5,923.5]
       - [-1512.5,909.5]
+    vars:
+        - counter-location: .add(1)
 - _Korok::C58
 - _Location::GleeokBridge
 - _Korok::C66
@@ -122,6 +126,8 @@
     coord: [-1412.5,1248.5]
 - .boss(Register Zelda's horse):
     coord: [-1432, 1264]
+    vars:
+        - counter-location: .add(1)
 - _Npc<White Horse Guy>:
     coord: [-1439.25, 137.72, 1278.45]
     comment: Toffa

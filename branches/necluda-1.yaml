@@ -65,6 +65,8 @@
 - _Npc<Bolson>:
     notes: Hylian Homeowner
     coord: [3312, 2301.5]
+    vars:
+        - counter-location: .add(1)
 - _Equipment::Weapon<Iron Sledgehammer>:
     comment: Both on Link's house
     coord: [3328, 2286.5]
@@ -94,6 +96,8 @@
 - Activate .loc(Hateno Tech Lab):
     icon: location
     coord: [3442, 1976.5]
+    vars:
+        - counter-location: .add(1)
 - _Npc<Sheep Rustler lady>:
     icon: npc
     notes: Choose option 2

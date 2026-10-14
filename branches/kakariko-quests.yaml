@@ -15,6 +15,8 @@
     comment: Take photo
     icon: camera-plus
     coord: [1971.5, 847]
+    vars:
+        - counter-location: .add(1)
 - Grab 2 cuccos:
     icon-doc: tots
     comment: Markers
@@ -94,6 +96,8 @@
     coord: [1824, 999.25]
 - _Shrine::TalohNaeg:
     notes: Get both chests, grab dropped parts and guardian sword
+    vars:
+    - counter-location: .add(1)
 - _Korok::D02
 - _Korok::D03
 - _Korok::D05

@@ -5,6 +5,8 @@
 - _Location::HorwellBridge>
 - _Shrine::HilaRao:
     comment: Cryo Across, grab ice arrows in shrine
+    vars:
+        - counter-location: .add(1)
 - Jump into flowers:
     comment: To have quest
     notes: Watch Out for the Flowers
@@ -41,7 +43,9 @@
     comment: Equip
     coord: [-245, -86]
 - _Korok::C35
-- _Memory::SacredGrounds
+- _Memory::SacredGrounds:
+    vars:
+        - counter-location: .add(1)
 - _Snap<Guardian Stalker>:
     coord: [-255,-212.5]
 - _Korok::C43

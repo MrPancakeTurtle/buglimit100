@@ -17,6 +17,8 @@
     coord: [-1798.25, 3439.5]
 - _Shrine::DilaMaag:
     comment: Blessing - .important(Barbarian Armour)
+    vars:
+        - counter-location: .add(1)
 - _Korok::W54:
     comment: .gale(GALE 2-3)
 - _Korok::W59

@@ -129,7 +129,8 @@
     notes: The Korok Trials, check for quests now
     coord: [431.75, -2139]
 - _Warp::SOR:
-    comment: 99.91% Map
+    presets:
+        - _map%<comment>
 - Monk Maz Koshia:
     icon: maz
     counter: .split(SPLIT)
