@@ -149,9 +149,12 @@
     icon: tots
     coord: [1707.25, 3000.5]
 - _Korok::F26
+- _Chest::Special<Phantom Ganon Skull>:
+    coord: [1660.15, 252.65, 3163.64]
 - _Material<Energetic Rhino Beetle,5>:
     notes: .link([Beetle route]https://youtu.be/J3MWwgrkk9M?t=7319)
     icon: malice
+    coord: [1550.5, 3257.5]
 - Tree Launch up to Tower:
     coord: [1357.25,3327.75]
 - _Tower::Faron
