@@ -63,6 +63,8 @@
 - _Boss::Talus::Rare:
     comment: Best weapon
     coord: [-778, -801]
+- _Chest::Special<Tingle's Shirt>:
+    coord: [-681.15, 119.72, -813.12]
 - _KorokLoc<C08,Castle Town Prison>
 - _Korok::C03
 - _Korok::C07
