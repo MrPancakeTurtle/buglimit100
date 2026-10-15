@@ -1,7 +1,5 @@
 - _Location::RauruSettlementRuins
-- _Korok::C02:
-    vars:
-        - counter-location: .add(1)
+- _Korok::C02
 - .boss(Avoid Guardians):
     comment: You can also kill them
     icon: tots
