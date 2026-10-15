@@ -82,6 +82,8 @@
 - _Material<Acorn,18>:
     coord: [-1305.5, 227.5]
     comment: Around Trees
+- _Chest::Special<Midna's Helmet>:
+    coord: [-1402.26, 113.92, 219.36]
 - _KorokLoc<C36,Sage Temple Ruins>
 - _Material<Lizalfos Tail,1>:
     icon: malice
