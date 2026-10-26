@@ -150,7 +150,7 @@
     coord: [1707.25, 3000.5]
 - _Korok::F26
 - _Chest::Special<Phantom Ganon Skull>:
-    coord: [1660.15, 252.65, 3163.64]
+    coord: [1669.19, 209.34, 3163.02]
 - _Material<Energetic Rhino Beetle,5>:
     notes: .link([Beetle route]https://youtu.be/J3MWwgrkk9M?t=7319)
     icon: malice
