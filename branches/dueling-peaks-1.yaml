@@ -61,7 +61,7 @@
     coord: [1952.25,1061.4375]
     icon: malice
     notes: Don't give them to Beedle. You need 15 at end of the run, you are close.
-- _Npc(Goddess Statue):
+- _Npc<Goddess Statue>:
     comment: Get 2 stamina
     icon: link
     coord: [1841.5, 998.625]
