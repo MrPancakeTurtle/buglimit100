@@ -7,10 +7,6 @@
 - Grab Axe:
     icon: equipment
     coord: [-905.5, 1866.5]
-- _Material<Hightail lizard>:
-    icon: malice
-    comment: Under rock
-    coord: [-897.25,1860.25]
 - _Korok::P10
 - Get quest from .npc(Zelda):
     movements: 
