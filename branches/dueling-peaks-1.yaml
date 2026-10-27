@@ -19,9 +19,6 @@
 - Drop down
 - _Shrine::SheeVenath:
     comment: Bottom-Left->up/right, right->down/right, left->left, up->up/right, right->down/left
-- Get rare ore (sapphire):
-    icon: chest
-    coord: [1235.94, 345.84, 1952.43]
 - _Korok::D48:
     notes: Smash deposits for ore, needed for money
 - _Shrine::ReeDahee:
