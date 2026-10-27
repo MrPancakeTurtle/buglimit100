@@ -92,6 +92,7 @@
 - _Material<Stamella Shroom,3>:
     coord: [-912, 2213]
 - _Material<Courser Bee Honey,1>:
+    notes: .important(DON'T EAT/COOK THEM), you need 15 at end of the run    
     coord: [-905.5, 2205.75]
 - _Chest<Bomb Arrows>:
     notes: Break crates for apples, acorns and arrows
