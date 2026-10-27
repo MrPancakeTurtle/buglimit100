@@ -14,7 +14,7 @@
 - _Korok::D40
 - Climb up cliff
 - _Shrine::SheeVaneer:
-    comment: Bottom-Right->up/right, left->down/left, up->right, up->down/left, right->up/right
+    comment: Bottom-Right->up/left, left->down/left, up->right, up->down/left, right->up/right
 - _Korok::D49
 - Drop down
 - _Shrine::SheeVenath:
