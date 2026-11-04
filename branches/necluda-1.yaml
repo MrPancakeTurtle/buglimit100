@@ -16,14 +16,14 @@
 - _Boss::Talus::Stone:
     comment: Use hammer
     coord: [2533.5, 1904]
-- _Material<Rushroom,3>:
+- _Material::Count<Rushroom,3>:
     icon: purple
     coord: [2353.5, 1734]
 - _Korok::N33
 - _KorokLoc<N34,Fort Hateno>
-- _Material<Courser Bee Honey,3>:
+- _Material::Count<Courser Bee Honey,3>:
     coord: [2371.5, 1857.5]
-- _Material<Wood,3>:
+- _Material::Count<Wood,3>:
     coord: [2380.5, 1860.5]
 - _Tod::Night:
     coord: [2393.25,1838.5]
@@ -40,7 +40,7 @@
 - _Korok::N28
 - _Shrine::KamUrog:
     comment: Stasis, ride up the big circle
-- _Material<Hearty Radish,1>:
+- _Material::Count<Hearty Radish,1>:
     coord: [2597.5, 1612.5]
 - _Korok::N36
 - _Korok::N38

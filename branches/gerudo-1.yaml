@@ -1,5 +1,5 @@
 - _Korok::W15
-- _Material<Rushroom,10>:
+- _Material::Count<Rushroom,10>:
     icon: purple
     notes: On pillar and cliff as you climb to G34
     coord: [-2818.375, 2251.5]
@@ -114,7 +114,7 @@
     coord: [-3466, 1344.5]
 - _Chest::Special<Thunder Helm>:
     coord: [-3453.25, 1340.5]
-- _Material<Lizalfos Tail,4>:
+- _Material::Count<Lizalfos Tail,4>:
     icon: malice
     comment: Blizzard Rod + claymore
     coord: [-3102, 1332]

@@ -55,7 +55,7 @@
     notes: If you need ; Courser Bee Honey -> Warp Mogg Latan. Lizalfos Tails -> Warp Castle. Hearty Bass -> Warp Qukah Nata + Warp Faron Tower. Silent Princess -> Any Fairy
 - _Korok::A49
 - _Korok::A48
-- _Material<Silent Princess,3>:
+- _Material::Count<Silent Princess,3>:
     icon: malice
     coord: [4135.75, -1396]
     comment: Backup

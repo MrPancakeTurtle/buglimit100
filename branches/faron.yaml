@@ -1,5 +1,5 @@
 - _Tod::Morning
-- _Material<Energetic Rhino Beetle,5>:
+- _Material::Count<Energetic Rhino Beetle,5>:
     icon: malice
     notes: .link([Beetle route:]https://youtu.be/M27Chx0LEuk?t=3963)
     coord: [1550.5, 3257.5]
@@ -56,7 +56,7 @@
 - Deposit orb:
     icon: tots
     coord: [2606, 2835]
-- _Material<Hearty Bass, 5>:
+- _Material::Count<Hearty Bass, 5>:
     coord: [3010, 2540]
 - _Korok::F14
 - _Boss::Hinox::Red:
@@ -72,14 +72,14 @@
 - _Boss::Hinox::Blue:
     comment: Use Royal Claymore
     coord: [2700, 2965]
-- _Material<Courser Bee Honey,5>:
+- _Material::Count<Courser Bee Honey,5>:
     coord: [2655, 2986]
 - Deposit orb:
     coord: [2630, 2856]
     icon: tots
 - _Shrine::TawaJinn:
     comment: Blessing - Great Thunderblade
-- _Material<Fleet-Lotus Seeds,7>:
+- _Material::Count<Fleet-Lotus Seeds,7>:
     coord: [2369.5, 2864.5]
 - _Korok::F21
 - _Korok::F29

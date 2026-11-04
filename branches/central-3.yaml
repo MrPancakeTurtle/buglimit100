@@ -1,7 +1,7 @@
 - _Korok::P12
 - _Korok::P13
 - _Location::OutpostRuins
-- _Material<Rushroom,7>:
+- _Material::Count<Rushroom,7>:
     icon: purple
     coord: [-181.75, 1606]
 - _Boss::Talus::Luminous:
@@ -79,13 +79,13 @@
     comment: .gale(GALE 1)
 - _Korok::C38
 - _Korok::C37
-- _Material<Acorn,18>:
+- _Material::Count<Acorn,18>:
     coord: [-1305.5, 227.5]
     comment: Around Trees
 - _Chest::Special<Midna's Helmet>:
     coord: [-1402.26, 113.92, 219.36]
 - _KorokLoc<C36,Sage Temple Ruins>
-- _Material<Lizalfos Tail,1>:
+- _Material::Count<Lizalfos Tail,1>:
     icon: malice
     coord: [-1358, 242]
 - _Boss::Hinox::Black:

@@ -1,4 +1,4 @@
-- _Material<Luminous Stone,4>:
+- _Material::Count<Luminous Stone,4>:
     coord: [-386, -744.5]
     vars:
         - counter-location: .add(1) #HyruleCastle
@@ -18,7 +18,7 @@
     comment: .important(Don't break it or throw it, you need it at Korok Forest)
     notes: A Freezing Rod
     coord: [-459.25, -1062.625]
-- _Material<Lizalfos Tail,1>:
+- _Material::Count<Lizalfos Tail,1>:
     icon: malice
     comment: Get horns + talons as well
     notes: You need 45 at end of the run, not many are routed in, don't avoid them
@@ -34,7 +34,7 @@
     coord: [-498.5, -1010.75]
 - _Korok::X08:
     comment: Use rod on moblin
-- _Material<Lizalfos Tail,1>:
+- _Material::Count<Lizalfos Tail,1>:
     icon: malice
     coord: [-327.125, -1002.125]
 - _Chest<Shard of Dinraal's Fang>:
@@ -55,7 +55,7 @@
 - _Equipment::Weapon<Royal Claymore>
 - _Equipment::Weapon<Royal Guard's Claymore>:
     comment: Sneakstrike moblin with EoD
-- _Material<Lizalfos Tail,2>:
+- _Material::Count<Lizalfos Tail,2>:
     icon: malice
     comment: Blizzard Rod, then mag chest down
     coord: [-360.875, -850.875]
@@ -95,7 +95,7 @@
 - _Equipment::Weapon<Stone Smasher>:
     comment: Use shock arrows
     coord: [-145.25, -815.875]
-- _Material<Lizalfos Tail,1>:
+- _Material::Count<Lizalfos Tail,1>:
     icon: malice
     coord: [-150.5, -897.25]
 - _Chest::Special<Royal Guard Uniform>:
@@ -132,7 +132,7 @@
     comment: equip all
 - _Korok::X07
 - _Location::PrincessZeldasStudy
-- _Material<Silent Princess,1>:
+- _Material::Count<Silent Princess,1>:
     coord: [-381.5, -997]
 - _Memory::HyruleCastle
 - _Snap<Guardian Skywatcher>:

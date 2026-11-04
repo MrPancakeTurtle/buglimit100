@@ -23,7 +23,7 @@
     comment: .gale(GALE 2-3)
 - _Korok::W59
 - _Korok::W64
-- _Material<Rushroom,2>:
+- _Material::Count<Rushroom,2>:
     coord: [-1351, 3708.5]
 - _Korok::W60
 - .item(Read Mountain Log):
@@ -55,7 +55,7 @@
     coord: [-3030.3333129882812,1459.1666717529297]
     icon: tots
 - _Korok::G22
-- _Material<Lizalfos Tail,4>:
+- _Material::Count<Lizalfos Tail,4>:
     icon: malice
     comment: Ice arrows + claymore
     coord: [-3102, 1332]
@@ -85,11 +85,11 @@
     comment: .gale(GALE 1)
 - _Korok::G15
 - _Korok::G11
-- _Material<Rushroom,2>:
+- _Material::Count<Rushroom,2>:
     icon: purple
     coord: [-4230,1121.5]
     comment: While doing G11
-- _Material<Lizalfos Tail,2>:
+- _Material::Count<Lizalfos Tail,2>:
     icon: malice
     comment: Ice arrows and stone smasher
     coord: [-4548.5, 948]

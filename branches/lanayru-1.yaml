@@ -55,7 +55,7 @@
 - _Boss::Hinox::Blue:
     comment: Use EOD/Claymore
     coord: [2926.5, -295.5]
-- _Material<Fleet-Lotus Seeds,6>:
+- _Material::Count<Fleet-Lotus Seeds,6>:
     coord: [2930.5, -239.5]
 - _Korok::Z24
 - Tree launch to Zora's Domain:
@@ -71,7 +71,7 @@
 - _Shop<Item Shop>:
     comment: Buy violets and arrows
     coord: [3326.75, -494.75]
-- _Material<Fleet-Lotus Seeds,4>:
+- _Material::Count<Fleet-Lotus Seeds,4>:
     coord: [3328.75, -518.75]
 - _Shrine::NeezYohma:
     comment: cryo the ball down and hope
@@ -88,7 +88,7 @@
     comment: 1/10
     icon: npc-zora-male
     coord: [3715.5, -529]
-- _Material<Fleet-Lotus Seeds,3>:
+- _Material::Count<Fleet-Lotus Seeds,3>:
     coord: [3703.5, -582]
 - Waterfall up:
     coord: [3735,-597.5]

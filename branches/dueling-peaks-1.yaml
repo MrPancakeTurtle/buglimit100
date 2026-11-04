@@ -26,7 +26,7 @@
 - _Chest<Traveller's Bow>:
     comment: Break Rubbles
     coord: [1329.3, 116.93, 1863.99]
-- _Material<Swift Violet,6>:
+- _Material::Count<Swift Violet,6>:
     notes: Shoot them down off of the cliff
     coord: [1650, 1906.5]
     icon: malice
@@ -123,11 +123,11 @@
     coord: [1225, 2182]
 - _Korok::F01
 - _Korok::F05
-- _Material<Endura Shroom,2>:
+- _Material::Count<Endura Shroom,2>:
     coord: [1694, 2576.75]
-- _Material<Hearty Radish,1>:
+- _Material::Count<Hearty Radish,1>:
     coord: [1723.75, 2591.5]
-- _Material<Hearty Truffle,1>:
+- _Material::Count<Hearty Truffle,1>:
     coord: [1761.5, 2725.5]
 - Make Campfire:
     comment: For Farosh farming
@@ -148,7 +148,7 @@
 - _Korok::F26
 - _Chest::Special<Phantom Ganon Skull>:
     coord: [1669.19, 209.34, 3163.02]
-- _Material<Energetic Rhino Beetle,5>:
+- _Material::Count<Energetic Rhino Beetle,5>:
     notes: .link([Beetle route]https://youtu.be/J3MWwgrkk9M?t=7319)
     icon: malice
     coord: [1550.5, 3257.5]
@@ -156,7 +156,7 @@
     coord: [1357.25,3327.75]
 - _Tower::Faron
 - _Korok::F25
-- _Material<Hearty Durian,17>:
+- _Material::Count<Hearty Durian,17>:
     comment: For heal
 - _Material<Wood>:
     notes: Both of these can vary

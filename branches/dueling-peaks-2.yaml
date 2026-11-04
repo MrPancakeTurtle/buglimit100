@@ -17,7 +17,7 @@
 - _Tod::Morning:
     coord: [1662.25,1162.5]
 - _Korok::D10
-- _Material<Energetic Rhino Beetle,1>:
+- _Material::Count<Energetic Rhino Beetle,1>:
     icon: malice
     coord: [1811.1626162938874,1049.9426078641163]
 - _Tod::Noon:

@@ -2,12 +2,12 @@
 - _Snap<Blupee>:
     comment: Legendary Rabbit Trial
     coord: [1892, 909]
-- _Material<Fairy,4>:
+- _Material::Count<Fairy,4>:
     notes: 3 is more likely
     coord: [1970, 858]
-- _Material<Endura Carrot,3>:
+- _Material::Count<Endura Carrot,3>:
     coord: [1997, 838]
-- _Material<Silent Princess,3>:
+- _Material::Count<Silent Princess,3>:
     icon: malice
     notes: You need 19 at end of the run
     coord: [2015, 866]
@@ -65,7 +65,7 @@
 - Go to shop, buy carrots:
     icon: shop
     coord: [1794.2002325877747,1029.3852157282327]
-- _Material<Energetic Rhino Beetle,1>:
+- _Material::Count<Energetic Rhino Beetle,1>:
     icon: malice
     coord: [1811.1626162938874,1049.9426078641163]
 - _Npc::SheikaFemale<Arrow Shopkeeper>:
@@ -101,7 +101,7 @@
 - _Korok::D02
 - _Korok::D03
 - _Korok::D05
-- _Material<Energetic Rhino Beetle,1>:
+- _Material::Count<Energetic Rhino Beetle,1>:
     coord: [1952.25,1061.4375]
     icon: malice
 - _Korok::D06

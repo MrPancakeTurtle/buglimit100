@@ -53,7 +53,7 @@
     comment: .gale(GALE 3) .fury(FURY 3) Best Weapon
     coord: [-2273, 1980]
 - _Korok::W10
-- _Material<Rushroom,4>:
+- _Material::Count<Rushroom,4>:
     icon: purple
     notes: SHOULD have 55 by now
     coord: [-2794, 2245.5]

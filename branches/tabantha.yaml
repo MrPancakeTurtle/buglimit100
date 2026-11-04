@@ -21,9 +21,9 @@
 - _Location::RitoStable
 - _Material<Wood>:
     coord: [-3230.75, -1744.75]
-- _Material<Wildberry,10>:
+- _Material::Count<Wildberry,10>:
     coord: [-3223, -1763.5]
-- _Material<Spicy Pepper,6>
+- _Material::Count<Spicy Pepper,6>
 - _Npc<Beedle>:
     icon: shop
     notes: Buy arrows, 1 warm darner
@@ -95,7 +95,7 @@
     movements:
     - to: [-3585.5, -1802.875]
       warp: True
-- _Material<Cold Darner,1>:
+- _Material::Count<Cold Darner,1>:
     comment: exit revali's gale text box, spam A button and walk to the right
     coord: [-3566.5, -1816]
 - _Npc::Rito<Rito lady on flight pad>:
@@ -116,7 +116,7 @@
     coord: [-3975.75, -1738.25]
     vars:
         - counter-location: .add(1)
-- _Material<Hearty Truffle,1>:
+- _Material::Count<Hearty Truffle,1>:
     coord: [-4025.25, -1754.25]
 - _Korok::T13
 - _Warp::Shrine::KehNamut:

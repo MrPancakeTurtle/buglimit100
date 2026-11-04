@@ -14,7 +14,7 @@
 - _Korok::E31
 - _Korok::E24
 - _Korok::E25
-- _Material<10 Fireproof Lizard,10>:
+- _Material::Count<10 Fireproof Lizard,10>:
     coord: [1653, -1944.5]
     comment: .gale(GALE 1) There a lot under rocks near Mine
 - _Npc<Kime>:

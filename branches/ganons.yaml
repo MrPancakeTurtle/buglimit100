@@ -42,15 +42,15 @@
     coord: [-133, -953]
 - _Chest<Shard of Farosh's Fang>:
     coord: [-130.75, -948.5]
-- _Material<Lizalfos Tail,5>:
+- _Material::Count<Lizalfos Tail,5>:
     icon: malice
     comment: In all Library room
     coord: [-155.5, -1076.25]
-    vars:
-        - counter-location: .add(1)
 - _Location::KingsStudy:
     comment: Grab chest inside
     notes: You can grab Royal Guard Shield if you don't have already one
+    vars:
+        - counter-location: .add(1)
 - .boss(Push Metal Door):
     coord: [-164.5,-1082.5]
 - _Equipment::Weapon<Stone Smasher>:
@@ -59,14 +59,14 @@
     coord: [-145.5,-1095]
 - _Shrine::SaasKosah:
     comment: Major Test of Strength - Flameblade
-- _Material<Lizalfos Tail,3>:
+- _Material::Count<Lizalfos Tail,3>:
     icon: malice
     coord: [-236, -1174.75]
-    vars:
-        - counter-location: .add(1)
 - _Chest::Special<Star Fragment>:
     coord: [-223.5, -1174.5]
     comment: In water
+    vars:
+        - counter-location: .add(1)
 - _Korok::X01
 - Use gale:
     coord: [-293.5,-1154.5]

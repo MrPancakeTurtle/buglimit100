@@ -13,7 +13,7 @@
     coord: [816, 842.5]
 - _Korok::Z37:
     comment: Cryo Across, whistle for horse
-- _Material<Courser Bee Honey,1>:
+- _Material::Count<Courser Bee Honey,1>:
     coord: [926.25, 255.5]
     comment: Hearty ingrediants and armoranth
 - _Shrine::KayaWan:

@@ -30,7 +30,7 @@
 - _Location::OwlanBridge
 - _Korok::D14:
     notes: Use bombs to blow up acorn
-- _Material<Hearty Radish,1>:
+- _Material::Count<Hearty Radish,1>:
     notes: For hearty food, keep
     coord: [525.3, 120.31, 1155.39]
 - _Korok::D13

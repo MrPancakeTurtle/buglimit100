@@ -57,12 +57,12 @@
     coord: [1239.5625,-1193]
     icon: medoh-done
     comment: .gale(GALE 1)
-- _Material<Lizalfos Tail,2>:
+- _Material::Count<Lizalfos Tail,2>:
     icon: malice
     comment: 2 if lucky
     coord: [1292, -1238.5]
 - _Korok::E35
-- _Material<Lizalfos Tail,2>:
+- _Material::Count<Lizalfos Tail,2>:
     icon: malice
     coord: [1197, -1258.5]
 - _Korok::K32
@@ -111,7 +111,7 @@
 - .important(Master Sword):
     icon: equipment
     coord: [434.25, -2110.75]
-- _Material<Silent Princess,1>:
+- _Material::Count<Silent Princess,1>:
     icon: malice
     coord: [430.375, -2115]
 - _Npc<Kula>:
@@ -122,7 +122,7 @@
     comment: Legendary Rabbit Trial
 - _Shop<Buy Rushrooms>:
     coord: [432.875, -2179.125]
-- _Material<Rushroom,4>:
+- _Material::Count<Rushroom,4>:
     icon: purple
     comment: from above step
 - _Shop<Buy all arrows>:

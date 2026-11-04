@@ -42,7 +42,7 @@
 - _Korok::W37
 - _Korok::W44
 - _Korok::W52
-- _Material<Lizalfos Tail,1>:
+- _Material::Count<Lizalfos Tail,1>:
     icon: malice
     comment: RNG, may not drop
     coord: [-2626.25, 3306.25]
@@ -60,7 +60,7 @@
     coord: [-2974.5, 3766.5]
 - Activate .loc(Misae Suma):
     icon: shrine
-- _Material<Rushroom,2>:
+- _Material::Count<Rushroom,2>:
     icon: purple
     coord: [-3009.5, 3767.5]
 - _Korok::W62
@@ -96,7 +96,7 @@
 - _Boss::Molduga:
     comment: Best Weapon
     coord: [-4560, 3247]
-- _Material<Lizalfos Tail,1>:
+- _Material::Count<Lizalfos Tail,1>:
     icon: malice
     coord: [-4617, 3198]
 - _Chest<Sapphire>:

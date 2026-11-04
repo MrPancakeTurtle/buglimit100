@@ -8,13 +8,13 @@
 - _Korok::K29
 - _Korok::R07
 - _Memory::IrchPlain
-- _Material<Fleet-Lotus Seeds,13>:
+- _Material::Count<Fleet-Lotus Seeds,13>:
     comment: Grab last frogs, if you have more than 5, it's perfect
     coord: [-1159, -1350]
 - _Korok::K24
-- _Material<Fleet-Lotus Seeds,2>:
+- _Material::Count<Fleet-Lotus Seeds,2>:
     coord: [-1234, -1556]
-- _Material<Endura Shroom,3>
+- _Material::Count<Endura Shroom,3>
 - Tree Launch to Monya Toma:
     coord: [-1241,-1577]
 - _Shrine::MonyaToma:
@@ -36,7 +36,7 @@
     icon: tots
 - _Korok::R05
 - _Location::FootraceCheckIn
-- _Material<Hearty Bass,5>:
+- _Material::Count<Hearty Bass,5>:
     comment: Shock them
     icon: malice
     notes: You need 15 at end of the run

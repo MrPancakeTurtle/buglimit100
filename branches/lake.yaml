@@ -124,7 +124,7 @@
     coord: [109,2954.5]
     icon: tots
 - _Korok::L51
-- _Material<Lizalfos Tail,2>:
+- _Material::Count<Lizalfos Tail,2>:
     icon: malice
     coord: [23.5, 2980.5]
 - _Snap<White Lizalfos>:

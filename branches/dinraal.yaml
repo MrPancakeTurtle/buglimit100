@@ -142,7 +142,7 @@
 - _Korok::A07
 - _Korok::A04
 - _Korok::A18
-- _Material<Lizalfos Tail,1>:
+- _Material::Count<Lizalfos Tail,1>:
     icon: malice
     coord: [3698, -2787.5]
 - _KorokLoc<A21,Spring of Power>
